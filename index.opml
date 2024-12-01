@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><opml version="2.0">
     <head>
     <title>GitHub Search Subscriptions</title>
-    <dateCreated>2024-12-01T11:11:38.938Z</dateCreated>
+    <dateCreated>2024-12-01T11:17:14.902Z</dateCreated>
 </head>
     <body>
     <outline title="Subscriptions">
         <outline>
-            <outline type="rss" title="microsoft/TypeScript Iteration Plan" htmlUrl="https://azu.github.io/github-search-rss/typescript-iterator-plan.json" xmlUrl="https://azu.github.io/github-search-rss/typescript-iterator-plan.json"/>
-            <outline type="rss" title="w3ctag/design-reviews Design Issues" htmlUrl="https://azu.github.io/github-search-rss/w3ctag-design-reviews.json" xmlUrl="https://azu.github.io/github-search-rss/w3ctag-design-reviews.json"/>
-            <outline type="rss" title="npm/rfcs Issues" htmlUrl="https://azu.github.io/github-search-rss/npm-rfcs.json" xmlUrl="https://azu.github.io/github-search-rss/npm-rfcs.json"/>
-            <outline type="rss" title="npm/statusboard Issues" htmlUrl="https://azu.github.io/github-search-rss/npm-statusboard.json" xmlUrl="https://azu.github.io/github-search-rss/npm-statusboard.json"/>
-            <outline type="rss" title="github/roadmap Issues" htmlUrl="https://azu.github.io/github-search-rss/github-roadmap.json" xmlUrl="https://azu.github.io/github-search-rss/github-roadmap.json"/>
-            <outline type="rss" title="mozilla/standards-positions Issues" htmlUrl="https://azu.github.io/github-search-rss/mozilla-standards-positions.json" xmlUrl="https://azu.github.io/github-search-rss/mozilla-standards-positions.json"/>
-            <outline type="rss" title="WebKit/standards-positions Issues" htmlUrl="https://azu.github.io/github-search-rss/WebKit-standards-positions.json" xmlUrl="https://azu.github.io/github-search-rss/WebKit-standards-positions.json"/>
-            <outline type="rss" title="Fyrd/caniuse Issues" htmlUrl="https://azu.github.io/github-search-rss/caniuse.json" xmlUrl="https://azu.github.io/github-search-rss/caniuse.json"/>
-            <outline type="rss" title="org:wintercg Issues" htmlUrl="https://azu.github.io/github-search-rss/wintercg.json" xmlUrl="https://azu.github.io/github-search-rss/wintercg.json"/>
-            <outline type="rss" title="repo:babel/proposals Issues" htmlUrl="https://azu.github.io/github-search-rss/babel-proposals.json" xmlUrl="https://azu.github.io/github-search-rss/babel-proposals.json"/>
-            <outline type="rss" title="repo:antifraudcg/proposals Issues" htmlUrl="https://azu.github.io/github-search-rss/antifraudcg-proposals.json" xmlUrl="https://azu.github.io/github-search-rss/antifraudcg-proposals.json"/>
-            <outline type="rss" title="mdn/browser-compat-data update data" htmlUrl="https://azu.github.io/github-search-rss/mdn-browser-compat-data.json" xmlUrl="https://azu.github.io/github-search-rss/mdn-browser-compat-data.json"/>
-            <outline type="rss" title="mdn/content update content" htmlUrl="https://azu.github.io/github-search-rss/mdn-content.json" xmlUrl="https://azu.github.io/github-search-rss/mdn-content.json"/>
-            <outline type="rss" title="Node.js notable changes" htmlUrl="https://azu.github.io/github-search-rss/nodejs-notable.json" xmlUrl="https://azu.github.io/github-search-rss/nodejs-notable.json"/>
-            <outline type="rss" title="whatwg/html changes" htmlUrl="https://azu.github.io/github-search-rss/whatwg-html.json" xmlUrl="https://azu.github.io/github-search-rss/whatwg-html.json"/>
+            <outline type="rss" title="microsoft/TypeScript Iteration Plan" htmlUrl="https://swen128.github.io/github-search-rss/typescript-iterator-plan.json" xmlUrl="https://swen128.github.io/github-search-rss/typescript-iterator-plan.json"/>
+            <outline type="rss" title="w3ctag/design-reviews Design Issues" htmlUrl="https://swen128.github.io/github-search-rss/w3ctag-design-reviews.json" xmlUrl="https://swen128.github.io/github-search-rss/w3ctag-design-reviews.json"/>
+            <outline type="rss" title="npm/rfcs Issues" htmlUrl="https://swen128.github.io/github-search-rss/npm-rfcs.json" xmlUrl="https://swen128.github.io/github-search-rss/npm-rfcs.json"/>
+            <outline type="rss" title="npm/statusboard Issues" htmlUrl="https://swen128.github.io/github-search-rss/npm-statusboard.json" xmlUrl="https://swen128.github.io/github-search-rss/npm-statusboard.json"/>
+            <outline type="rss" title="github/roadmap Issues" htmlUrl="https://swen128.github.io/github-search-rss/github-roadmap.json" xmlUrl="https://swen128.github.io/github-search-rss/github-roadmap.json"/>
+            <outline type="rss" title="mozilla/standards-positions Issues" htmlUrl="https://swen128.github.io/github-search-rss/mozilla-standards-positions.json" xmlUrl="https://swen128.github.io/github-search-rss/mozilla-standards-positions.json"/>
+            <outline type="rss" title="WebKit/standards-positions Issues" htmlUrl="https://swen128.github.io/github-search-rss/WebKit-standards-positions.json" xmlUrl="https://swen128.github.io/github-search-rss/WebKit-standards-positions.json"/>
+            <outline type="rss" title="Fyrd/caniuse Issues" htmlUrl="https://swen128.github.io/github-search-rss/caniuse.json" xmlUrl="https://swen128.github.io/github-search-rss/caniuse.json"/>
+            <outline type="rss" title="org:wintercg Issues" htmlUrl="https://swen128.github.io/github-search-rss/wintercg.json" xmlUrl="https://swen128.github.io/github-search-rss/wintercg.json"/>
+            <outline type="rss" title="repo:babel/proposals Issues" htmlUrl="https://swen128.github.io/github-search-rss/babel-proposals.json" xmlUrl="https://swen128.github.io/github-search-rss/babel-proposals.json"/>
+            <outline type="rss" title="repo:antifraudcg/proposals Issues" htmlUrl="https://swen128.github.io/github-search-rss/antifraudcg-proposals.json" xmlUrl="https://swen128.github.io/github-search-rss/antifraudcg-proposals.json"/>
+            <outline type="rss" title="mdn/browser-compat-data update data" htmlUrl="https://swen128.github.io/github-search-rss/mdn-browser-compat-data.json" xmlUrl="https://swen128.github.io/github-search-rss/mdn-browser-compat-data.json"/>
+            <outline type="rss" title="mdn/content update content" htmlUrl="https://swen128.github.io/github-search-rss/mdn-content.json" xmlUrl="https://swen128.github.io/github-search-rss/mdn-content.json"/>
+            <outline type="rss" title="Node.js notable changes" htmlUrl="https://swen128.github.io/github-search-rss/nodejs-notable.json" xmlUrl="https://swen128.github.io/github-search-rss/nodejs-notable.json"/>
+            <outline type="rss" title="whatwg/html changes" htmlUrl="https://swen128.github.io/github-search-rss/whatwg-html.json" xmlUrl="https://swen128.github.io/github-search-rss/whatwg-html.json"/>
         </outline>
     </outline>
 </body>

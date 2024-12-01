@@ -1,8 +1,8 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "github/roadmap Issues",
-    "home_page_url": "https://azu.github.io/github-search-rss/github-roadmap.json",
-    "feed_url": "https://azu.github.io/github-search-rss/github-roadmap.json",
+    "home_page_url": "https://swen128.github.io/github-search-rss/github-roadmap.json",
+    "feed_url": "https://swen128.github.io/github-search-rss/github-roadmap.json",
     "description": "github/roadmap Issues on GitHub",
     "items": [
         {

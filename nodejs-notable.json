@@ -1,8 +1,8 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Node.js notable changes",
-    "home_page_url": "https://azu.github.io/github-search-rss/nodejs-notable.json",
-    "feed_url": "https://azu.github.io/github-search-rss/nodejs-notable.json",
+    "home_page_url": "https://swen128.github.io/github-search-rss/nodejs-notable.json",
+    "feed_url": "https://swen128.github.io/github-search-rss/nodejs-notable.json",
     "description": "Node.js notable changes on GitHub",
     "items": [
         {

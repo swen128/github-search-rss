@@ -1,8 +1,8 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "npm/rfcs Issues",
-    "home_page_url": "https://azu.github.io/github-search-rss/npm-rfcs.json",
-    "feed_url": "https://azu.github.io/github-search-rss/npm-rfcs.json",
+    "home_page_url": "https://swen128.github.io/github-search-rss/npm-rfcs.json",
+    "feed_url": "https://swen128.github.io/github-search-rss/npm-rfcs.json",
     "description": "npm/rfcs Issues on GitHub",
     "items": [
         {

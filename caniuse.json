@@ -1,8 +1,8 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Fyrd/caniuse Issues",
-    "home_page_url": "https://azu.github.io/github-search-rss/caniuse.json",
-    "feed_url": "https://azu.github.io/github-search-rss/caniuse.json",
+    "home_page_url": "https://swen128.github.io/github-search-rss/caniuse.json",
+    "feed_url": "https://swen128.github.io/github-search-rss/caniuse.json",
     "description": "Fyrd/caniuse Issues on GitHub",
     "items": [
         {
