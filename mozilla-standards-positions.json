@@ -1,0 +1,229 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "mozilla/standards-positions Issues",
+    "home_page_url": "https://azu.github.io/github-search-rss/mozilla-standards-positions.json",
+    "feed_url": "https://azu.github.io/github-search-rss/mozilla-standards-positions.json",
+    "description": "mozilla/standards-positions Issues on GitHub",
+    "items": [
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/786187?u=ea03cb781b69bbae33dbd354c0902e37ea57a438&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h2 dir=\"auto\">Request for Mozilla Position on an Emerging Web Specification</h2>\n<ul dir=\"auto\">\n<li>Specification title: Content-Security-Policy</li>\n<li>Specification or proposal URL (if available): <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2692363906\" data-permission-text=\"Title is private\" data-url=\"https://github.com/w3c/webappsec-csp/issues/693\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/w3c/webappsec-csp/pull/693/hovercard\" href=\"https://github.com/w3c/webappsec-csp/pull/693\">w3c/webappsec-csp#693</a></li>\n<li>Explainer URL (if available): <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2692363906\" data-permission-text=\"Title is private\" data-url=\"https://github.com/w3c/webappsec-csp/issues/693\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/w3c/webappsec-csp/pull/693/hovercard\" href=\"https://github.com/w3c/webappsec-csp/pull/693#issue-2692363906\">w3c/webappsec-csp#693 (comment)</a></li>\n<li>Proposal author(s) (<code class=\"notranslate\">@</code>-mention GitHub accounts): <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yoavweiss/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yoavweiss\">@yoavweiss</a></li>\n<li>Caniuse.com URL (optional):</li>\n<li>Bugzilla URL (optional):</li>\n<li>Mozillians who can provide input (optional):</li>\n<li>WebKit standards-position:</li>\n</ul>\n<h3 dir=\"auto\">Other information</h3>\n<p dir=\"auto\">This feature adds a new CSP directive \"report-hash\", which triggers a new reporting type \"csp-hash-report\".<br>\nIt reports hashes for (same-origin or CORS enabled) scripts that are loaded in the context of the document (regardless of their \"integrity\" attribute), and sends reports about them.</p>\n<p dir=\"auto\">Those reports enable developers to:</p>\n<ul dir=\"auto\">\n<li>Create inventory of the scripts running on their page. (critical for <a href=\"https://east.pcisecuritystandards.org/document_library?category=pcidss&amp;document=pci_dss\" rel=\"nofollow\">PCI-DSS v4</a> - <a href=\"https://docs.google.com/document/d/1RcUpbpWPxXTyW0Qwczs9GCTLPD3-LcbbhL4ooBUevTM/edit?tab=t.0#heading=h.dzquzu6onmmy\" rel=\"nofollow\">context</a>.)</li>\n<li>Have certainty that they can enable SRI or CSP hash-based enforcement without breaking their sites. For some hash-based enforcement, we'd also need to add reporting for inline scripts, evals, event handlers and javascript URLs that are not covered by the current spec PR.</li>\n</ul>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1129",
+            "title": "CSP report-hash directive",
+            "date_modified": "2024-11-26T13:16:54.000Z",
+            "date_published": "2024-11-26T13:09:21.000Z",
+            "author": {
+                "name": "yoavweiss",
+                "url": "https://github.com/yoavweiss"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/88566?u=b5551d5208a9a90fc7510a9f5502dd4c0afeb05a&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h2 dir=\"auto\">Request for Mozilla Position on an Emerging Web Specification</h2>\n<ul dir=\"auto\">\n<li>Specification title: Element timing/LCP: Replace <code class=\"notranslate\">TAO</code> restriction with coarsening</li>\n<li>Specification or proposal URL (if available):  <a href=\"https://w3c.github.io/largest-contentful-paint/\" rel=\"nofollow\">https://w3c.github.io/largest-contentful-paint/</a></li>\n<li>Explainer URL (if available): <a href=\"https://github.com/w3c/paint-timing/blob/main/presentation-timestamps.md\">https://github.com/w3c/paint-timing/blob/main/presentation-timestamps.md</a> and <a href=\"https://docs.google.com/document/d/1VxgMf1wlWzB4ViAW4ohkOe3AT0wQZKk7hC3IVq-cuw0/edit?tab=t.0#heading=h.fmic3y1ir4\" rel=\"nofollow\">this document</a>.</li>\n<li>Proposal author(s) (<code class=\"notranslate\">@</code>-mention GitHub accounts): <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/noamr/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/noamr\">@noamr</a> <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/mmocny/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/mmocny\">@mmocny</a></li>\n<li>Caniuse.com URL (optional):</li>\n<li>Bugzilla URL (optional):</li>\n<li>Mozillians who can provide input (optional): @BasMoz <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/sefeng211/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/sefeng211\">@sefeng211</a></li>\n<li>WebKit standards-position:</li>\n</ul>\n<h3 dir=\"auto\">Other information</h3>\n<p dir=\"auto\">See also <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2651657547\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mozilla/standards-positions/issues/1110\" data-hovercard-type=\"issue\" data-hovercard-url=\"/mozilla/standards-positions/issues/1110/hovercard\" href=\"https://github.com/mozilla/standards-positions/issues/1110\">#1110</a><br>\nThis has been discussed at the WebPerfWG, see <a href=\"https://docs.google.com/document/d/1ZWAUJZBJUvSUyShvKXNEU-cuCe47jpgbR69ckWZUTfI/edit?tab=t.0\" rel=\"nofollow\">minutes</a></p>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1128",
+            "title": "Element timing/LCP: Replace `TAO` restriction with coarsening",
+            "date_modified": "2024-11-22T11:47:10.000Z",
+            "date_published": "2024-11-22T11:44:25.000Z",
+            "author": {
+                "name": "noamr",
+                "url": "https://github.com/noamr"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/244772?u=0c109a472bad24e5cf459b88d1e30c867fdbf53e&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">My attempted fix in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2677362849\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mozilla/standards-positions/issues/1123\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/mozilla/standards-positions/pull/1123/hovercard\" href=\"https://github.com/mozilla/standards-positions/pull/1123\">#1123</a> didn't work, see <a href=\"https://github.com/mozilla/standards-positions/actions/runs/11943210887/job/33291824173\">https://github.com/mozilla/standards-positions/actions/runs/11943210887/job/33291824173</a></p>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1125",
+            "title": "Deploy workflow is broken",
+            "date_modified": "2024-11-29T13:52:15.000Z",
+            "date_published": "2024-11-20T23:08:11.000Z",
+            "author": {
+                "name": "zcorpan",
+                "url": "https://github.com/zcorpan"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/67641?u=adea16237836e526afa569daa66747dacb79c56d&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">Two suggestions:</p>\n<ul dir=\"auto\">\n<li>Move the concerns after the Position column.  The position is more important.</li>\n<li>Make the text smaller.  The text is a lot bigger than the position chips.</li>\n</ul>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1122",
+            "title": "Style of Concerns column",
+            "date_modified": "2024-11-21T17:06:23.000Z",
+            "date_published": "2024-11-20T22:22:54.000Z",
+            "author": {
+                "name": "martinthomson",
+                "url": "https://github.com/martinthomson"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/67641?u=adea16237836e526afa569daa66747dacb79c56d&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://private-user-images.githubusercontent.com/67641/388280633-cc8b9744-51a3-4cce-88ab-a50aa022f371.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMwNTE3OTMsIm5iZiI6MTczMzA1MTQ5MywicGF0aCI6Ii82NzY0MS8zODgyODA2MzMtY2M4Yjk3NDQtNTFhMy00Y2NlLTg4YWItYTUwYWEwMjJmMzcxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjAxVDExMTEzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNhNGYwZTIzZjM1Y2JiMjIwZjQ5MDgzZjRmOGQ4ZDIxOWMxNzg2MDQ4NTIwZTI0OWY3MGJjZWFiODNhZTY2ZjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.xIrIvsJQRdOyRlw2zhu-Y9QmGY8bZi94vwrYOPJOEdQ\"><img src=\"https://private-user-images.githubusercontent.com/67641/388280633-cc8b9744-51a3-4cce-88ab-a50aa022f371.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMwNTE3OTMsIm5iZiI6MTczMzA1MTQ5MywicGF0aCI6Ii82NzY0MS8zODgyODA2MzMtY2M4Yjk3NDQtNTFhMy00Y2NlLTg4YWItYTUwYWEwMjJmMzcxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjAxVDExMTEzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNhNGYwZTIzZjM1Y2JiMjIwZjQ5MDgzZjRmOGQ4ZDIxOWMxNzg2MDQ4NTIwZTI0OWY3MGJjZWFiODNhZTY2ZjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.xIrIvsJQRdOyRlw2zhu-Y9QmGY8bZi94vwrYOPJOEdQ\" alt=\"image\" style=\"max-width: 100%;\"></a></p>\n<p dir=\"auto\">\"Raw sockets\" is presently the only item with concerns AND details.  It renders somewhat poorly.  <code class=\"notranslate\">vertical-align: top</code> seems like a reasonable tweak for that.</p>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1121",
+            "title": "Vertical alignment of details",
+            "date_modified": "2024-11-21T17:06:23.000Z",
+            "date_published": "2024-11-20T22:16:52.000Z",
+            "author": {
+                "name": "martinthomson",
+                "url": "https://github.com/martinthomson"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/67641?u=adea16237836e526afa569daa66747dacb79c56d&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">The new dashboard is great, but the items in the table seem to be arbitrarily ordered.</p>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1120",
+            "title": "Sort entries on the dashboard",
+            "date_modified": "2024-11-20T23:27:07.000Z",
+            "date_published": "2024-11-20T21:06:50.000Z",
+            "author": {
+                "name": "martinthomson",
+                "url": "https://github.com/martinthomson"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/1077860?u=8e9979e1a23971b38568fc42d3235a6668c148e8&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">In the new version of the website after I filter the list via the search box the detail section does not expand on click anymore. See attached video for a demo.</p>\n<p dir=\"auto\">Browser: Firefox Nightly 134.0a1 (2024-11-13) (aarch64)</p>\n<details open=\"\" class=\"details-reset border rounded-2\">\n  <summary class=\"px-3 py-2\">\n    <svg aria-hidden=\"true\" height=\"16\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" data-view-component=\"true\" class=\"octicon octicon-device-camera-video\">\n    <path d=\"M16 3.75v8.5a.75.75 0 0 1-1.136.643L11 10.575v.675A1.75 1.75 0 0 1 9.25 13h-7.5A1.75 1.75 0 0 1 0 11.25v-6.5C0 3.784.784 3 1.75 3h7.5c.966 0 1.75.784 1.75 1.75v.675l3.864-2.318A.75.75 0 0 1 16 3.75Zm-6.5 1a.25.25 0 0 0-.25-.25h-7.5a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-6.5ZM11 8.825l3.5 2.1v-5.85l-3.5 2.1Z\"></path>\n</svg>\n    <span aria-label=\"Video description Screen.Recording.2024-11-20.at.18.12.33.mov\" class=\"m-1\">Screen.Recording.2024-11-20.at.18.12.33.mov</span>\n    <span class=\"dropdown-caret\"></span>\n  </summary>\n\n  <video src=\"https://private-user-images.githubusercontent.com/1077860/388197644-4f85174b-bc7b-4f32-9c54-79f46c2c7d13.mov?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMwNTE3OTMsIm5iZiI6MTczMzA1MTQ5MywicGF0aCI6Ii8xMDc3ODYwLzM4ODE5NzY0NC00Zjg1MTc0Yi1iYzdiLTRmMzItOWM1NC03OWY0NmMyYzdkMTMubW92P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MTIwMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDEyMDFUMTExMTMzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NzJiNjY1MDIwNWU2NTY5MGZjMmMxZTQwNTBkNTg2M2QwNzRiOTRjZjA0ZWE4OTY5ODE0OTA3ZTBlZDczMGU3NyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.XV01Hw6RqSgr4LqtkTxEXyTH9WbCNv6C4XzkBRv9Ckc\" data-canonical-src=\"https://private-user-images.githubusercontent.com/1077860/388197644-4f85174b-bc7b-4f32-9c54-79f46c2c7d13.mov?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMwNTE3OTMsIm5iZiI6MTczMzA1MTQ5MywicGF0aCI6Ii8xMDc3ODYwLzM4ODE5NzY0NC00Zjg1MTc0Yi1iYzdiLTRmMzItOWM1NC03OWY0NmMyYzdkMTMubW92P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MTIwMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDEyMDFUMTExMTMzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NzJiNjY1MDIwNWU2NTY5MGZjMmMxZTQwNTBkNTg2M2QwNzRiOTRjZjA0ZWE4OTY5ODE0OTA3ZTBlZDczMGU3NyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.XV01Hw6RqSgr4LqtkTxEXyTH9WbCNv6C4XzkBRv9Ckc\" controls=\"controls\" muted=\"muted\" class=\"d-block rounded-bottom-2 border-top width-fit\" style=\"max-height:640px; min-height: 200px\">\n\n  </video>\n</details>\n",
+            "url": "https://github.com/mozilla/standards-positions/issues/1118",
+            "title": "site bug: Can't expand detail section after search",
+            "date_modified": "2024-11-21T14:19:36.000Z",
+            "date_published": "2024-11-20T17:14:35.000Z",
+            "author": {
+                "name": "Trikolon",
+                "url": "https://github.com/Trikolon"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/244772?u=0c109a472bad24e5cf459b88d1e30c867fdbf53e&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><blockquote>\n<p dir=\"auto\">I would really prefer that we write the content directly into index.html during merge-data instead of loading the JSON at runtime and client side templating (to avoid some of the workarounds for fragment functionality etc). That said, we can work through that in followups, and this is overall a big simplification for the frontend (including removing many dependencies)</p>\n</blockquote>\n<p dir=\"auto\"><em>Originally posted by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/bgrins/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/bgrins\">@bgrins</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2493119756\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mozilla/standards-positions/issues/1063\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/mozilla/standards-positions/pull/1063/hovercard?comment_id=2486766178&amp;comment_type=issue_comment\" href=\"https://github.com/mozilla/standards-positions/pull/1063#issuecomment-2486766178\">#1063 (comment)</a></em></p>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1117",
+            "title": "Avoid client side templating",
+            "date_modified": "2024-11-20T17:37:18.000Z",
+            "date_published": "2024-11-20T10:55:38.000Z",
+            "author": {
+                "name": "zcorpan",
+                "url": "https://github.com/zcorpan"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/244772?u=0c109a472bad24e5cf459b88d1e30c867fdbf53e&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><blockquote>\n<p dir=\"auto\">Not sure if this should be part of this PR, but it might be a good idea to enable <code class=\"notranslate\">dependabot</code> and <code class=\"notranslate\">actionlint</code> for this repo?</p>\n</blockquote>\n<p dir=\"auto\"><em>Originally posted by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/larseggert/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/larseggert\">@larseggert</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2493119756\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mozilla/standards-positions/issues/1063\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/mozilla/standards-positions/pull/1063/hovercard?comment_id=2485205219&amp;comment_type=issue_comment\" href=\"https://github.com/mozilla/standards-positions/pull/1063#issuecomment-2485205219\">#1063 (comment)</a></em></p>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1116",
+            "title": "enable `dependabot` and `actionlint` for this repo",
+            "date_modified": "2024-11-20T10:53:11.000Z",
+            "date_published": "2024-11-20T10:52:53.000Z",
+            "author": {
+                "name": "zcorpan",
+                "url": "https://github.com/zcorpan"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/176362279?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h2 dir=\"auto\">Request for Mozilla Position on an Emerging Web Specification</h2>\n<ul dir=\"auto\">\n<li>Specification title: Clipboardchange event API</li>\n<li>Specification or proposal URL (if available): <a href=\"https://www.w3.org/TR/clipboard-apis/#clipboard-event-clipboardchange\" rel=\"nofollow\">https://www.w3.org/TR/clipboard-apis/#clipboard-event-clipboardchange</a></li>\n<li>Explainer URL (if available): <a href=\"https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ClipboardAPI/clipboard-change-event-explainer.md\">https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ClipboardAPI/clipboard-change-event-explainer.md</a></li>\n<li>Proposal author(s) (<code class=\"notranslate\">@</code>-mention GitHub accounts): roraja</li>\n<li>Caniuse.com URL (optional):</li>\n<li>Bugzilla URL (optional):</li>\n<li>Mozillians who can provide input (optional):</li>\n<li>WebKit standards-position:</li>\n</ul>\n<h3 dir=\"auto\">Other information</h3>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1115",
+            "title": "Clipboardchange event API",
+            "date_modified": "2024-11-26T10:22:28.000Z",
+            "date_published": "2024-11-20T07:23:17.000Z",
+            "author": {
+                "name": "roraja",
+                "url": "https://github.com/roraja"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/12660562?u=dce78756f30effd3bbb6790975483b7ede7159c5&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h2 dir=\"auto\">Request for Mozilla Position on an Emerging Web Specification</h2>\n<ul dir=\"auto\">\n<li>Specification title: Availability of client capabilities - PublicKeyCredential’s getClientCapabilities() Method</li>\n<li>Specification or proposal URL (if available): <a href=\"https://w3c.github.io/webauthn/#sctn-getClientCapabilities\" rel=\"nofollow\">https://w3c.github.io/webauthn/#sctn-getClientCapabilities</a></li>\n<li>Explainer URL (if available):</li>\n<li>Proposal author(s) (<code class=\"notranslate\">@</code>-mention GitHub accounts):</li>\n<li>Caniuse.com URL (optional):</li>\n<li>Bugzilla URL (optional):</li>\n<li>Mozillians who can provide input (optional): <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/jschanck/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/jschanck\">@jschanck</a></li>\n<li>WebKit standards-position: <a href=\"https://developer.apple.com/documentation/safari-release-notes/safari-17_4-release-notes#WebAuthn\" rel=\"nofollow\">Added support for getClientCapabilities(). (119058559)</a></li>\n</ul>\n<h3 dir=\"auto\">Other information</h3>\n<p dir=\"auto\"><code class=\"notranslate\">getClientCapabilities()</code> method allows to determine which WebAuthn features are supported by the user's client. The method returns a list of supported capabilities, allowing developers to tailor authentication experiences and workflows based on the client's specific functionality.</p>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1114",
+            "title": "Web Authentication API: PublicKeyCredential’s getClientCapabilities() method",
+            "date_modified": "2024-11-21T20:34:29.000Z",
+            "date_published": "2024-11-19T13:03:34.000Z",
+            "author": {
+                "name": "natiahlyi",
+                "url": "https://github.com/natiahlyi"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/11488631?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h2 dir=\"auto\">Request for Mozilla Position on an Emerging Web Specification</h2>\n<ul dir=\"auto\">\n<li>Specification title: The worker client case</li>\n<li>Specification or proposal URL (if available): <a href=\"https://w3c.github.io/ServiceWorker/#control-and-use-worker-client\" rel=\"nofollow\">https://w3c.github.io/ServiceWorker/#control-and-use-worker-client</a></li>\n<li>Explainer URL (if available): n/a</li>\n<li>Proposal author(s) (<code class=\"notranslate\">@</code>-mention GitHub accounts): n/a</li>\n<li>Caniuse.com URL (optional): n/a</li>\n<li>Bugzilla URL (optional): not yet.</li>\n<li>Mozillians who can provide input (optional): <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/asutherland/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/asutherland\">@asutherland</a></li>\n<li>WebKit standards-position: Upon <a href=\"https://wpt.fyi/results/service-workers/service-worker/local-url-inherit-controller.https.html\" rel=\"nofollow\">https://wpt.fyi/results/service-workers/service-worker/local-url-inherit-controller.https.html</a>, the WebKit seems to align with the specification because it passes the specific WPTs.</li>\n</ul>\n<h3 dir=\"auto\">Other information</h3>\n<p dir=\"auto\">According to <a href=\"https://w3c.github.io/ServiceWorker/#control-and-use-worker-client\" rel=\"nofollow\">the specification</a>, SharedWorker is expected to inherit a ServiceWorker controller if a blob URL is used as a script URL:</p>\n<blockquote>\n<p dir=\"auto\"><a href=\"https://w3c.github.io/ServiceWorker/#dfn-window-client\" rel=\"nofollow\">Window clients</a> and <a href=\"https://w3c.github.io/ServiceWorker/#dfn-worker-client\" rel=\"nofollow\">worker clients</a> with a <a href=\"https://w3c.github.io/FileAPI/#blob-url\" rel=\"nofollow\">blob URL</a> can inherit the <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-active-service-worker\" rel=\"nofollow\">active service worker</a> of their creator <a href=\"https://dom.spec.whatwg.org/#concept-document\" rel=\"nofollow\">document</a> or owner, but if the <a href=\"https://fetch.spec.whatwg.org/#concept-request\" rel=\"nofollow\">request</a>'s <a href=\"https://fetch.spec.whatwg.org/#concept-request-origin\" rel=\"nofollow\">origin</a> is not the <a href=\"https://html.spec.whatwg.org/multipage/browsers.html#same-origin\" rel=\"nofollow\">same</a> as the <a href=\"https://html.spec.whatwg.org/multipage/browsers.html#concept-origin\" rel=\"nofollow\">origin</a> of their creator <a href=\"https://dom.spec.whatwg.org/#concept-document\" rel=\"nofollow\">document</a> or owner, the <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-active-service-worker\" rel=\"nofollow\">active service worker</a> is set to null.</p>\n</blockquote>\n<p dir=\"auto\">Firefox fails for the following WPT that ensures the behavior: <a href=\"https://wpt.fyi/results/service-workers/service-worker/local-url-inherit-controller.https.html\" rel=\"nofollow\">https://wpt.fyi/results/service-workers/service-worker/local-url-inherit-controller.https.html</a></p>\n<p dir=\"auto\">Can I ask the Mozilla's position on the behavior?  i.e. inheriting a ServiceWorker controller of a creator/owner if a blob URL is used as a SharedWorker script URL.</p>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1113",
+            "title": "SharedWorker script inherit controller for blob script URL",
+            "date_modified": "2024-11-19T05:45:21.000Z",
+            "date_published": "2024-11-19T05:13:51.000Z",
+            "author": {
+                "name": "yoshisatoyanagisawa",
+                "url": "https://github.com/yoshisatoyanagisawa"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/38176570?u=bf8fb7b4025fed86f3660a11d13182c193c69dc6&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h2 dir=\"auto\">Request for Mozilla Position on Payment link type in HTML</h2>\n<ul dir=\"auto\">\n<li>Specification title: Payment link type in HTML</li>\n<li>Specification or proposal URL (if available): No spec yet; please see the explainer</li>\n<li>Explainer URL (if available): <a href=\"https://github.com/WICG/paymentlink/blob/main/README.md\">https://github.com/WICG/paymentlink/blob/main/README.md</a></li>\n<li>Proposal author(s) (<code class=\"notranslate\">@</code>-mention GitHub accounts): Junhui He (<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ynyhxfo/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/ynyhxfo\">@ynyhxfo</a> )</li>\n<li>WebKit standards-position: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2660399345\" data-permission-text=\"Title is private\" data-url=\"https://github.com/WebKit/standards-positions/issues/428\" data-hovercard-type=\"issue\" data-hovercard-url=\"/WebKit/standards-positions/issues/428/hovercard\" href=\"https://github.com/WebKit/standards-positions/issues/428\">WebKit/standards-positions#428</a></li>\n</ul>\n<h3 dir=\"auto\">Other information</h3>\n<p dir=\"auto\">TAG design review: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2660397771\" data-permission-text=\"Title is private\" data-url=\"https://github.com/w3ctag/design-reviews/issues/1015\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3ctag/design-reviews/issues/1015/hovercard\" href=\"https://github.com/w3ctag/design-reviews/issues/1015\">w3ctag/design-reviews#1015</a></p>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1112",
+            "title": "Payment link type in HTML",
+            "date_modified": "2024-11-26T17:15:26.000Z",
+            "date_published": "2024-11-15T00:09:33.000Z",
+            "author": {
+                "name": "ynyhxfo",
+                "url": "https://github.com/ynyhxfo"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/70016290?u=02b64e4c6221411236d32360a58c3a571eca9122&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h2 dir=\"auto\">Request for Mozilla Position on an Emerging Web Specification</h2>\n<ul dir=\"auto\">\n<li>Specification title: CSS Overflow Module Level 3</li>\n<li>Specification or proposal URL (if available): <a href=\"https://drafts.csswg.org/css-overflow/#overflow-clip-margin\" rel=\"nofollow\">https://drafts.csswg.org/css-overflow/#overflow-clip-margin</a></li>\n<li>Explainer URL (if available):</li>\n<li>Proposal author(s) (<code class=\"notranslate\">@</code>-mention GitHub accounts):</li>\n<li>Caniuse.com URL (optional): <a href=\"https://caniuse.com/?search=overflow-clip-margin\" rel=\"nofollow\">https://caniuse.com/?search=overflow-clip-margin</a></li>\n<li>Bugzilla URL (optional):</li>\n<li>Mozillians who can provide input (optional):</li>\n<li>WebKit standards-position: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2654956695\" data-permission-text=\"Title is private\" data-url=\"https://github.com/WebKit/standards-positions/issues/427\" data-hovercard-type=\"issue\" data-hovercard-url=\"/WebKit/standards-positions/issues/427/hovercard\" href=\"https://github.com/WebKit/standards-positions/issues/427\">WebKit/standards-positions#427</a></li>\n</ul>\n<h3 dir=\"auto\">Other information</h3>\n<p dir=\"auto\">The overflow-clip-margin <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\" rel=\"nofollow\">CSS</a> property determines how far outside its bounds an element with <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/overflow\" rel=\"nofollow\">overflow: clip</a> may be painted before being clipped. The bound defined by this property is called the overflow clip edge of the box.</p>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1111",
+            "title": "CSS `overflow-clip-margin`",
+            "date_modified": "2024-11-13T10:22:39.000Z",
+            "date_published": "2024-11-13T10:22:39.000Z",
+            "author": {
+                "name": "nileshprajapati",
+                "url": "https://github.com/nileshprajapati"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/88566?u=b5551d5208a9a90fc7510a9f5502dd4c0afeb05a&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h2 dir=\"auto\">Request for Mozilla Position on an Emerging Web Specification</h2>\n<ul dir=\"auto\">\n<li>Specification title: Consolidate <code class=\"notranslate\">paintTime</code> and <code class=\"notranslate\">presentationTime</code> in performance APIs</li>\n<li>Specification or proposal URL (if available):  <a href=\"https://w3c.github.io/paint-timing\" rel=\"nofollow\">https://w3c.github.io/paint-timing</a></li>\n<li>Explainer URL (if available): <a href=\"https://github.com/w3c/paint-timing/blob/main/presentation-timestamps.md\">https://github.com/w3c/paint-timing/blob/main/presentation-timestamps.md</a></li>\n<li>Proposal author(s) (<code class=\"notranslate\">@</code>-mention GitHub accounts): <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/noamr/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/noamr\">@noamr</a> <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/mmocny/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/mmocny\">@mmocny</a></li>\n<li>Caniuse.com URL (optional):</li>\n<li>Bugzilla URL (optional):</li>\n<li>Mozillians who can provide input (optional): @BasMoz <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/sefeng211/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/sefeng211\">@sefeng211</a></li>\n<li>WebKit standards-position:</li>\n</ul>\n<h3 dir=\"auto\">Other information</h3>\n<p dir=\"auto\">This has been discussed at the WebPerfWG, see <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"576414699\" data-permission-text=\"Title is private\" data-url=\"https://github.com/w3c/paint-timing/issues/62\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/paint-timing/issues/62/hovercard\" href=\"https://github.com/w3c/paint-timing/issues/62\">w3c/paint-timing#62</a></p>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1110",
+            "title": "Consolidate `paintTime` and `presentationTime` in performance APIs",
+            "date_modified": "2024-11-12T09:55:21.000Z",
+            "date_published": "2024-11-12T09:54:45.000Z",
+            "author": {
+                "name": "noamr",
+                "url": "https://github.com/noamr"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/7578653?u=7f39a0ad0de2ce948c6f966aae80059bf55e1f4d&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><ul dir=\"auto\">\n<li>Specification title: Nested pseudo elements styling (::before::marker or ::after::marker)</li>\n<li>Specification or proposal URL (if available): <a href=\"https://www.w3.org/TR/css-pseudo-4/#marker-pseudo\" rel=\"nofollow\">https://www.w3.org/TR/css-pseudo-4/#marker-pseudo</a></li>\n<li>WebKit standards-position: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2638150375\" data-permission-text=\"Title is private\" data-url=\"https://github.com/WebKit/standards-positions/issues/425\" data-hovercard-type=\"issue\" data-hovercard-url=\"/WebKit/standards-positions/issues/425/hovercard\" href=\"https://github.com/WebKit/standards-positions/issues/425\">WebKit/standards-positions#425</a></li>\n</ul>\n<h3 dir=\"auto\">Other information</h3>\n<p dir=\"auto\">In addition to styling {::before/::after}::marker, support for nested pseudo elements styling is essential for <a href=\"https://github.com/flackr/carousel/tree/main/fragmentation\">::column::scroll-marker styling</a>, which has been resolved for css-overflow-5.</p>\n<p dir=\"auto\"><a href=\"https://wpt.fyi/css/css-pseudo/marker-font-variant-numeric-normal.html\" rel=\"nofollow\">WPT test for ::before::marker styling</a></p>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1109",
+            "title": "Nested pseudo elements styling (::before::marker or ::after::marker)",
+            "date_modified": "2024-11-06T13:48:41.000Z",
+            "date_published": "2024-11-06T13:47:07.000Z",
+            "author": {
+                "name": "danielsakhapov",
+                "url": "https://github.com/danielsakhapov"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/88566?u=b5551d5208a9a90fc7510a9f5502dd4c0afeb05a&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h2 dir=\"auto\">Request for Mozilla Position on an Emerging Web Specification</h2>\n<ul dir=\"auto\">\n<li>Specification title: Add finalResponseHeadersStart to resource timing</li>\n<li>Specification or proposal URL (if available): <a href=\"https://w3c.github.io/resource-timing/\" rel=\"nofollow\">https://w3c.github.io/resource-timing/</a></li>\n<li>Explainer URL (if available):</li>\n<li>Proposal author(s) (<code class=\"notranslate\">@</code>-mention GitHub accounts): <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/noamr/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/noamr\">@noamr</a> <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/tunetheweb/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/tunetheweb\">@tunetheweb</a></li>\n<li>Caniuse.com URL (optional):</li>\n<li>Bugzilla URL (optional):</li>\n<li>Mozillians who can provide input (optional): <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/sefeng211/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/sefeng211\">@sefeng211</a>, Bas Schouten (not sure re the github handle?)</li>\n<li>WebKit standards-position:</li>\n</ul>\n<h3 dir=\"auto\">Other information</h3>\n<p dir=\"auto\">This was resolved in the WebPerfWG meeting, see <a href=\"https://docs.google.com/document/d/1wK95hyikDRj12Y0jE9x9fwSvbXZJXP6MIqQdOJqjVRU/edit?tab=t.0#heading=h.4tlsvuep2h7x\" rel=\"nofollow\">minutes</a>.</p>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1108",
+            "title": "Add `finalResponseHeadersStart` to resource timing",
+            "date_modified": "2024-11-06T15:15:53.000Z",
+            "date_published": "2024-11-06T10:29:32.000Z",
+            "author": {
+                "name": "noamr",
+                "url": "https://github.com/noamr"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/66635890?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h2 dir=\"auto\">Request for Mozilla Position on an Emerging Web Specification</h2>\n<ul dir=\"auto\">\n<li>Specification title: scroll-start-target</li>\n<li>Specification or proposal URL (if available): <a href=\"https://drafts.csswg.org/css-scroll-snap-2/#scroll-start-target\" rel=\"nofollow\">https://drafts.csswg.org/css-scroll-snap-2/#scroll-start-target</a></li>\n<li>Explainer URL (if available): <a href=\"https://github.com/DavMila/explainer-scroll-start-target\">https://github.com/DavMila/explainer-scroll-start-target</a></li>\n<li>Proposal author(s) (<code class=\"notranslate\">@</code>-mention GitHub accounts):  <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/DavMila/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/DavMila\">@DavMila</a> <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/argyleink/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/argyleink\">@argyleink</a></li>\n</ul>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1107",
+            "title": "scroll-start-target",
+            "date_modified": "2024-11-05T15:34:06.000Z",
+            "date_published": "2024-11-05T15:34:06.000Z",
+            "author": {
+                "name": "DavMila",
+                "url": "https://github.com/DavMila"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/70016290?u=02b64e4c6221411236d32360a58c3a571eca9122&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h2 dir=\"auto\">Request for Mozilla Position on an Emerging Web Specification</h2>\n<ul dir=\"auto\">\n<li>Specification title:</li>\n<li>Specification or proposal URL (if available): <a href=\"https://www.w3.org/TR/css-inline-3/\" rel=\"nofollow\">https://www.w3.org/TR/css-inline-3/</a></li>\n<li>Explainer URL (if available):</li>\n<li>Proposal author(s) (<code class=\"notranslate\">@</code>-mention GitHub accounts):</li>\n<li>Caniuse.com URL (optional): <a href=\"https://caniuse.com/?search=text-box-trim\" rel=\"nofollow\">https://caniuse.com/?search=text-box-trim</a></li>\n<li>Bugzilla URL (optional):</li>\n<li>Mozillians who can provide input (optional):</li>\n<li>WebKit: <a href=\"https://developer.apple.com/documentation/safari-release-notes/safari-18_2-release-notes\" rel=\"nofollow\">https://developer.apple.com/documentation/safari-release-notes/safari-18_2-release-notes</a></li>\n<li>Chromium: <a href=\"https://issues.chromium.org/issues/40254880\" rel=\"nofollow\">https://issues.chromium.org/issues/40254880</a></li>\n</ul>\n<h3 dir=\"auto\">Other information</h3>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1105",
+            "title": "[CSS] `text-box`, `text-box-trim`, `text-box-edge`",
+            "date_modified": "2024-11-04T17:50:45.000Z",
+            "date_published": "2024-11-04T17:50:45.000Z",
+            "author": {
+                "name": "nileshprajapati",
+                "url": "https://github.com/nileshprajapati"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/6636090?u=6d29c7923e8f5592f171a3cd16d3583a2bff73a7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h2 dir=\"auto\">Request for Mozilla Position on an Emerging Web Specification</h2>\n<ul dir=\"auto\">\n<li>Specification title: CSS Pseudo 4</li>\n<li>Specification or proposal URL (if available): <a href=\"https://drafts.csswg.org/css-pseudo-4/#selectordef-search-text\" rel=\"nofollow\">https://drafts.csswg.org/css-pseudo-4/#selectordef-search-text</a></li>\n<li>Explainer URL (if available): <a href=\"https://github.com/Igalia/explainers/blob/main/css/find-in-page/README.md\">https://github.com/Igalia/explainers/blob/main/css/find-in-page/README.md</a></li>\n<li>Proposal author(s) (<code class=\"notranslate\">@</code>-mention GitHub accounts): <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/delan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/delan\">@delan</a> <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/schenney-chromium/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/schenney-chromium\">@schenney-chromium</a>  <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/jihyerish/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/jihyerish\">@jihyerish</a></li>\n<li>WebKit standards-position: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2621707366\" data-permission-text=\"Title is private\" data-url=\"https://github.com/WebKit/standards-positions/issues/421\" data-hovercard-type=\"issue\" data-hovercard-url=\"/WebKit/standards-positions/issues/421/hovercard\" href=\"https://github.com/WebKit/standards-positions/issues/421\">WebKit/standards-positions#421</a></li>\n</ul>\n<h3 dir=\"auto\">Other information</h3>\n<p dir=\"auto\">The Chromium intent to prototype is <a href=\"https://groups.google.com/a/chromium.org/g/blink-dev/c/5FS_4mVQBLc/m/vm-WWXUCAQAJ\" rel=\"nofollow\">here</a></p>",
+            "url": "https://github.com/mozilla/standards-positions/issues/1103",
+            "title": "[CSS Pseudo-4] CSS highlight pseudo ::search-text",
+            "date_modified": "2024-10-29T16:07:58.000Z",
+            "date_published": "2024-10-29T15:51:42.000Z",
+            "author": {
+                "name": "jihyerish",
+                "url": "https://github.com/jihyerish"
+            }
+        }
+    ]
+}

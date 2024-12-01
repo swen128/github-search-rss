@@ -1,0 +1,229 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "mdn/content update content",
+    "home_page_url": "https://azu.github.io/github-search-rss/mdn-content.json",
+    "feed_url": "https://azu.github.io/github-search-rss/mdn-content.json",
+    "description": "mdn/content update content on GitHub",
+    "items": [
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/95597335?u=8d74d22178f21abb716e97df0752093cf31ea013&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">update attributes data and animatable meta info</p>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n<p dir=\"auto\"><a href=\"https://developer.mozilla.org/en-US/docs/Web/SVG/Element/a\" rel=\"nofollow\">https://developer.mozilla.org/en-US/docs/Web/SVG/Element/a</a><br>\n<a href=\"https://svgwg.org/svg2-draft/linking.html#AElement\" rel=\"nofollow\">https://svgwg.org/svg2-draft/linking.html#AElement</a></p>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
+            "url": "https://github.com/mdn/content/pull/37037",
+            "title": "Fix data for svg `<a>` element",
+            "date_modified": "2024-12-01T05:58:07.000Z",
+            "date_published": "2024-12-01T05:54:37.000Z",
+            "author": {
+                "name": "skyclouds2001",
+                "url": "https://github.com/skyclouds2001"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/95597335?u=8d74d22178f21abb716e97df0752093cf31ea013&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h3 dir=\"auto\">Description</h3>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n<p dir=\"auto\"><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/writingsuggestions\" rel=\"nofollow\">https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/writingsuggestions</a><br>\n<a href=\"https://html.spec.whatwg.org/multipage/interaction.html#dom-writingsuggestions\" rel=\"nofollow\">https://html.spec.whatwg.org/multipage/interaction.html#dom-writingsuggestions</a></p>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n<p dir=\"auto\"><span class=\"issue-keyword tooltipped tooltipped-se\" aria-label=\"This pull request closes issue #502.\">Fixes</span> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2054560256\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mdn/mdn/issues/502\" data-hovercard-type=\"issue\" data-hovercard-url=\"/mdn/mdn/issues/502/hovercard\" href=\"https://github.com/mdn/mdn/issues/502\">mdn/mdn#502</a><br>\nRelates to <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2463005018\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mdn/content/issues/35445\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/mdn/content/pull/35445/hovercard\" href=\"https://github.com/mdn/content/pull/35445\">#35445</a><br>\nRelates to <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2054561873\" data-permission-text=\"Title is private\" data-url=\"https://github.com/whatwg/html/issues/10018\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/whatwg/html/pull/10018/hovercard\" href=\"https://github.com/whatwg/html/pull/10018\">whatwg/html#10018</a></p>\n\n\n\n",
+            "url": "https://github.com/mdn/content/pull/37036",
+            "title": "Add docs for `HTMLElement.writingSuggestions`",
+            "date_modified": "2024-12-01T03:18:42.000Z",
+            "date_published": "2024-12-01T03:02:25.000Z",
+            "author": {
+                "name": "skyclouds2001",
+                "url": "https://github.com/skyclouds2001"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/95597335?u=8d74d22178f21abb716e97df0752093cf31ea013&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">mark unimplemented css selectors as experimental</p>\n<p dir=\"auto\">fix bcd note for <code class=\"notranslate\">:target-within</code> and <code class=\"notranslate\">:local-link</code></p>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
+            "url": "https://github.com/mdn/content/pull/37035",
+            "title": "Update for unimplemented css selectors",
+            "date_modified": "2024-12-01T02:49:01.000Z",
+            "date_published": "2024-12-01T02:45:58.000Z",
+            "author": {
+                "name": "skyclouds2001",
+                "url": "https://github.com/skyclouds2001"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/95597335?u=8d74d22178f21abb716e97df0752093cf31ea013&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">add attributes detail for svg <code class=\"notranslate\">&lt;view&gt;</code> element</p>\n<p dir=\"auto\">also remove the dom interface section to align with other pages</p>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
+            "url": "https://github.com/mdn/content/pull/37034",
+            "title": "Add attributes detail for svg `<view>` element",
+            "date_modified": "2024-11-30T05:51:52.000Z",
+            "date_published": "2024-11-30T05:46:28.000Z",
+            "author": {
+                "name": "skyclouds2001",
+                "url": "https://github.com/skyclouds2001"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/37002543?u=f27a801770448356d66521df72778daada6d920a&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h3 dir=\"auto\">Description</h3>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
+            "url": "https://github.com/mdn/content/pull/37031",
+            "title": "Update files/en-us/games/publishing_games/game_distribution/index.md",
+            "date_modified": "2024-11-29T22:31:57.000Z",
+            "date_published": "2024-11-29T19:36:52.000Z",
+            "author": {
+                "name": "axelerod12",
+                "url": "https://github.com/axelerod12"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/43580235?u=cae42d5a371dd041072ce6d85a1808de05535be8&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">A couple of small fixes for HTTP section</p>\n<p dir=\"auto\"><strong>Changes:</strong></p>\n<ul dir=\"auto\">\n<li>Move Ogg guide into Media section\n<ul dir=\"auto\">\n<li>Some cleanup in Ogg guide</li>\n</ul>\n</li>\n<li>Browser compat information about HTTP methods.</li>\n<li>Update a few links\n<ul dir=\"auto\">\n<li>Node docs</li>\n<li>web.dev</li>\n</ul>\n</li>\n</ul>",
+            "url": "https://github.com/mdn/content/pull/37026",
+            "title": "chore(http): Move Ogg guide, HTTP method fixes",
+            "date_modified": "2024-11-29T10:35:20.000Z",
+            "date_published": "2024-11-29T10:33:23.000Z",
+            "author": {
+                "name": "bsmth",
+                "url": "https://github.com/bsmth"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/45487685?u=4b491d06fd9763b1dcf6c9484d38787ad1c6dea8&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h3 dir=\"auto\">Description</h3>\n\n<p dir=\"auto\">Accroding to the html source code example, the outer element is <code class=\"notranslate\">&lt;article&gt;</code> not <code class=\"notranslate\">&lt;div&gt;</code>.</p>\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
+            "url": "https://github.com/mdn/content/pull/37025",
+            "title": "Correct the element name",
+            "date_modified": "2024-12-01T10:49:38.000Z",
+            "date_published": "2024-11-29T08:25:31.000Z",
+            "author": {
+                "name": "Snoopy1866",
+                "url": "https://github.com/Snoopy1866"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/71604450?u=79548cbe7914224fa6b99d125b5b5dcf4b306a6f&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Description</h3>\n<ul dir=\"auto\">\n<li>MDN URL: <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/hash\" rel=\"nofollow\">https://developer.mozilla.org/en-US/docs/Web/API/Location/hash</a></li>\n</ul>\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n<ul dir=\"auto\">\n<li>GitHub URL: <a href=\"https://github.com/mdn/content/blob/main/files/en-us/web/api/location/hash/index.md\">https://github.com/mdn/content/blob/main/files/en-us/web/api/location/hash/index.md</a></li>\n<li>Last commit: <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/mdn/content/commit/a2847ff3788f224ffb4cdf05cb0139e07fde7533/hovercard\" href=\"https://github.com/mdn/content/commit/a2847ff3788f224ffb4cdf05cb0139e07fde7533\"><tt>a2847ff</tt></a></li>\n</ul>",
+            "url": "https://github.com/mdn/content/pull/37022",
+            "title": "Modify the sample code in the Location `hash` property",
+            "date_modified": "2024-11-30T05:45:42.000Z",
+            "date_published": "2024-11-29T01:27:12.000Z",
+            "author": {
+                "name": "T34-active",
+                "url": "https://github.com/T34-active"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/5368500?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">FF134 supports simulcast of v8 video from a screenshare track in <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1692873\" rel=\"nofollow\">https://bugzilla.mozilla.org/show_bug.cgi?id=1692873</a></p>\n<p dir=\"auto\">This adds a release note.</p>\n<p dir=\"auto\">Related docs work can be tracked in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2682791824\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mdn/content/issues/36914\" data-hovercard-type=\"issue\" data-hovercard-url=\"/mdn/content/issues/36914/hovercard\" href=\"https://github.com/mdn/content/issues/36914\">#36914</a></p>",
+            "url": "https://github.com/mdn/content/pull/37020",
+            "title": "FF134 WebRTC supports simulcast of screenshared video sources",
+            "date_modified": "2024-11-29T00:52:45.000Z",
+            "date_published": "2024-11-29T00:50:36.000Z",
+            "author": {
+                "name": "hamishwillee",
+                "url": "https://github.com/hamishwillee"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/95597335?u=8d74d22178f21abb716e97df0752093cf31ea013&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">these margin at-rules features has implemented in chromium M131, so the warning is no longer necesssary</p>\n<p dir=\"auto\">and <code class=\"notranslate\">:blank</code> has its own mdn documentation, so it's better to refer to the mdn docs than the spec</p>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
+            "url": "https://github.com/mdn/content/pull/37019",
+            "title": "Remove outdated warning and update link of `@page`",
+            "date_modified": "2024-11-29T00:31:48.000Z",
+            "date_published": "2024-11-29T00:25:16.000Z",
+            "author": {
+                "name": "skyclouds2001",
+                "url": "https://github.com/skyclouds2001"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/5368500?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">FF134 adds support for the HTML <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/autocorrect\" rel=\"nofollow\"><code class=\"notranslate\">autocorrect</code></a> attribute and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/autocorrect\" rel=\"nofollow\"><code class=\"notranslate\">HTMLElement.autocorrect</code></a> property in Nightly in <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1725806#c19\" rel=\"nofollow\">https://bugzilla.mozilla.org/show_bug.cgi?id=1725806#c19</a></p>\n<p dir=\"auto\">This fixes a typo I injected into release notes in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2692703267\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mdn/content/issues/36970\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/mdn/content/pull/36970/hovercard\" href=\"https://github.com/mdn/content/pull/36970\">#36970</a> - the feature added to release note is \"autocorrect\", but I was referring to it as autocorrection.</p>\n<p dir=\"auto\">Related docs work can be tracked in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2682808239\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mdn/content/issues/36919\" data-hovercard-type=\"issue\" data-hovercard-url=\"/mdn/content/issues/36919/hovercard\" href=\"https://github.com/mdn/content/issues/36919\">#36919</a></p>",
+            "url": "https://github.com/mdn/content/pull/37018",
+            "title": "FF134 autocorrect, not autocomplete fix",
+            "date_modified": "2024-11-29T22:28:36.000Z",
+            "date_published": "2024-11-28T23:33:41.000Z",
+            "author": {
+                "name": "hamishwillee",
+                "url": "https://github.com/hamishwillee"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/47647?u=2fbfc431a85d357f00c0146d5e55b425b7f00a3d&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">MDN documented the <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API\" rel=\"nofollow\">Web Serial API</a> a few years ago now (it was first supported in Chrome 89), but the MDN docs have not been updated much since then, for example to include support for Bluetooth RFCOMM services (originally only wired ports such as actual serial ports and USB devices were supported), which was added in Chrome 117 — see <a href=\"https://chromestatus.com/feature/5686596809523200\" rel=\"nofollow\">https://chromestatus.com/feature/5686596809523200</a>.</p>\n<p dir=\"auto\">This PR adds docs for Bluetooth RFCOMM support and other improvements besides, Specially:</p>\n<ul dir=\"auto\">\n<li><code class=\"notranslate\">bluetoothServiceClassId</code> properties inside the <code class=\"notranslate\">Serial.requestPort()</code> <code class=\"notranslate\">filters</code> option.</li>\n<li>The <code class=\"notranslate\">Serial.requestPort()</code> <code class=\"notranslate\">allowedBluetoothServiceClassIds</code> option.</li>\n<li>The <code class=\"notranslate\">bluetoothServiceClassId</code> property inside the object returned by the <code class=\"notranslate\">SerialPort.getInfo()</code> method.</li>\n<li>A mention of the Permissions Policy integration on the main landing page.</li>\n<li>A few other assorted language improvements and description and example additions.</li>\n<li>Some improvements to the <code class=\"notranslate\">SerialPort.close()</code>, and <code class=\"notranslate\">SerialPort.forget()</code> pages, to clarify the distinction between them and add more info generally.</li>\n</ul>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
+            "url": "https://github.com/mdn/content/pull/37015",
+            "title": "Improvements and additions to Web Serial API docs",
+            "date_modified": "2024-11-30T10:40:24.000Z",
+            "date_published": "2024-11-28T14:51:46.000Z",
+            "author": {
+                "name": "chrisdavidmills",
+                "url": "https://github.com/chrisdavidmills"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/43868318?u=3f179cacfd70db40ae7c11f1b951533a8ebf45bf&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h3 dir=\"auto\">Description</h3>\n\n<p dir=\"auto\">This PR adds the MDN feature pages for the SVGAngle interface as part of a recent project to document missing Widely available pages for interface features.</p>\n<h3 dir=\"auto\">Motivation</h3>\n\n<p dir=\"auto\">I believe that my support in documenting the SVGAngle interface can significantly help developers by providing essential resources.</p>\n<h3 dir=\"auto\">Additional details</h3>\n\n<p dir=\"auto\">For more context, see the discussion on missing documentation tracked at <a href=\"https://openwebdocs.github.io/web-docs-backlog/baseline/\" rel=\"nofollow\">https://openwebdocs.github.io/web-docs-backlog/baseline/</a>. Additionally, related projects for adding widely available web features can be found at <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2582291591\" data-permission-text=\"Title is private\" data-url=\"https://github.com/openwebdocs/project/issues/214\" data-hovercard-type=\"issue\" data-hovercard-url=\"/openwebdocs/project/issues/214/hovercard\" href=\"https://github.com/openwebdocs/project/issues/214\">openwebdocs/project#214</a>.</p>\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n<p dir=\"auto\">Relates to <a href=\"https://github.com/openwebdocs/project/issues/214\" data-hovercard-type=\"issue\" data-hovercard-url=\"/openwebdocs/project/issues/214/hovercard\">#214</a></p>",
+            "url": "https://github.com/mdn/content/pull/37013",
+            "title": "add: SVG Angle MDN Feature Pages",
+            "date_modified": "2024-11-28T09:43:33.000Z",
+            "date_published": "2024-11-28T09:41:38.000Z",
+            "author": {
+                "name": "yashrajbharti",
+                "url": "https://github.com/yashrajbharti"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/71604450?u=79548cbe7914224fa6b99d125b5b5dcf4b306a6f&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Description</h3>\n<ul dir=\"auto\">\n<li>MDN URL: <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMQuad\" rel=\"nofollow\">https://developer.mozilla.org/en-US/docs/Web/API/DOMQuad</a></li>\n</ul>\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n<ul dir=\"auto\">\n<li>GitHub URL: <a href=\"https://github.com/mdn/content/blob/main/files/en-us/web/api/domquad/index.md\">https://github.com/mdn/content/blob/main/files/en-us/web/api/domquad/index.md</a></li>\n<li>Last commit: <a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/mdn/content/commit/f1efcbb10e9d5bea6df19f18e670230dc7d87f18/hovercard\" href=\"https://github.com/mdn/content/commit/f1efcbb10e9d5bea6df19f18e670230dc7d87f18\"><tt>f1efcbb</tt></a></li>\n</ul>",
+            "url": "https://github.com/mdn/content/pull/37010",
+            "title": "Modify `fromQuad()` method in `DOMQuad`",
+            "date_modified": "2024-11-28T03:15:27.000Z",
+            "date_published": "2024-11-28T03:13:23.000Z",
+            "author": {
+                "name": "T34-active",
+                "url": "https://github.com/T34-active"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/69888?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">part of <a href=\"https://github.com/openwebdocs/project/issues/214\" data-hovercard-type=\"issue\" data-hovercard-url=\"/openwebdocs/project/issues/214/hovercard\">Missing baseline pages</a> project</p>",
+            "url": "https://github.com/mdn/content/pull/37006",
+            "title": "New pages: HTMLMediaElement API (played and seeking)",
+            "date_modified": "2024-11-27T19:54:51.000Z",
+            "date_published": "2024-11-27T19:52:54.000Z",
+            "author": {
+                "name": "estelle",
+                "url": "https://github.com/estelle"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/47647?u=2fbfc431a85d357f00c0146d5e55b425b7f00a3d&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">Chrome 130 supports the <a href=\"https://wicg.github.io/serial/#dom-serialport-connected\" rel=\"nofollow\"><code class=\"notranslate\">SerialPort.connected</code></a> attribute, a boolean that reports whether a serial port is logically connected.</p>\n<p dir=\"auto\">Another part of this work item is that the <code class=\"notranslate\">SerialPort</code> <code class=\"notranslate\">connect</code> and <code class=\"notranslate\">disconnect</code> events were previously only fired by physical/wired serial ports. With this change, wireless Bluetooth RFCOMM serial ports also fire these events when they connect and disconnect.</p>\n<p dir=\"auto\">This PR updates the docs to add a <code class=\"notranslate\">connected</code> reference page and update the event pages to cover the Bluetooth support.</p>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n<p dir=\"auto\">See <a href=\"https://chromestatus.com/feature/5118102654418944\" rel=\"nofollow\">https://chromestatus.com/feature/5118102654418944</a>.</p>\n\n\n\n",
+            "url": "https://github.com/mdn/content/pull/37002",
+            "title": "Add docs on SerialPort.connected and Bluetooth port event support",
+            "date_modified": "2024-11-29T17:35:22.000Z",
+            "date_published": "2024-11-27T13:11:32.000Z",
+            "author": {
+                "name": "chrisdavidmills",
+                "url": "https://github.com/chrisdavidmills"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/286386?u=bc4894b945491e0834d2306dade7fef748ddf698&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Description</h3>\n<ul dir=\"auto\">\n<li>Added a note about multiple attributes added to meta viewport</li>\n<li>Added an example of <code class=\"notranslate\">interactive-widget</code> attribute</li>\n</ul>\n<h3 dir=\"auto\">Motivation</h3>\n<ul dir=\"auto\">\n<li>Working on <a href=\"https://github.com/mdn/content/issues/35720\" data-hovercard-type=\"issue\" data-hovercard-url=\"/mdn/content/issues/35720/hovercard\">issue #35720</a></li>\n</ul>\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n<ul dir=\"auto\">\n<li><a href=\"https://github.com/mdn/content/pull/37001\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/mdn/content/pull/37001/hovercard\">Firefox release PR</a></li>\n</ul>",
+            "url": "https://github.com/mdn/content/pull/37000",
+            "title": "added a note about comma separation and example of interactive-widget…",
+            "date_modified": "2024-11-27T12:14:33.000Z",
+            "date_published": "2024-11-27T12:10:42.000Z",
+            "author": {
+                "name": "dletorey",
+                "url": "https://github.com/dletorey"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/61353435?u=d9ca419297df0df1a7b8ad6e4a203ff232e38a42&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">An example of mod calculation, <code class=\"notranslate\">mod(21, -4)</code>, was set to <code class=\"notranslate\">1</code> even though the result was <code class=\"notranslate\">-3</code>, which has been corrected.</p>\n<p dir=\"auto\">Calculations were made with reference to Example37 in <a href=\"https://drafts.csswg.org/css-values/#funcdef-mod.\" rel=\"nofollow\">Specifications</a></p>\n<h3 dir=\"auto\">Motivation</h3>\n<p dir=\"auto\">Explain the correct calculation results of <code class=\"notranslate\">mod</code>.</p>\n<h3 dir=\"auto\">Additional details</h3>\n<p dir=\"auto\">Sample of actual calculations.<br>\n<a href=\"https://codepen.io/kokisakano/pen/KwPKXva\" rel=\"nofollow\">https://codepen.io/kokisakano/pen/KwPKXva</a></p>\n<h3 dir=\"auto\">Related issues and pull requests</h3>",
+            "url": "https://github.com/mdn/content/pull/36997",
+            "title": "Fix Web CSS mod example",
+            "date_modified": "2024-11-28T02:10:11.000Z",
+            "date_published": "2024-11-27T08:28:32.000Z",
+            "author": {
+                "name": "k35o",
+                "url": "https://github.com/k35o"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/95597335?u=8d74d22178f21abb716e97df0752093cf31ea013&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">for svg <code class=\"notranslate\">&lt;pattern&gt;</code> element, <code class=\"notranslate\">height</code> <code class=\"notranslate\">width</code> <code class=\"notranslate\">x</code> <code class=\"notranslate\">y</code> only accept a <code class=\"notranslate\">&lt;length&gt;</code> value</p>\n<p dir=\"auto\">also update svg data for  svg <code class=\"notranslate\">&lt;pattern&gt;</code> element (for element list and attribute list)</p>\n<p dir=\"auto\">and some style adjust to documentations</p>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
+            "url": "https://github.com/mdn/content/pull/36994",
+            "title": "Fix syntax for svg `<pattern>` element",
+            "date_modified": "2024-11-27T01:45:21.000Z",
+            "date_published": "2024-11-27T01:43:25.000Z",
+            "author": {
+                "name": "skyclouds2001",
+                "url": "https://github.com/skyclouds2001"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/1013152?u=4b4c0b38e6342330c89812f2ff2f865e0fdc2ee4&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">In the docs for the various MouseEvents and PointerEvents, rarely do either mention the other.  I added cross links, and also some discussions in various event pages how the moouse/pointer event differs from the corresponding pointer/mouse event.</p>\n<p dir=\"auto\">I added notes to the over/out events, explaining how they're rarely used, and one should use the enter/leave events.  (The details were explained already, but nowhere did I find it specifically say to not use over/out.)</p>\n<p dir=\"auto\">I also did some other updates that I thought were needed.</p>\n<h3 dir=\"auto\">Motivation</h3>\n<p dir=\"auto\">I only recently learned about pointer events, despite being a web developer for 10+ years.  Maybe a few more links between pointer and mouse events would have helped me find out about them.</p>\n<p dir=\"auto\">I saw a question recently about over/out events on StackOverflow, and sure enough, the questioner was using over/out when they should have used enter/leave.  Probably others are in the same situation; sometimes you have to come out and say it.</p>\n<h3 dir=\"auto\">Additional details</h3>\n<p dir=\"auto\">The <code class=\"notranslate\">pointer events</code><br>\narticle introduction describes the situation pretty well.<br>\n(Do not confuse with the PointerEvent article, which describes the superclass.)</p>\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n<p dir=\"auto\"><span class=\"issue-keyword tooltipped tooltipped-se\" aria-label=\"This pull request closes issue #27878.\">Fixes</span> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1798422206\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mdn/content/issues/27878\" data-hovercard-type=\"issue\" data-hovercard-url=\"/mdn/content/issues/27878/hovercard\" href=\"https://github.com/mdn/content/issues/27878\">#27878</a></p>",
+            "url": "https://github.com/mdn/content/pull/36993",
+            "title": "mouse & pointer event pages updates",
+            "date_modified": "2024-11-27T01:30:33.000Z",
+            "date_published": "2024-11-27T01:28:31.000Z",
+            "author": {
+                "name": "allan-bonadio",
+                "url": "https://github.com/allan-bonadio"
+            }
+        }
+    ]
+}
