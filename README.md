@@ -4,7 +4,7 @@ GitHub Search Results as RSS Feeds via GitHub Actions.
 
 ## Usage
 
-- Visit: https://azu.github.io/github-search-rss/
+- Visit: https://swen128.github.io/github-search-rss/
 
 :memo: Inoreader support OPML subscriptions. Its useful for subscribe all at once.
 
@@ -18,7 +18,7 @@ GitHub Search Results as RSS Feeds via GitHub Actions.
 
 ## Changelog
 
-See [Releases page](https://github.com/azu/github-search-rss/releases).
+See [Releases page](https://github.com/swen128/github-search-rss/releases).
 
 ## Running tests
 
@@ -30,7 +30,7 @@ Install devDependencies and Run `npm test`:
 
 Pull requests and stars are always welcome.
 
-For bugs and feature requests, [please create an issue](https://github.com/azu/github-search-rss/issues).
+For bugs and feature requests, [please create an issue](https://github.com/swen128/github-search-rss/issues).
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`

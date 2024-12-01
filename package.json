@@ -2,16 +2,16 @@
   "name": "github-search-rss",
   "version": "1.0.0",
   "description": "GitHub Search Results as RSS Feeds via GitHub Actions.",
-  "homepage": "https://github.com/azu/github-search-rss",
+  "homepage": "https://github.com/swen128/github-search-rss",
   "bugs": {
-    "url": "https://github.com/azu/github-search-rss/issues"
+    "url": "https://github.com/swen128/github-search-rss/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/github-search-rss.git"
+    "url": "https://github.com/swen128/github-search-rss.git"
   },
   "license": "MIT",
-  "author": "azu",
+  "author": "swen128",
   "sideEffects": false,
   "main": "lib/github-search-rss.js",
   "types": "lib/github-search-rss.d.ts",
