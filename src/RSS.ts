@@ -108,17 +108,5 @@ export const SEARCH_ITEMS: RSSItem[] = [
         TYPE: "ISSUE",
         link: `${BASE_URL}/whatwg-html.json`
     },
-    {
-        title: "papers-we-love new papers",
-        query: 'repo:papers-we-love/papers-we-love is:pr is:merged add',
-        TYPE: "ISSUE",
-        link: `${BASE_URL}/papers-we-love.json`
-    },
-    // Repository
-    {
-        title: "LightWeight JavaScript repositories",
-        query: "lightweight language:javascript language:typescript sort:updated-desc",
-        TYPE: "REPOSITORY",
-        link: `${BASE_URL}/lightweight-javascript-repo.json`
-    }
 ];
+
