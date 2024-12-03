@@ -6,10 +6,32 @@
     "description": "mdn/content update content on GitHub",
     "items": [
         {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/43580235?u=cae42d5a371dd041072ce6d85a1808de05535be8&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">This PR adds the <code class=\"notranslate\">X-Robots-Tag</code> header page.</p>\n<p dir=\"auto\">Omitting historical rules no longer used by Google, at least</p>\n<ul dir=\"auto\">\n<li><code class=\"notranslate\">noarchive</code></li>\n<li><code class=\"notranslate\">nocache</code></li>\n<li><code class=\"notranslate\">nositelinkssearchbox</code></li>\n</ul>\n<p dir=\"auto\">See <a href=\"https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag#directives\" rel=\"nofollow\">https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag#directives</a></p>\n<h3 dir=\"auto\">Motivation</h3>\n<p dir=\"auto\">We're missing docs about it, and it's a widely used header for controlling indexing &amp; search presentation.</p>\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"788368431\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mdn/content/issues/1458\" data-hovercard-type=\"issue\" data-hovercard-url=\"/mdn/content/issues/1458/hovercard\" href=\"https://github.com/mdn/content/issues/1458\">#1458</a></li>\n</ul>",
+            "url": "https://github.com/mdn/content/pull/37079",
+            "title": "feat(http): Add X-Robots-Tag header",
+            "date_modified": "2024-12-03T18:04:45.000Z",
+            "date_published": "2024-12-03T18:00:53.000Z",
+            "author": {
+                "name": "bsmth",
+                "url": "https://github.com/bsmth"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/43868318?u=3f179cacfd70db40ae7c11f1b951533a8ebf45bf&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">part of <a href=\"https://github.com/openwebdocs/project/issues/214\" data-hovercard-type=\"issue\" data-hovercard-url=\"/openwebdocs/project/issues/214/hovercard\">Missing baseline pages</a> project</p>",
+            "url": "https://github.com/mdn/content/pull/37077",
+            "title": "MDN feature pages for SVGAnimatedTransformList",
+            "date_modified": "2024-12-03T17:27:53.000Z",
+            "date_published": "2024-12-03T17:25:54.000Z",
+            "author": {
+                "name": "yashrajbharti",
+                "url": "https://github.com/yashrajbharti"
+            }
+        },
+        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/u/43868318?u=3f179cacfd70db40ae7c11f1b951533a8ebf45bf&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">part of <a href=\"https://github.com/openwebdocs/project/issues/214\" data-hovercard-type=\"issue\" data-hovercard-url=\"/openwebdocs/project/issues/214/hovercard\">Missing baseline pages</a> project</p>",
             "url": "https://github.com/mdn/content/pull/37076",
             "title": "MDN Feature Pages for SVGAnimatedRect: animVal, baseVal",
-            "date_modified": "2024-12-03T17:06:27.000Z",
+            "date_modified": "2024-12-03T17:07:59.000Z",
             "date_published": "2024-12-03T17:05:54.000Z",
             "author": {
                 "name": "yashrajbharti",
@@ -201,28 +223,6 @@
             "author": {
                 "name": "hamishwillee",
                 "url": "https://github.com/hamishwillee"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/69888?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">Part of <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2582291591\" data-permission-text=\"Title is private\" data-url=\"https://github.com/openwebdocs/project/issues/214\" data-hovercard-type=\"issue\" data-hovercard-url=\"/openwebdocs/project/issues/214/hovercard\" href=\"https://github.com/openwebdocs/project/issues/214\">openwebdocs/project#214</a></p>\n<p dir=\"auto\">the <code class=\"notranslate\">toString()</code> method is in the BCD table, but is not in the spec; and fully supported.</p>\n<p dir=\"auto\"><code class=\"notranslate\">DOMTokenList</code> and <code class=\"notranslate\">MediaList</code> are array-like, but not arrays.</p>\n<p dir=\"auto\">Should we be adding these pages at all? Should we add a link to them on the API landing page if they're not listed in the spec? I do think they're needed because they are supported and the concatenation of the values differs (space v. space + comma, whereas arrays are just a comma, not space)</p>",
-            "url": "https://github.com/mdn/content/pull/37052",
-            "title": "New pages: DOMTokenList and MediaList toString() method",
-            "date_modified": "2024-12-03T00:57:49.000Z",
-            "date_published": "2024-12-02T23:29:27.000Z",
-            "author": {
-                "name": "estelle",
-                "url": "https://github.com/estelle"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/47647?u=2fbfc431a85d357f00c0146d5e55b425b7f00a3d&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">Chrome has updated its error reporting for IndexedDB large value read failures with transient causes such as low memory and unrecoverable causes such as source blob files being deleted.</p>\n<p dir=\"auto\">Chrome 130 updates the <code class=\"notranslate\">DOMException</code> types to be more appropriate, and Chrome 132 further updates them and improves the associated error messages. The data source is <a href=\"https://chromestatus.com/feature/5140210640486400\" rel=\"nofollow\">https://chromestatus.com/feature/5140210640486400</a>.</p>\n<p dir=\"auto\">In this PR, I have organized the different <code class=\"notranslate\">IDBRequest.error</code> types into categories to hopefully make them easier to parse, and described and explained the large value read failure errors.</p>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
-            "url": "https://github.com/mdn/content/pull/37041",
-            "title": "Add docs for improved error reporting for IndexedDB large value read failures",
-            "date_modified": "2024-12-03T11:44:01.000Z",
-            "date_published": "2024-12-01T16:20:06.000Z",
-            "author": {
-                "name": "chrisdavidmills",
-                "url": "https://github.com/chrisdavidmills"
             }
         }
     ]
