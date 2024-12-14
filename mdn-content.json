@@ -6,10 +6,21 @@
     "description": "mdn/content update content on GitHub",
     "items": [
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/105215745?u=bcf6d8016ebea345249df48cffb5dfea395255ed&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">\"Cache-Control: no-cache\", does not necessarily fetch the latest content from a server, but checks if the content is still valid. This modification will clarify the sentence and avoid potential confusion.</p>\n\n<h3 dir=\"auto\">Description</h3>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/4205668?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">Reduce length of web-workers event handler definition</p>\n<h3 dir=\"auto\">Motivation</h3>\n<p dir=\"auto\">Original author's motivation in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1370403039\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mdn/dom-examples/issues/170\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/mdn/dom-examples/pull/170/hovercard\" href=\"https://github.com/mdn/dom-examples/pull/170\">mdn/dom-examples#170</a>:</p>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"I guess it's more readable.\"><pre class=\"notranslate\"><code class=\"notranslate\">I guess it's more readable.\n</code></pre></div>\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n<p dir=\"auto\">Original PR moving to iteration: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1370403039\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mdn/dom-examples/issues/170\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/mdn/dom-examples/pull/170/hovercard\" href=\"https://github.com/mdn/dom-examples/pull/170\">mdn/dom-examples#170</a><br>\nGeneral PR to move all DOM Examples to this pattern: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2676940431\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mdn/dom-examples/issues/284\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/mdn/dom-examples/pull/284/hovercard\" href=\"https://github.com/mdn/dom-examples/pull/284\">mdn/dom-examples#284</a></p>",
+            "url": "https://github.com/mdn/content/pull/37208",
+            "title": "Consistent worker iterations",
+            "date_modified": "2024-12-14T00:27:14.000Z",
+            "date_published": "2024-12-14T00:24:28.000Z",
+            "author": {
+                "name": "Marcial1234",
+                "url": "https://github.com/Marcial1234"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/105215745?u=bcf6d8016ebea345249df48cffb5dfea395255ed&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">\"Cache-Control: no-cache\", does not necessarily fetch the latest content from a server, but checks if the content is still valid. This modification will clarify the sentence and avoid potential confusion.</p>\n\n<h3 dir=\"auto\">Description</h3>\n\n<p dir=\"auto\">Clarification of \"Cache-Control: no-cache\" behavior.</p>\n<h3 dir=\"auto\">Motivation</h3>\n\n<p dir=\"auto\">I am new to HTTP implementation details, and this sentence made me think that this header-value pair fetches a resource on each request. After some research, I realized that it's a conditional request, used to validate if a resource was modified, and fetches the resource only in case of its modification. Given this behavior, I consider the word \"fetch\" to be confusing in this context.</p>\n<h3 dir=\"auto\">Additional details</h3>\n\n<p dir=\"auto\">Cache-Control: no-cache header description:<br>\n<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control#request_directives\" rel=\"nofollow\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control#request_directives</a></p>\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
             "url": "https://github.com/mdn/content/pull/37207",
             "title": "http caching: clarification",
-            "date_modified": "2024-12-13T22:13:48.000Z",
+            "date_modified": "2024-12-14T00:27:12.000Z",
             "date_published": "2024-12-13T21:56:51.000Z",
             "author": {
                 "name": "Heaven664",
@@ -209,17 +220,6 @@
             "title": "RTCTransportStats - updates",
             "date_modified": "2024-12-13T05:46:05.000Z",
             "date_published": "2024-12-10T06:14:25.000Z",
-            "author": {
-                "name": "hamishwillee",
-                "url": "https://github.com/hamishwillee"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/5368500?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">This updates <code class=\"notranslate\">RTCIceCandidateStats</code> to match BCD as part of <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1628555901\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mdn/mdn/issues/384\" data-hovercard-type=\"issue\" data-hovercard-url=\"/mdn/mdn/issues/384/hovercard\" href=\"https://github.com/mdn/mdn/issues/384\">mdn/mdn#384</a></p>\n<p dir=\"auto\">This removes the properties <code class=\"notranslate\">relayProtocol</code>, <code class=\"notranslate\">url</code>, and <code class=\"notranslate\">deleted</code> which are not BCD and adds <code class=\"notranslate\">foundation</code> and <code class=\"notranslate\">usernameFragment</code> which are. The docs are \"thin\", mostly linking to the corresponding <code class=\"notranslate\">RTCIceCandidate</code> docs that they reflect.</p>\n<p dir=\"auto\">In addition, some of the other properties were modified to bring them in line with current templates.</p>",
-            "url": "https://github.com/mdn/content/pull/37157",
-            "title": "RTCIceCandidateStats - updates to match BCD",
-            "date_modified": "2024-12-10T03:58:09.000Z",
-            "date_published": "2024-12-10T03:56:05.000Z",
             "author": {
                 "name": "hamishwillee",
                 "url": "https://github.com/hamishwillee"
