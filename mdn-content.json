@@ -17,17 +17,6 @@
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/91360351?u=1185941c62ffe47dd040b1c47b0a5719eabc4009&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">Changed \"seeked\" to \"sought\"</p>\n\n<h3 dir=\"auto\">Description</h3>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
-            "url": "https://github.com/mdn/content/pull/37221",
-            "title": "Fix typo in \"super\" keyword reference page",
-            "date_modified": "2024-12-15T16:09:31.000Z",
-            "date_published": "2024-12-15T13:23:10.000Z",
-            "author": {
-                "name": "sujitmohanty",
-                "url": "https://github.com/sujitmohanty"
-            }
-        },
-        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/u/12109031?u=e12f2274ae45e9778aaf3c136144d928630aa532&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">The <code class=\"notranslate\">yield*</code> expression works with <code class=\"notranslate\">AsyncGenerator</code> too. This should be documented.</p>\n<p dir=\"auto\">The specification <a href=\"https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation\" rel=\"nofollow\">https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation</a> mentions specifically where to add awaits etc. for async generators. I have also tested this in latest Firefox, Nodejs, and Safari.</p>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<p dir=\"auto\">Remove ambiguity of how this function works for async generators.</p>\n<h3 dir=\"auto\">Additional details</h3>\n\n<p dir=\"auto\"><a href=\"https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation\" rel=\"nofollow\">https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-generator-function-definitions-runtime-semantics-evaluation</a></p>\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
             "url": "https://github.com/mdn/content/pull/37218",
             "title": "Mention support for async generators",
@@ -39,7 +28,7 @@
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/58140450?u=145868c14cab8e8433472830de999abed5c7417e&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">Correct a typo on <code class=\"notranslate\">&lt;summary&gt;</code> page.</p>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://private-user-images.githubusercontent.com/58140450/395831552-06a06c9d-9dd5-4f75-803b-2101a85a148d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQzMDQyODIsIm5iZiI6MTczNDMwMzk4MiwicGF0aCI6Ii81ODE0MDQ1MC8zOTU4MzE1NTItMDZhMDZjOWQtOWRkNS00Zjc1LTgwM2ItMjEwMWE4NWExNDhkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE1VDIzMDYyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYzOGQ5ZGY4OTA3YzJmN2JmMzliM2U3YTUzNDI5NTJjNWM5MDg0ZmYxMzEwZWFkZjA3NWJmODQ2NmUxNTgyZDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.dtDosq5a01KeXr2Ago6CE0y-2yCTJrEiUFuaCLHHdJA\"><img src=\"https://private-user-images.githubusercontent.com/58140450/395831552-06a06c9d-9dd5-4f75-803b-2101a85a148d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQzMDQyODIsIm5iZiI6MTczNDMwMzk4MiwicGF0aCI6Ii81ODE0MDQ1MC8zOTU4MzE1NTItMDZhMDZjOWQtOWRkNS00Zjc1LTgwM2ItMjEwMWE4NWExNDhkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE1VDIzMDYyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYzOGQ5ZGY4OTA3YzJmN2JmMzliM2U3YTUzNDI5NTJjNWM5MDg0ZmYxMzEwZWFkZjA3NWJmODQ2NmUxNTgyZDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.dtDosq5a01KeXr2Ago6CE0y-2yCTJrEiUFuaCLHHdJA\" alt=\"image\" style=\"max-width: 100%;\"></a></p>\n\n<h3 dir=\"auto\">Description</h3>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/58140450?u=145868c14cab8e8433472830de999abed5c7417e&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">Correct a typo on <code class=\"notranslate\">&lt;summary&gt;</code> page.</p>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://private-user-images.githubusercontent.com/58140450/395831552-06a06c9d-9dd5-4f75-803b-2101a85a148d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQzMDkyOTIsIm5iZiI6MTczNDMwODk5MiwicGF0aCI6Ii81ODE0MDQ1MC8zOTU4MzE1NTItMDZhMDZjOWQtOWRkNS00Zjc1LTgwM2ItMjEwMWE4NWExNDhkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE2VDAwMjk1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThhOGJmNzMwMWY0MGM5OTRiOTVmMGFkYjlmODk2YmJjZTZiMDljZGZjYjdiMzM0MGJkZjQ3ZGMwYTFjZDUwZjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.iderupe49jcyvR9hdg-4SFX0q_2AYN04ZCMWyP5n6ow\"><img src=\"https://private-user-images.githubusercontent.com/58140450/395831552-06a06c9d-9dd5-4f75-803b-2101a85a148d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQzMDkyOTIsIm5iZiI6MTczNDMwODk5MiwicGF0aCI6Ii81ODE0MDQ1MC8zOTU4MzE1NTItMDZhMDZjOWQtOWRkNS00Zjc1LTgwM2ItMjEwMWE4NWExNDhkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE2VDAwMjk1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThhOGJmNzMwMWY0MGM5OTRiOTVmMGFkYjlmODk2YmJjZTZiMDljZGZjYjdiMzM0MGJkZjQ3ZGMwYTFjZDUwZjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.iderupe49jcyvR9hdg-4SFX0q_2AYN04ZCMWyP5n6ow\" alt=\"image\" style=\"max-width: 100%;\"></a></p>\n\n<h3 dir=\"auto\">Description</h3>\n\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
             "url": "https://github.com/mdn/content/pull/37217",
             "title": "correct html closing tag (typo)",
             "date_modified": "2024-12-15T04:28:29.000Z",
@@ -108,7 +97,7 @@
             "content_html": "<img src=\"https://avatars.githubusercontent.com/u/43580235?u=cae42d5a371dd041072ce6d85a1808de05535be8&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">Adding a page for <code class=\"notranslate\">X-Permitted-Cross-Domain-Policies</code>.</p>\n<h3 dir=\"auto\">Motivation</h3>\n<p dir=\"auto\">This is not so relevant with modern clients, but the header is still referenced by a lot of security tools / guides, so I'm adding some details and context.<br>\nNotably OWASP secure headers project still advises to add it to websites:</p>\n<p dir=\"auto\"><a href=\"https://owasp.org/www-project-secure-headers/ci/headers_add.json\" rel=\"nofollow\">https://owasp.org/www-project-secure-headers/ci/headers_add.json</a></p>\n<h3 dir=\"auto\">Additional details</h3>\n<p dir=\"auto\">Good summary here:</p>\n<ul dir=\"auto\">\n<li><a href=\"https://security.stackexchange.com/questions/166024/does-the-x-permitted-cross-domain-policies-header-have-any-benefit-for-my-websit\" rel=\"nofollow\">https://security.stackexchange.com/questions/166024/does-the-x-permitted-cross-domain-policies-header-have-any-benefit-for-my-websit</a></li>\n</ul>\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\"> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"788368431\" data-permission-text=\"Title is private\" data-url=\"https://github.com/mdn/content/issues/1458\" data-hovercard-type=\"issue\" data-hovercard-url=\"/mdn/content/issues/1458/hovercard\" href=\"https://github.com/mdn/content/issues/1458\">#1458</a></li>\n</ul>",
             "url": "https://github.com/mdn/content/pull/37192",
             "title": "feat(http): Add X-Permitted-Cross-Domain-Policies page",
-            "date_modified": "2024-12-13T12:28:18.000Z",
+            "date_modified": "2024-12-16T00:29:27.000Z",
             "date_published": "2024-12-12T12:02:45.000Z",
             "author": {
                 "name": "bsmth",
@@ -152,7 +141,7 @@
             "content_html": "<img src=\"https://avatars.githubusercontent.com/u/43580235?u=cae42d5a371dd041072ce6d85a1808de05535be8&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">I'm adding See also links in pages that are missing this section.</p>\n<h3 dir=\"auto\">Motivation</h3>\n<p dir=\"auto\">Adding context &amp; linking related pages, keeping the pages in line with to site conventions.</p>",
             "url": "https://github.com/mdn/content/pull/37184",
             "title": "chore(http): add missing See also sections, minor fixes",
-            "date_modified": "2024-12-13T14:30:19.000Z",
+            "date_modified": "2024-12-16T00:01:50.000Z",
             "date_published": "2024-12-11T16:53:54.000Z",
             "author": {
                 "name": "bsmth",
@@ -223,6 +212,17 @@
             "author": {
                 "name": "estelle",
                 "url": "https://github.com/estelle"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/286386?u=bc4894b945491e0834d2306dade7fef748ddf698&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Description</h3>\n<ul dir=\"auto\">\n<li>moved the aria-live example into the page</li>\n</ul>\n<h3 dir=\"auto\">Motivation</h3>\n<ul dir=\"auto\">\n<li>Helping <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/bsmth/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/bsmth\">@bsmth</a> with the migration of examples into content</li>\n<li>First example moved to make sure I am doing this correctly.</li>\n</ul>",
+            "url": "https://github.com/mdn/content/pull/37167",
+            "title": "move the aria-live example in page",
+            "date_modified": "2024-12-11T16:49:52.000Z",
+            "date_published": "2024-12-10T17:14:38.000Z",
+            "author": {
+                "name": "dletorey",
+                "url": "https://github.com/dletorey"
             }
         }
     ]
