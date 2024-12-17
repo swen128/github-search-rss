@@ -6,6 +6,17 @@
     "description": "mdn/content update content on GitHub",
     "items": [
         {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/163525320?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">The old comments were not clear about what the lines below do.</p>\n\n<h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">I added more details to some comments in example code.</p>\n\n<h3 dir=\"auto\">Motivation</h3>\n<p dir=\"auto\">I believe this way it's easier to understand what the example code do.</p>\n\n<h3 dir=\"auto\">Additional details</h3>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
+            "url": "https://github.com/mdn/content/pull/37242",
+            "title": "Corrected comment in example code",
+            "date_modified": "2024-12-17T14:43:52.000Z",
+            "date_published": "2024-12-17T14:43:29.000Z",
+            "author": {
+                "name": "denes-sebestyen",
+                "url": "https://github.com/denes-sebestyen"
+            }
+        },
+        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/u/95845203?u=917e8164836090e44f71834409b50914028e494a&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">I have looked at the article \"Manage Multiple Node versions\" by Venkat.R. It is good, and I respect his opinion. But it seems to be a bit outdated now. In my opinion, I would rather like to have fnm suggested here, so that people may get to know one of the best Node version manager from the beginning. Currently, Node.js official docs itself is giving example of fnm (Fast Node Manager), which is Rust based Node version manager. Besides this, LFW 111 \"Introduction to Node.js\" course by Linux Foundation itself suggests this method of managing multiple versions of Node.js.</p>\n\n<h3 dir=\"auto\">Description</h3>\n<p dir=\"auto\">I want to have the fnm Node version manager being suggested here because it is fast, up to date and very efficient.</p>\n<h3 dir=\"auto\">Motivation</h3>\n<p dir=\"auto\">Since mdn web docs is the 'go to' document for web developers, and in this document we want the readers to be familiar with the latest way of managing Node versions. I think it is good to refer 'fnm'.<br>\nBesides, fnm is recommended way by LFW 111 course 'Introduction to Node.js'. And Node.js official website also has shown fnm as a Node version manager to install Node.js using package manager.</p>\n<h3 dir=\"auto\">Additional details</h3>\n<p dir=\"auto\">The LFW 111 course 'Introduction to Node.js':<br>\n<a href=\"https://training.linuxfoundation.org/training/introduction-to-nodejs-lfw111/\" rel=\"nofollow\">https://training.linuxfoundation.org/training/introduction-to-nodejs-lfw111/</a></p>\n<p dir=\"auto\">The Node.js official documentation:<br>\n<a href=\"https://nodejs.org/en/download/package-manager\" rel=\"nofollow\">https://nodejs.org/en/download/package-manager</a></p>\n<p dir=\"auto\">The fnm document:<br>\n<a href=\"https://github.com/Schniz/fnm\">https://github.com/Schniz/fnm</a></p>\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
             "url": "https://github.com/mdn/content/pull/37239",
             "title": "Update index.md",
@@ -119,7 +130,7 @@
             "content_html": "<img src=\"https://avatars.githubusercontent.com/u/47647?u=2fbfc431a85d357f00c0146d5e55b425b7f00a3d&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>\n<h3 dir=\"auto\">Description</h3>\n\n<p dir=\"auto\">Chrome 130 supports <a href=\"https://github.com/WebAssembly/js-string-builtins/blob/main/proposals/js-string-builtins/Overview.md\">WebAssembly JS String builtins</a>.</p>\n<p dir=\"auto\">Specifically, This PR adds:</p>\n<ul dir=\"auto\">\n<li>A guide explaining what builtins are and how to use them.</li>\n<li>Information about the new <code class=\"notranslate\">compileOptions</code> parameter used to enable these built-ins, which is available to:\n<ul dir=\"auto\">\n<li><code class=\"notranslate\">WebAssembly.compile()</code></li>\n<li><code class=\"notranslate\">WebAssembly.compileStreaming()</code></li>\n<li><code class=\"notranslate\">WebAssembly.instantiate()</code></li>\n<li><code class=\"notranslate\">WebAssembly.instantiateStreaming()</code></li>\n<li><code class=\"notranslate\">WebAssembly.validate()</code></li>\n<li>The <code class=\"notranslate\">WebAssembly.Module()</code> constructor</li>\n</ul>\n</li>\n</ul>\n<h3 dir=\"auto\">Motivation</h3>\n\n<h3 dir=\"auto\">Additional details</h3>\n<p dir=\"auto\">See <a href=\"https://chromestatus.com/feature/6695587390423040\" rel=\"nofollow\">https://chromestatus.com/feature/6695587390423040</a> for the data source.</p>\n\n<h3 dir=\"auto\">Related issues and pull requests</h3>\n\n\n\n",
             "url": "https://github.com/mdn/content/pull/37201",
             "title": "Document wasm JS builtins",
-            "date_modified": "2024-12-17T14:01:27.000Z",
+            "date_modified": "2024-12-17T14:41:43.000Z",
             "date_published": "2024-12-13T09:53:42.000Z",
             "author": {
                 "name": "chrisdavidmills",
@@ -201,17 +212,6 @@
             "author": {
                 "name": "wbamberg",
                 "url": "https://github.com/wbamberg"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/105274?u=173310b843e2751843265438af8cfb79eda02039&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Description</h3>\n<ul dir=\"auto\">\n<li>Gives a list of main use cases for transforming source code.</li>\n<li>Adds SCSS to CSS transformation source map example.</li>\n</ul>\n<h3 dir=\"auto\">Motivation</h3>\n<p dir=\"auto\">I noticed that the new <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Source_map\" rel=\"nofollow\">Source map</a> glossary article is focused only on JS and decided to make it a bit more neutral and add an example.</p>",
-            "url": "https://github.com/mdn/content/pull/37163",
-            "title": "Extend Source map article with example",
-            "date_modified": "2024-12-12T14:20:58.000Z",
-            "date_published": "2024-12-10T14:08:49.000Z",
-            "author": {
-                "name": "pepelsbey",
-                "url": "https://github.com/pepelsbey"
             }
         },
         {
