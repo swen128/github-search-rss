@@ -81,22 +81,6 @@ export const SEARCH_ITEMS: RSSItem[] = [
     },
     // Pull Request
     {
-        // label:data:
-        title: "mdn/browser-compat-data update data",
-        query: "repo:mdn/browser-compat-data is:pr is:open",
-        TYPE: "ISSUE",
-        link: `${BASE_URL}/mdn-browser-compat-data.json`,
-        filter: (item) => {
-            return item.labels.some((label) => label.startsWith("data:"));
-        }
-    },
-    {
-        title: "mdn/content update content",
-        query: "repo:mdn/content is:pr is:open",
-        TYPE: "ISSUE",
-        link: `${BASE_URL}/mdn-content.json`
-    },
-    {
         title: "Node.js notable changes",
         query: "repo:nodejs/node label:notable-change is:pr is:closed -label:doc",
         TYPE: "ISSUE",
