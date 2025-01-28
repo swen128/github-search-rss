@@ -6,6 +6,17 @@
     "description": "github/roadmap Issues on GitHub",
     "items": [
         {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\"><code class=\"notranslate\">Bun</code> is an all-in-one JavaScript runtime &amp; toolkit designed for speed, complete with a bundler, <a href=\"https://bun.sh/docs/cli/test\" rel=\"nofollow\">test runner</a>, and Node.js-compatible <a href=\"https://bun.sh/package-manager\" rel=\"nofollow\">package manager</a>. Today, customers cannot use the <code class=\"notranslate\">bun</code> package manager with Dependabot. It's the most upvoted customer <a href=\"https://github.com/dependabot/dependabot-core/issues/6528\" data-hovercard-type=\"issue\" data-hovercard-url=\"/dependabot/dependabot-core/issues/6528/hovercard\">request</a> in <code class=\"notranslate\">dependabot-core</code>.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">This enables customers who use <code class=\"notranslate\">bun</code> to get version updates from Dependabot.</p>",
+            "url": "https://github.com/github/roadmap/issues/1101",
+            "title": "Dependabot version updates support `bun` package manager - [GA]",
+            "date_modified": "2025-01-28T20:10:30.000Z",
+            "date_published": "2025-01-28T20:08:44.000Z",
+            "author": {
+                "name": "glider-bot",
+                "url": "https://github.com/glider-bot"
+            }
+        },
+        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Today, customers cannot use the <code class=\"notranslate\">uv</code> package manager with Dependabot. It's one of the the most upvoted customer <a href=\"https://github.com/dependabot/dependabot-core/issues/10478\" data-hovercard-type=\"issue\" data-hovercard-url=\"/dependabot/dependabot-core/issues/10478/hovercard\">requests</a> in <code class=\"notranslate\">dependabot-core</code>.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">This enables customers who use <code class=\"notranslate\">uv</code> to get version updates from Dependabot.</p>",
             "url": "https://github.com/github/roadmap/issues/1100",
             "title": "Dependabot version updates support `uv` package manager - [GA]",
@@ -209,17 +220,6 @@
             "title": "Copilot Chat users can use Gemini Pro [GA]",
             "date_modified": "2024-12-13T21:12:48.000Z",
             "date_published": "2024-12-13T21:12:35.000Z",
-            "author": {
-                "name": "glider-bot",
-                "url": "https://github.com/glider-bot"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Proposition</h3>\n<p dir=\"auto\">GitHub Copilot now supports a multi-model approach, allowing developers to choose from industry-leading models, including Google's Gemini Pro. This flexibility enables developers to select the most suitable model for specific tasks, enhancing their coding experience in Visual Studio Code and on github.com/copilot. By integrating multiple models, GitHub Copilot empowers developers to leverage the strengths of various AI models, optimizing code generation, refactoring, and overall development efficiency.</p>\n<h3 dir=\"auto\">Customer Outcome</h3>\n<p dir=\"auto\">With the introduction of multi-model support in GitHub Copilot, developers can expect improved accuracy and efficiency in their coding workflows. The ability to toggle between different models ensures that developers can utilize the best-suited AI for their specific needs, leading to higher quality code and faster development cycles. This feature provides developers with greater control and customization, ultimately enhancing productivity and innovation in their projects.</p>",
-            "url": "https://github.com/github/roadmap/issues/1078",
-            "title": "Copilot Chat users can use Gemini Pro [Public Preview]",
-            "date_modified": "2024-12-13T21:11:15.000Z",
-            "date_published": "2024-12-13T21:10:01.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
