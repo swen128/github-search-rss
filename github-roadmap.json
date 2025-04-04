@@ -130,7 +130,7 @@
             "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">We are bringing multi-model choice to GitHub Mobile to accelerate your workflow, whether you’re tackling coding questions, brainstorming ideas, or working on the go.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With this update, users would be able to select different models from the Copilot Chat UI on GitHub Mobile to get the best results based on specific use case.</p>",
             "url": "https://github.com/github/roadmap/issues/1108",
             "title": "Support Multi-Models Selection in Copilot Chat on GitHub Mobile [GA]",
-            "date_modified": "2025-02-20T20:55:06.000Z",
+            "date_modified": "2025-04-04T20:03:25.000Z",
             "date_published": "2025-02-20T20:54:47.000Z",
             "author": {
                 "name": "glider-bot",
