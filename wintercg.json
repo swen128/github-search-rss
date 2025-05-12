@@ -6,6 +6,17 @@
     "description": "org:wintercg Issues on GitHub",
     "items": [
         {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/43677?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">The <a href=\"https://github.com/WICG/sanitizer-api/\">web Sanitizer API</a> is still in flux. But maybe it’s worth considering whether it’s within scope of WinterTC early on.</p>\n<ul dir=\"auto\">\n<li>Server-side rendering (SSR) is becoming increasingly common.</li>\n<li><a href=\"https://www.npmjs.com/package/dompurify\" rel=\"nofollow\">DOMPurify</a> is widely deployed on Node and probably other JavaScript server runtimes.</li>\n</ul>\n<p dir=\"auto\">Of course, the Sanitizer API is strongly coupled to DOM node objects; its current design extends Element and Document.</p>\n<ul dir=\"auto\">\n<li>But, while the spec is still in flux, it may be worth investigating whether WinterTC should provide input to the Sanitizer API WICG on any string-to-string transformations. Such string-to-string API may still be useful in the client and would definitely be useful in the server.</li>\n<li>Alternatively, a very limited subset of the DOM could also be standardized by WinterTC, à la jsdom and happy-dom, and the Santizer API on servers would sit on that DOM subset. This would be a much bigger undertaking, but it could pay off.</li>\n</ul>",
+            "url": "https://github.com/wintercg/proposal-minimum-common-api/issues/87",
+            "title": "Sanitizer API",
+            "date_modified": "2025-05-12T01:51:52.000Z",
+            "date_published": "2025-05-12T01:51:52.000Z",
+            "author": {
+                "name": "js-choi",
+                "url": "https://github.com/js-choi"
+            }
+        },
+        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/u/16144158?u=82cadd66bfcfcd8340269a3c0ce30f503acaf7b4&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">The future of this repo has been discussed at a couple of recent WinterTC meetings. We've primarily agreed to investigate moving this to a proper registry via IANA. Members of WinterTC and members of OpenJS Package Metadata Interoperability can collaborate on the maintenance  going forward (as a member of both groups I'm much in favor of this move).</p>\n<p dir=\"auto\">There is some additional context here: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2778182238\" data-permission-text=\"Title is private\" data-url=\"https://github.com/openjs-foundation/package-metadata-interoperability-collab-space/issues/35\" data-hovercard-type=\"issue\" data-hovercard-url=\"/openjs-foundation/package-metadata-interoperability-collab-space/issues/35/hovercard\" href=\"https://github.com/openjs-foundation/package-metadata-interoperability-collab-space/issues/35\">openjs-foundation/package-metadata-interoperability-collab-space#35</a></p>\n<p dir=\"auto\"><a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/jasnell/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/jasnell\">@jasnell</a> what are some next steps regarding IANA? I'm happy to complete them, just let me know what I should do 🚀</p>",
             "url": "https://github.com/wintercg/runtime-keys/issues/23",
             "title": "Future of Runtime Keys",
@@ -209,17 +220,6 @@
             "title": "Detect common API vs browser",
             "date_modified": "2024-10-30T18:52:52.000Z",
             "date_published": "2024-10-28T17:44:10.000Z",
-            "author": {
-                "name": "jkrems",
-                "url": "https://github.com/jkrems"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/567540?u=8c4489cd158bb1a7fffff338fc832359a113955e&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">The current spec text seems ambiguous so I was interested in the semantics: it links to the HTML spec for userAgent which says that the value is used as the default value for the User-Agent header. Is that true for the property here as well? Will fetch() by default use that value?</p>",
-            "url": "https://github.com/wintercg/proposal-minimum-common-api/issues/76",
-            "title": "navigator.userAgent and User-Agent",
-            "date_modified": "2024-10-24T00:17:28.000Z",
-            "date_published": "2024-10-24T00:17:28.000Z",
             "author": {
                 "name": "jkrems",
                 "url": "https://github.com/jkrems"
