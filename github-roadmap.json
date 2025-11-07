@@ -6,6 +6,72 @@
     "description": "github/roadmap Issues on GitHub",
     "items": [
         {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Custom agents for GitHub Copilot empower developers, teams, and organizations to create agent \"personas\" tailored to their unique workflows and needs. By defining custom configurations in a repository, users can fine-tune Copilot's behavior to enforce coding conventions, streamline automation, and optimize for specific technologies or compliance requirements without complex setup. This flexibility helps teams work more efficiently and maintain standards across projects.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With custom agents, customers can expect a more personalized and productive development experience. Organizations will be able to quickly set up specialized agents to automate repetitive tasks, enforce best practices, and ensure consistent outcomes across teams. This leads to faster onboarding, higher code quality, and the ability to adapt Copilot to evolving business and technical needs.</p>",
+            "url": "https://github.com/github/roadmap/issues/1168",
+            "title": "Custom agents for GitHub Copilot [GA]",
+            "date_modified": "2025-11-07T19:05:22.000Z",
+            "date_published": "2025-11-07T19:04:35.000Z",
+            "author": {
+                "name": "glider-bot",
+                "url": "https://github.com/glider-bot"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Mobile now allows users to start and track Copilot coding agent tasks directly from their mobile devices. This update extends the centralized view of agent tasks experience to mobile, giving developers a seamless and consistent way to manage their Copilot coding agents on the go. By integrating Copilot agent task management into the GitHub Mobile Home view, developers are empowered to initiate, monitor, and interact with coding tasks anytime, anywhere, increasing flexibility and productivity.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With this release, developers can expect improved workflow continuity when away from their desktops. The ability to start, monitor, and manage Copilot agent tasks within GitHub Mobile means users can stay informed and take action on critical coding work, even while mobile. This helps teams remain agile, reduces bottlenecks caused by being away from a computer, and ensures that important agent-driven tasks progress efficiently across platforms.</p>",
+            "url": "https://github.com/github/roadmap/issues/1167",
+            "title": "Start and track Copilot coding agent tasks in GitHub Mobile [GA]",
+            "date_modified": "2025-11-07T18:23:47.000Z",
+            "date_published": "2025-11-07T18:23:13.000Z",
+            "author": {
+                "name": "glider-bot",
+                "url": "https://github.com/glider-bot"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Copilot CLI brings the power of coding agent directly to your terminal, enabling developers to work with AI assistance in their native command-line environment. By integrating seamlessly with your GitHub account, Copilot CLI provides terminal-native access to repositories, issues, and pull requests through natural language commands. With agentic capabilities that can plan and execute complex coding tasks—from building features to debugging and refactoring—developers gain an intelligent collaborator that works where they're most productive. MCP-powered extensibility allows teams to customize and extend capabilities with custom servers, while preview-before-execution ensures developers maintain full control over every action.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Development teams can expect to accelerate local development workflows by accessing AI-powered coding assistance without leaving their terminal. Copilot CLI reduces context switching by bringing GitHub integration and coding agent capabilities directly into the command line, allowing developers to query repositories, work with issues and pull requests, and execute complex coding tasks using natural language. Teams using Copilot Pro, Pro+, Business, or Enterprise plans can leverage this tool immediately with their existing subscriptions, gaining productivity improvements in everyday tasks like exploring codebases, implementing features, and debugging.</p>",
+            "url": "https://github.com/github/roadmap/issues/1166",
+            "title": "Copilot CLI [Public Preview]",
+            "date_modified": "2025-11-07T18:22:00.000Z",
+            "date_published": "2025-11-07T18:20:59.000Z",
+            "author": {
+                "name": "glider-bot",
+                "url": "https://github.com/glider-bot"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">The updated home dashboard introduces an agents module that puts the power of AI-driven workflows at users' fingertips. With the new agents module, users can quickly see, track, and launch agent workflows directly from the dashboard, helping them manage tasks more efficiently and stay focused on their work. The dashboard's enhanced design surfaces recent pull requests, issues, and agent activity, turning the home dashboard into a true productivity hub for developers and teams.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Customers can expect a more streamlined workflow on GitHub with greater visibility and control over agent-powered development. By bringing agent activity to the forefront, users can discover and leverage new AI capabilities in their daily projects, reducing context switching and increasing productivity. The updated dashboard ensures users are always up-to-date with their most important work, making GitHub an even more central place for software development.</p>",
+            "url": "https://github.com/github/roadmap/issues/1165",
+            "title": "Add agents module to the home dashboard [Preview]",
+            "date_modified": "2025-11-07T18:19:24.000Z",
+            "date_published": "2025-11-07T18:17:32.000Z",
+            "author": {
+                "name": "glider-bot",
+                "url": "https://github.com/glider-bot"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Copilot coding agent + Linear integration brings AI-powered coding capabilities directly to Linear workflows, allowing development teams to trigger Copilot coding agent from within Linear issues. This integration helps teams stay focused by reducing context switching and supporting faster, more efficient development. By embedding GitHub's AI-powered development tools into Linear's project management platform, teams can solve issues and ship code without leaving their planning environment.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With this integration, customers can expect to resolve issues faster and stay in their flow by seamlessly moving from planning to implementation without manual overhead. Teams will benefit from reduced context switching, improved developer productivity, and a streamlined workflow that empowers them to deliver higher quality code with greater speed and consistency.</p>",
+            "url": "https://github.com/github/roadmap/issues/1164",
+            "title": "Copilot coding agent + Linear Integration [Public Preview]",
+            "date_modified": "2025-11-07T18:15:17.000Z",
+            "date_published": "2025-11-07T18:13:13.000Z",
+            "author": {
+                "name": "glider-bot",
+                "url": "https://github.com/glider-bot"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Copilot for Teams brings AI-powered coding assistance into Microsoft Teams, enabling developers and collaborators to generate, review, and implement code directly within their team's conversations. By allowing users to mention GitHub Copilot in Teams channels, this integration removes context switching between chat and development environments. Teams can now collaborate on code, iterate quickly, and keep everyone aligned in a single, familiar workspace.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With GitHub Copilot for Teams, organizations can expect more efficient and collaborative software development workflows. Teams can move from discussion to implementation without leaving Teams, reducing friction and manual handoff. This integration accelerates project delivery, improves transparency, and empowers more stakeholders to participate in the coding process, leading to faster, higher-quality outcomes.</p>",
+            "url": "https://github.com/github/roadmap/issues/1163",
+            "title": "GitHub Copilot for Teams integration [Public Preview]",
+            "date_modified": "2025-11-07T18:11:35.000Z",
+            "date_published": "2025-11-07T18:10:58.000Z",
+            "author": {
+                "name": "glider-bot",
+                "url": "https://github.com/glider-bot"
+            }
+        },
+        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Copilot for Slack empowers developers and their teams to bring AI-powered coding assistance into everyday Slack conversations. By invoking Copilot coding agent directly in Slack using the GitHub app, teams can generate, iterate, and review code collaboratively. This seamless integration helps eliminate context switching, accelerates development, and makes it easier to involve both technical and non-technical stakeholders in the software creation process.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With GitHub Copilot for Slack, organizations can expect faster, more collaborative coding workflows. Developers and stakeholders can move from discussion to implementation in a single conversation, reducing friction and manual handoff. The integration enables teams to generate pull requests, handle bug fixes, and iterate on new features directly within Slack, ultimately increasing productivity and keeping everyone aligned.</p>",
             "url": "https://github.com/github/roadmap/issues/1162",
             "title": "GitHub Copilot for Slack integration [GA]",
@@ -154,72 +220,6 @@
             "title": "Copilot Spaces [GA]",
             "date_modified": "2025-10-02T19:29:06.000Z",
             "date_published": "2025-07-31T21:28:14.000Z",
-            "author": {
-                "name": "glider-bot",
-                "url": "https://github.com/glider-bot"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">With increasing emphasis on software supply chain security and compliance, organizations need reliable ways to ensure only trusted artifacts are promoted and released. This integration enables organizations to use GitHub-generated artifact attestations, including provenance, SBOMs, and custom attestations, as signed, verifiable evidence within JFrog’s Evidence Collection. By supporting native ingestion of GitHub attestations, customers can automatically gate the promotion of artifacts in Artifactory based on the presence and validity of attestations created by trusted GitHub workflows.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With the integration enabled, attestations generated on GitHub are automatically ingested into JFrog Evidence Collection. These attestations can then be used to enforce policies that govern artifact promotion, release readiness, and compliance requirements. For example, organizations can require that only artifacts with valid, GitHub-signed attestations are eligible for promotion or deployment, ensuring that every release meets internal and regulatory standards before reaching production.</p>",
-            "url": "https://github.com/github/roadmap/issues/1148",
-            "title": "Native integration of GitHub Artifact Attestations with JFrog Evidence for policy-driven governance",
-            "date_modified": "2025-09-16T17:25:19.000Z",
-            "date_published": "2025-07-31T21:26:55.000Z",
-            "author": {
-                "name": "glider-bot",
-                "url": "https://github.com/glider-bot"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Customers using JFrog Artifactory alongside GitHub’s security products have often struggled to connect vulnerability alerts in source code with the true risks facing their production environments. With our new integration, JFrog Artifactory will automatically send authoritative artifact metadata to GitHub, enabling Dependabot to surface and prioritize only those alerts that impact artifacts actually stored in your production-approved package repositories. This integration reduces alert fatigue and ensures security teams spend their time remediating vulnerabilities that represent real, actionable risk to production systems, improving both focus and efficiency.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With this integration, teams will gain end-to-end traceability across their software supply chain, from code to production. Dependabot alerts will become more targeted and relevant, highlighting only vulnerabilities that could affect software deployed from your approved Artifactory repositories. Security and engineering teams will benefit from streamlined workflows, faster remediation, and greater confidence that their efforts are protecting their critical systems.</p>",
-            "url": "https://github.com/github/roadmap/issues/1147",
-            "title": "Production-Aware Dependabot Alerts (in partnership with JFrog Artifactory)",
-            "date_modified": "2025-09-11T20:39:41.000Z",
-            "date_published": "2025-07-31T21:25:38.000Z",
-            "author": {
-                "name": "glider-bot",
-                "url": "https://github.com/glider-bot"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Copilot now allows users to easily install remote third-party Model Context Protocol (MCP) servers. This empowers developers to easily connect Copilot with external sources outside the GitHub ecosystem, making it possible to bring in critical context into your conversations with Copilot.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">By supporting remote MCP servers, Copilot becomes significantly more knowledgeable and useful.</p>",
-            "url": "https://github.com/github/roadmap/issues/1146",
-            "title": "Copilot Now Supports Configuring Remote 3P MCP Servers",
-            "date_modified": "2025-06-26T19:19:17.000Z",
-            "date_published": "2025-06-26T19:17:59.000Z",
-            "author": {
-                "name": "glider-bot",
-                "url": "https://github.com/glider-bot"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Copilot issue creation just got more powerful. It now supports issue forms, ensuring that issues created with Copilot are high-quality, complete, and structured according to each repository's standards. It also supports breaking down epics into sub-issues, saving you valuable time on how to best structure and sequence your work.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With Copilot supporting issue forms and sub issues, users can expect faster, high quality issue creation.</p>",
-            "url": "https://github.com/github/roadmap/issues/1145",
-            "title": "Copilot Issue Creation Now Supports Issue Forms",
-            "date_modified": "2025-07-18T22:20:07.000Z",
-            "date_published": "2025-06-26T19:14:31.000Z",
-            "author": {
-                "name": "glider-bot",
-                "url": "https://github.com/glider-bot"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Teams can now define dependencies between issues, making it easy to identify what needs to be done before other work can start. This brings new levels of clarity and coordination to projects, especially those managing complex workflows.</p>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://private-user-images.githubusercontent.com/94867353/458951812-091e1d91-2adb-4356-96bd-88ca5d140494.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjI1MzkyNzksIm5iZiI6MTc2MjUzODk3OSwicGF0aCI6Ii85NDg2NzM1My80NTg5NTE4MTItMDkxZTFkOTEtMmFkYi00MzU2LTk2YmQtODhjYTVkMTQwNDk0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTA3VDE4MDkzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTEyNzUxMWRlNTY5ODg3ZDc1NWI3MzI4NDZmZGMyYzAyODQ0ZjhhMzRhZWI0YTJmZTZhN2IyOTJlYjZiOWI1NDUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Rg1DAXozET2RWo4HtCxk9Xxox7D5Q2PrmIMZWEjJrD4\"><img src=\"https://private-user-images.githubusercontent.com/94867353/458951812-091e1d91-2adb-4356-96bd-88ca5d140494.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjI1MzkyNzksIm5iZiI6MTc2MjUzODk3OSwicGF0aCI6Ii85NDg2NzM1My80NTg5NTE4MTItMDkxZTFkOTEtMmFkYi00MzU2LTk2YmQtODhjYTVkMTQwNDk0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTA3VDE4MDkzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTEyNzUxMWRlNTY5ODg3ZDc1NWI3MzI4NDZmZGMyYzAyODQ0ZjhhMzRhZWI0YTJmZTZhN2IyOTJlYjZiOWI1NDUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Rg1DAXozET2RWo4HtCxk9Xxox7D5Q2PrmIMZWEjJrD4\" alt=\"Image\" style=\"max-width: 100%;\"></a></p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Customers will be able to mark dependencies between issues, enabling better planning, prioritization, and execution of work. This improvement helps teams avoid blockers, improve delivery timelines, and confidently manage project progress directly within GitHub.</p>",
-            "url": "https://github.com/github/roadmap/issues/1144",
-            "title": "Dependencies on Issues [Preview]",
-            "date_modified": "2025-08-29T01:01:40.000Z",
-            "date_published": "2025-06-26T19:05:56.000Z",
-            "author": {
-                "name": "glider-bot",
-                "url": "https://github.com/glider-bot"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Copilot now offers multi-model support, allowing developers to choose from industry-leading models, including Google's Gemini 2.5 Flash, to power their coding assistance. This flexibility enables developers to select the most suitable model for their specific use case, ensuring optimal performance and efficiency. By integrating multiple models into familiar workflows in Visual Studio Code and on github.com/copilot, GitHub is enhancing the developer experience and providing tailored AI-powered solutions.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">By leveraging GitHub Copilot's multi-model support, developers can expect increased productivity and improved code quality by selecting the best model for each task. This feature empowers developers to handle diverse programming challenges more effectively, resulting in faster development cycles and more robust software solutions. Additionally, the seamless integration of Google's Gemini 2.5 Flash ensures that developers have access to advanced AI capabilities, enhancing their ability to tackle complex coding problems from concept to deployment.</p>",
-            "url": "https://github.com/github/roadmap/issues/1143",
-            "title": "Copilot Chat users can use the Gemini 2.5 Flash model",
-            "date_modified": "2025-06-26T18:55:37.000Z",
-            "date_published": "2025-06-26T18:54:15.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
