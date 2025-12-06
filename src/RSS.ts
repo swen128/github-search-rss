@@ -50,12 +50,6 @@ export const SEARCH_ITEMS: RSSItem[] = [
         link: `${BASE_URL}/mozilla-standards-positions.json`
     },
     {
-        title: "WebKit/standards-positions Issues",
-        query: "repo:WebKit/standards-positions is:issue",
-        TYPE: "ISSUE",
-        link: `${BASE_URL}/WebKit-standards-positions.json`
-    },
-    {
         title: "Fyrd/caniuse Issues",
         query: 'repo:Fyrd/caniuse label:"Support data suggestion"',
         TYPE: "ISSUE",
