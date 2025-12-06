@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><opml version="2.0">
     <head>
     <title>GitHub Search Subscriptions</title>
-    <dateCreated>2025-12-06T04:08:00.546Z</dateCreated>
+    <dateCreated>2025-12-06T04:38:27.003Z</dateCreated>
 </head>
     <body>
     <outline title="Subscriptions">
@@ -12,7 +12,6 @@
             <outline type="rss" title="npm/statusboard Issues" htmlUrl="https://swen128.github.io/github-search-rss/npm-statusboard.json" xmlUrl="https://swen128.github.io/github-search-rss/npm-statusboard.json"/>
             <outline type="rss" title="github/roadmap Issues" htmlUrl="https://swen128.github.io/github-search-rss/github-roadmap.json" xmlUrl="https://swen128.github.io/github-search-rss/github-roadmap.json"/>
             <outline type="rss" title="mozilla/standards-positions Issues" htmlUrl="https://swen128.github.io/github-search-rss/mozilla-standards-positions.json" xmlUrl="https://swen128.github.io/github-search-rss/mozilla-standards-positions.json"/>
-            <outline type="rss" title="WebKit/standards-positions Issues" htmlUrl="https://swen128.github.io/github-search-rss/WebKit-standards-positions.json" xmlUrl="https://swen128.github.io/github-search-rss/WebKit-standards-positions.json"/>
             <outline type="rss" title="Fyrd/caniuse Issues" htmlUrl="https://swen128.github.io/github-search-rss/caniuse.json" xmlUrl="https://swen128.github.io/github-search-rss/caniuse.json"/>
             <outline type="rss" title="org:wintercg Issues" htmlUrl="https://swen128.github.io/github-search-rss/wintercg.json" xmlUrl="https://swen128.github.io/github-search-rss/wintercg.json"/>
             <outline type="rss" title="repo:babel/proposals Issues" htmlUrl="https://swen128.github.io/github-search-rss/babel-proposals.json" xmlUrl="https://swen128.github.io/github-search-rss/babel-proposals.json"/>
