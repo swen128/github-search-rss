@@ -6,6 +6,50 @@
     "description": "npm/statusboard Issues on GitHub",
     "items": [
         {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/36607?u=79d8c114db476a7ecc6328b328f71d9d758368c7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">Issue for tracking the next phase of this work.</p>",
+            "url": "https://github.com/npm/statusboard/issues/1084",
+            "title": "error on unknown flags",
+            "date_modified": "2026-02-24T21:21:37.000Z",
+            "date_published": "2026-02-24T21:21:14.000Z",
+            "author": {
+                "name": "wraithgar",
+                "url": "https://github.com/wraithgar"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/36607?u=79d8c114db476a7ecc6328b328f71d9d758368c7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\"><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3861838432\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/cli/issues/8938\" data-hovercard-type=\"issue\" data-hovercard-url=\"/npm/cli/issues/8938/hovercard\" href=\"https://github.com/npm/cli/issues/8938\">npm/cli#8938</a></p>",
+            "url": "https://github.com/npm/statusboard/issues/1083",
+            "title": "can we get rid of npm-shrinkwrap?",
+            "date_modified": "2026-02-24T21:17:26.000Z",
+            "date_published": "2026-02-24T21:17:10.000Z",
+            "author": {
+                "name": "wraithgar",
+                "url": "https://github.com/wraithgar"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/36607?u=79d8c114db476a7ecc6328b328f71d9d758368c7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">Just use node-glob's patterns. This is just a bug factory at this point.</p>\n<ul dir=\"auto\">\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2291602171\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/cli/issues/7514\" data-hovercard-type=\"issue\" data-hovercard-url=\"/npm/cli/issues/7514/hovercard\" href=\"https://github.com/npm/cli/issues/7514\">npm/cli#7514</a></li>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"1522395195\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/npm-packlist/issues/152\" data-hovercard-type=\"issue\" data-hovercard-url=\"/npm/npm-packlist/issues/152/hovercard\" href=\"https://github.com/npm/npm-packlist/issues/152\">npm/npm-packlist#152</a></li>\n</ul>",
+            "url": "https://github.com/npm/statusboard/issues/1082",
+            "title": "revert all of the hacks around \"globstar\" in packlist",
+            "date_modified": "2026-02-24T21:16:17.000Z",
+            "date_published": "2026-02-24T21:15:48.000Z",
+            "author": {
+                "name": "wraithgar",
+                "url": "https://github.com/wraithgar"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/36607?u=79d8c114db476a7ecc6328b328f71d9d758368c7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\"><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3557459424\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/pacote/issues/434\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/pacote/pull/434/hovercard\" href=\"https://github.com/npm/pacote/pull/434\">npm/pacote#434</a></p>",
+            "url": "https://github.com/npm/statusboard/issues/1081",
+            "title": "don't force git+ssh if https specified",
+            "date_modified": "2026-02-24T21:15:02.000Z",
+            "date_published": "2026-02-24T21:14:52.000Z",
+            "author": {
+                "name": "wraithgar",
+                "url": "https://github.com/wraithgar"
+            }
+        },
+        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/u/36607?u=79d8c114db476a7ecc6328b328f71d9d758368c7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\"><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2839152385\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/cli/issues/8090\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/cli/pull/8090/hovercard\" href=\"https://github.com/npm/cli/pull/8090\">npm/cli#8090</a></p>",
             "url": "https://github.com/npm/statusboard/issues/1080",
             "title": "don't force pkg get json output",
@@ -138,10 +182,10 @@
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/36607?u=79d8c114db476a7ecc6328b328f71d9d758368c7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Epic</h3>\n<p dir=\"auto\">These are the planned breaking changes for npm 12:</p>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> engines.node update (TBD)</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3557459424\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/pacote/issues/434\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/pacote/pull/434/hovercard\" href=\"https://github.com/npm/pacote/pull/434\">npm/pacote#434</a></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> globstar hacks</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3880352611\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/pacote/issues/442\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/pacote/pull/442/hovercard\" href=\"https://github.com/npm/pacote/pull/442\">npm/pacote#442</a> git subdir breaking?</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> npm-shrinkwrap</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> error on unknown flags?</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> New \"npm cli future changes\" issue</li>\n</ul>\n<p dir=\"auto\">We will get issues made for each of these next.</p>",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/36607?u=79d8c114db476a7ecc6328b328f71d9d758368c7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Epic</h3>\n<p dir=\"auto\">These are the planned breaking changes for npm 12:</p>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> engines.node update (TBD)</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> New \"npm cli future changes\" issue</li>\n</ul>\n<p dir=\"auto\">The rest are sub-issues</p>",
             "url": "https://github.com/npm/statusboard/issues/1068",
             "title": "npm 12",
-            "date_modified": "2026-02-24T21:13:21.000Z",
+            "date_modified": "2026-02-24T21:21:14.000Z",
             "date_published": "2026-02-24T20:26:12.000Z",
             "author": {
                 "name": "wraithgar",
@@ -149,10 +193,10 @@
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/36607?u=79d8c114db476a7ecc6328b328f71d9d758368c7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Epic</h3>\n<p dir=\"auto\">There are currently only a handful of production dependencies in npm that are outdated.  This is our plan for getting them updated if possible.</p>\n<ul dir=\"auto\">\n<li>\n<p dir=\"auto\"><code class=\"notranslate\">env-paths</code></p>\n<ul dir=\"auto\">\n<li>required by <code class=\"notranslate\">node-gyp</code> and will be updated in the next semver major of node-gyp (needs an engines update and is waiting on node 20 EOL I believe.</li>\n</ul>\n</li>\n<li>\n<p dir=\"auto\"><code class=\"notranslate\">iconv-lite</code></p>\n<ul dir=\"auto\">\n<li>required through <code class=\"notranslate\">encoding</code> by <code class=\"notranslate\">minipass-fetch</code>.</li>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3964342134\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/minipass-fetch/issues/181\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/minipass-fetch/pull/181/hovercard\" href=\"https://github.com/npm/minipass-fetch/pull/181\">npm/minipass-fetch#181</a></li>\n</ul>\n</li>\n<li>\n<p dir=\"auto\"><code class=\"notranslate\">err-code</code> and <code class=\"notranslate\">retry</code></p>\n<ul dir=\"auto\">\n<li>required by <code class=\"notranslate\">promise-retry</code>, which is used by:\n<ul dir=\"auto\">\n<li><code class=\"notranslate\">pacote</code> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3970460329\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/pacote/issues/449\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/pacote/pull/449/hovercard\" href=\"https://github.com/npm/pacote/pull/449\">npm/pacote#449</a></li>\n<li><code class=\"notranslate\">make-fetch-happen</code> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3970444930\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/make-fetch-happen/issues/340\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/make-fetch-happen/pull/340/hovercard\" href=\"https://github.com/npm/make-fetch-happen/pull/340\">npm/make-fetch-happen#340</a></li>\n<li><code class=\"notranslate\">@sigstore/sign</code> (blocked by <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3970347588\" data-permission-text=\"Title is private\" data-url=\"https://github.com/wraithgar/node-promise-retry/issues/4\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/wraithgar/node-promise-retry/pull/4/hovercard\" href=\"https://github.com/wraithgar/node-promise-retry/pull/4\">wraithgar/node-promise-retry#4</a>)</li>\n<li><code class=\"notranslate\">libnpmexec</code> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3970511409\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/cli/issues/9008\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/cli/pull/9008/hovercard\" href=\"https://github.com/npm/cli/pull/9008\">npm/cli#9008</a></li>\n<li><code class=\"notranslate\">@npmcli/git</code> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3970480770\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/git/issues/234\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/git/pull/234/hovercard\" href=\"https://github.com/npm/git/pull/234\">npm/git#234</a></li>\n</ul>\n</li>\n<li>This package appears abandoned and the maintainer has no recent activity in github.</li>\n<li><a href=\"https://npm.im/@gar/promise-retry\" rel=\"nofollow\">A fork</a> was made and we are moving to it.</li>\n</ul>\n</li>\n<li>\n<p dir=\"auto\"><code class=\"notranslate\">minipass</code> and <code class=\"notranslate\">yallist</code></p>\n<ul dir=\"auto\">\n<li>required by <code class=\"notranslate\">minipass-flush</code> and <code class=\"notranslate\">minipass-pipeline</code>.</li>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3964821086\" data-permission-text=\"Title is private\" data-url=\"https://github.com/isaacs/minipass-flush/issues/15\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/isaacs/minipass-flush/pull/15/hovercard\" href=\"https://github.com/isaacs/minipass-flush/pull/15\">isaacs/minipass-flush#15</a></li>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3970173759\" data-permission-text=\"Title is private\" data-url=\"https://github.com/isaacs/minipass-pipeline/issues/17\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/isaacs/minipass-pipeline/pull/17/hovercard\" href=\"https://github.com/isaacs/minipass-pipeline/pull/17\">isaacs/minipass-pipeline#17</a></li>\n</ul>\n</li>\n</ul>",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/36607?u=79d8c114db476a7ecc6328b328f71d9d758368c7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Epic</h3>\n<p dir=\"auto\">There are currently only a handful of production dependencies in npm that are outdated.  This is our plan for getting them updated if possible.</p>\n<ul dir=\"auto\">\n<li>\n<p dir=\"auto\"><code class=\"notranslate\">env-paths</code></p>\n<ul dir=\"auto\">\n<li>required by <code class=\"notranslate\">node-gyp</code> and will be updated in the next semver major of node-gyp (needs an engines update and is waiting on node 20 EOL I believe.</li>\n</ul>\n</li>\n<li>\n<p dir=\"auto\"><code class=\"notranslate\">iconv-lite</code></p>\n<ul dir=\"auto\">\n<li>required through <code class=\"notranslate\">encoding</code> by <code class=\"notranslate\">minipass-fetch</code>.</li>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3964342134\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/minipass-fetch/issues/181\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/minipass-fetch/pull/181/hovercard\" href=\"https://github.com/npm/minipass-fetch/pull/181\">npm/minipass-fetch#181</a></li>\n</ul>\n</li>\n<li>\n<p dir=\"auto\"><code class=\"notranslate\">err-code</code> and <code class=\"notranslate\">retry</code></p>\n<ul dir=\"auto\">\n<li>required by <code class=\"notranslate\">promise-retry</code>, which is used by:\n<ul dir=\"auto\">\n<li><code class=\"notranslate\">pacote</code> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3970460329\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/pacote/issues/449\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/pacote/pull/449/hovercard\" href=\"https://github.com/npm/pacote/pull/449\">npm/pacote#449</a></li>\n<li><code class=\"notranslate\">make-fetch-happen</code> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3970444930\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/make-fetch-happen/issues/340\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/make-fetch-happen/pull/340/hovercard\" href=\"https://github.com/npm/make-fetch-happen/pull/340\">npm/make-fetch-happen#340</a></li>\n<li><code class=\"notranslate\">libnpmexec</code> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3970511409\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/cli/issues/9008\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/cli/pull/9008/hovercard\" href=\"https://github.com/npm/cli/pull/9008\">npm/cli#9008</a></li>\n<li><code class=\"notranslate\">@npmcli/git</code> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3970480770\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/git/issues/234\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/git/pull/234/hovercard\" href=\"https://github.com/npm/git/pull/234\">npm/git#234</a></li>\n<li><code class=\"notranslate\">@sigstore/sign</code></li>\n</ul>\n</li>\n<li>This package appears abandoned and the maintainer has no recent activity in github.</li>\n<li><a href=\"https://npm.im/@gar/promise-retry\" rel=\"nofollow\">A fork</a> was made and we are moving to it.</li>\n</ul>\n</li>\n<li>\n<p dir=\"auto\"><code class=\"notranslate\">minipass</code> and <code class=\"notranslate\">yallist</code></p>\n<ul dir=\"auto\">\n<li>required by <code class=\"notranslate\">minipass-flush</code> and <code class=\"notranslate\">minipass-pipeline</code>.</li>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3964821086\" data-permission-text=\"Title is private\" data-url=\"https://github.com/isaacs/minipass-flush/issues/15\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/isaacs/minipass-flush/pull/15/hovercard\" href=\"https://github.com/isaacs/minipass-flush/pull/15\">isaacs/minipass-flush#15</a></li>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"3970173759\" data-permission-text=\"Title is private\" data-url=\"https://github.com/isaacs/minipass-pipeline/issues/17\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/isaacs/minipass-pipeline/pull/17/hovercard\" href=\"https://github.com/isaacs/minipass-pipeline/pull/17\">isaacs/minipass-pipeline#17</a></li>\n</ul>\n</li>\n</ul>",
             "url": "https://github.com/npm/statusboard/issues/1065",
             "title": "Outdated cli deps",
-            "date_modified": "2026-02-20T22:26:45.000Z",
+            "date_modified": "2026-02-24T21:58:24.000Z",
             "date_published": "2026-02-20T20:15:57.000Z",
             "author": {
                 "name": "wraithgar",
@@ -179,50 +223,6 @@
             "author": {
                 "name": "wraithgar",
                 "url": "https://github.com/wraithgar"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/254170615?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Epic</h3>\n",
-            "url": "https://github.com/npm/statusboard/issues/1058",
-            "title": "May family",
-            "date_modified": "2026-02-05T17:01:53.000Z",
-            "date_published": "2026-02-03T17:03:40.000Z",
-            "author": {
-                "name": "aliyyiabdurahmaan9-hub",
-                "url": "https://github.com/aliyyiabdurahmaan9-hub"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/255908312?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Is there an existing issue for this?</h3>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Completed task\" checked=\"\"> I have searched the existing issues</li>\n</ul>\n<h3 dir=\"auto\">Current Behavior</h3>\n<p dir=\"auto\"><em>No response</em></p>\n<h3 dir=\"auto\">Expected Behavior</h3>\n<p dir=\"auto\"><em>No response</em></p>\n<h3 dir=\"auto\">Steps To Reproduce</h3>\n<ol dir=\"auto\">\n<li>In this environment...</li>\n<li>With this config...</li>\n<li>Run '...'</li>\n<li>See error...</li>\n</ol>\n<h3 dir=\"auto\">Environment</h3>\n<ul dir=\"auto\">\n<li>npm:</li>\n<li>Node:</li>\n<li>OS:</li>\n<li>platform:</li>\n</ul>",
-            "url": "https://github.com/npm/statusboard/issues/1050",
-            "title": "[BUG] <title>",
-            "date_modified": "2026-01-19T15:06:33.000Z",
-            "date_published": "2026-01-19T15:06:04.000Z",
-            "author": {
-                "name": "ansarisalman16256-ctrl",
-                "url": "https://github.com/ansarisalman16256-ctrl"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/214407841?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Is there an existing issue for this?</h3>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Completed task\" checked=\"\"> I have searched the existing issues</li>\n</ul>\n<h3 dir=\"auto\">Current Behavior</h3>\n<div class=\"highlight highlight-source-js notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"\"><pre class=\"notranslate\"></pre></div>\n<h3 dir=\"auto\">Expected Behavior</h3>\n<p dir=\"auto\"><em>No response</em></p>\n<h3 dir=\"auto\">Steps To Reproduce</h3>\n<ol dir=\"auto\">\n<li>In this environment...</li>\n<li>With this config...</li>\n<li>Run '...'</li>\n<li>See error...</li>\n</ol>\n<h3 dir=\"auto\">Environment</h3>\n<ul dir=\"auto\">\n<li>npm:</li>\n<li>Node:</li>\n<li>OS:</li>\n<li>platform:</li>\n</ul>",
-            "url": "https://github.com/npm/statusboard/issues/1042",
-            "title": "[BUG] <title>",
-            "date_modified": "2026-02-05T17:02:10.000Z",
-            "date_published": "2025-12-22T00:54:54.000Z",
-            "author": {
-                "name": "Kevintaylor084",
-                "url": "https://github.com/Kevintaylor084"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/1160199?u=8c4a0554dfeac6fe2cb8000f766f07921741a999&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Is there an existing issue for this?</h3>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Completed task\" checked=\"\"> I have searched the existing issues</li>\n</ul>\n<h3 dir=\"auto\">Current Behavior</h3>\n<p dir=\"auto\"><a href=\"https://status.npmjs.org\" rel=\"nofollow\">status.npmjs.org</a> shows no downtime, but I'm getting errors like this:</p>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"WARN  post https://registry.npmjs.org/-/npm/v1/security/audits error (ERR_SOCKET_TIMEOUT). Will retry in 10 seconds. 2 retries left.\n WARN  post https://registry.npmjs.org/-/npm/v1/security/audits error (ERR_SOCKET_TIMEOUT). Will retry in 1 minute. 1 retries left.\n ERR_SOCKET_TIMEOUT  request to https://registry.npmjs.org/-/npm/v1/security/audits failed, reason: Socket timeout\"><pre class=\"notranslate\"><code class=\"notranslate\">WARN  post https://registry.npmjs.org/-/npm/v1/security/audits error (ERR_SOCKET_TIMEOUT). Will retry in 10 seconds. 2 retries left.\n WARN  post https://registry.npmjs.org/-/npm/v1/security/audits error (ERR_SOCKET_TIMEOUT). Will retry in 1 minute. 1 retries left.\n ERR_SOCKET_TIMEOUT  request to https://registry.npmjs.org/-/npm/v1/security/audits failed, reason: Socket timeout\n</code></pre></div>\n<p dir=\"auto\">also package updates were failing from registry (http status 502).</p>\n<p dir=\"auto\"><a href=\"https://downdetector.com/status/npm/\" rel=\"nofollow\">https://downdetector.com/status/npm/</a><br>\nthis page clearly shows the issue affects more users than just me.</p>\n<p dir=\"auto\">according to hacker news multiple large service providers are down at the moment due some AWS us-east-1 outage.</p>\n<h3 dir=\"auto\">Expected Behavior</h3>\n<p dir=\"auto\">npmjs status page should be improved to reflect actual system status (maybe multi region checks)</p>\n<h3 dir=\"auto\">Steps To Reproduce</h3>\n<ol dir=\"auto\">\n<li>In this environment...</li>\n<li>With this config...</li>\n<li>Run '...'</li>\n<li>See error...</li>\n</ol>\n<h3 dir=\"auto\">Environment</h3>\n<ul dir=\"auto\">\n<li>npm:</li>\n<li>Node:</li>\n<li>OS:</li>\n<li>platform:</li>\n</ul>",
-            "url": "https://github.com/npm/statusboard/issues/1022",
-            "title": "npm status shows no downtime but services are not available",
-            "date_modified": "2025-10-21T13:12:14.000Z",
-            "date_published": "2025-10-20T08:37:00.000Z",
-            "author": {
-                "name": "vpmedia",
-                "url": "https://github.com/vpmedia"
             }
         }
     ]
