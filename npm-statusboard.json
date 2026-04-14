@@ -97,7 +97,7 @@
             "content_html": "<img src=\"https://avatars.githubusercontent.com/u/36607?u=79d8c114db476a7ecc6328b328f71d9d758368c7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\"><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2762337838\" data-permission-text=\"Title is private\" data-url=\"https://github.com/npm/npm-packlist/issues/257\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/npm/npm-packlist/pull/257/hovercard\" href=\"https://github.com/npm/npm-packlist/pull/257\">npm/npm-packlist#257</a></p>",
             "url": "https://github.com/npm/statusboard/issues/1077",
             "title": "add bun.lock to default pack ignorelist",
-            "date_modified": "2026-02-24T21:08:33.000Z",
+            "date_modified": "2026-04-14T21:39:13.000Z",
             "date_published": "2026-02-24T21:08:24.000Z",
             "author": {
                 "name": "wraithgar",
