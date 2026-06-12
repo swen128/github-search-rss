@@ -6,220 +6,220 @@
     "description": "github/roadmap Issues on GitHub",
     "items": [
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Workflow Execution Protections give you fine-grained control over which GitHub Actions workflows are allowed to run—and who can trigger them. Using an allow-list approach built into repository rulesets, administrators can define trusted actors (specific users, roles, or apps like Dependabot and Copilot) and permitted events (such as <code class=\"notranslate\">push</code>, <code class=\"notranslate\">pull_request</code>, or <code class=\"notranslate\">workflow_dispatch</code>). This means your organization can enforce consistent, centralized security policies across all repositories without relying on ad hoc, per-workflow configurations—reducing your attack surface and scaling governance as you grow.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Today, workflows execute based on the workflow file present in the triggering commit, which means anyone with write access could inject malicious changes that run in CI. Workflow Execution Protections close this gap by evaluating enforcement rules <em>before</em> execution begins, blocking unauthorized actors and unexpected event triggers at the gate. The result: stronger supply-chain security, reduced risk of secrets exfiltration, and confidence that only trusted people and automation can initiate workflow runs—whether you're an enterprise managing hundreds of repositories or an open-source maintainer protecting your project from malicious contributions.</p>",
-            "url": "https://github.com/github/roadmap/issues/1241",
-            "title": "Workflow Execution Protections: Actor and Event Configuration [GA]",
-            "date_modified": "2026-06-05T20:00:00.000Z",
-            "date_published": "2026-06-05T19:59:49.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Scoped secrets let you control exactly where secrets are used, like specific repositories, branches, or workflows. This means reusable workflows get the secrets they need automatically, without extra setup or duplication, making secret management simpler and more secure.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">By introducing scoped secrets, teams can reduce manual work and avoid spreading secrets across multiple places. Organizations gain better visibility and control over secret usage, supporting safer automation and helping meet compliance and security needs.</p>",
+            "url": "https://github.com/github/roadmap/issues/1269",
+            "title": "Scoped secrets and reusable workflow improvements [Public Preview]",
+            "date_modified": "2026-06-12T18:46:32.000Z",
+            "date_published": "2026-06-12T18:46:18.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">This release is our quarterly update to GitHub Enterprise Server. With it, will come a host of improvements that are tagged with the label \"GHES 3.20\" on our public roadmap.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">In every quarterly GHES release, we add a host of capabilities aimed at improving the overall experience for all different types of GitHub Enterprise Server users. As an operator, you can configure a dedicated disk for logs, and use a managed, built-in backup service that does not require a separate host. As a developer, you can experience the improved merge experience on the pull request page. This is designed to help you better understand the state of your pull request and get it merged faster. As an enterprise owner, you can create and manage enterprise teams to simplify governance across their enterprise.</p>",
-            "url": "https://github.com/github/roadmap/issues/1234",
-            "title": "GHES 3.20 GA",
-            "date_modified": "2026-03-24T17:57:48.000Z",
-            "date_published": "2026-03-24T17:56:58.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">With workflow-embedded dependency locking in GitHub Actions, you can ensure your CI/CD pipelines always use the exact versions of Actions and dependencies you’ve reviewed. This gives you reproducible builds, clear visibility into changes, and stronger protection against unexpected or compromised code.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">By making dependency resolution explicit and verifiable, this feature helps teams prevent silent drift and supply chain risks in their workflows. The goal is to improve reliability, security, and confidence in every workflow run, so you can focus on building and shipping with peace of mind.</p>",
+            "url": "https://github.com/github/roadmap/issues/1268",
+            "title": "Locked Dependencies for GitHub Actions Workflows",
+            "date_modified": "2026-06-12T18:46:17.000Z",
+            "date_published": "2026-06-12T18:46:03.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Education’s Bulk Academic Verification helps schools and education partners quickly grant eligible students access to GitHub’s student benefits at scale—without each student needing to complete a separate verification. By streamlining verification for groups (like classes, cohorts, or event attendees), it reduces administrative overhead and helps educators confidently roll out GitHub tooling as part of their curriculum or program.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Educators and program organizers can onboard students faster and more reliably, ensuring learners have access to the Student Developer Pack and related GitHub capabilities from day one. This should reduce delays caused by individual verification steps, improve the student setup experience, and make it easier for institutions to integrate GitHub into classrooms, workshops, and training programs.</p>",
-            "url": "https://github.com/github/roadmap/issues/1233",
-            "title": "GitHub Education's Bulk Academic Verification: Mass Onboarding Tool for Students",
-            "date_modified": "2026-04-10T17:36:00.000Z",
-            "date_published": "2026-03-03T17:11:45.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">You can now set up multiple trusted publishing workflows for each npm package, making it easy to publish stable releases, betas, and other versions from different CI workflows—all without relying on long-lived tokens. This gives you more flexibility and security, letting you use short-lived credentials for every publishing path.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">By supporting multiple OIDC configurations per package and namespace, teams can fully retire long-lived publish tokens and streamline their release processes. This change aims to improve both the security and convenience of npm publishing for projects with complex or multi-path release workflows.</p>",
+            "url": "https://github.com/github/roadmap/issues/1267",
+            "title": "[npm] Support multiple trusted publishing workflows per package [GA]",
+            "date_modified": "2026-06-12T18:46:05.000Z",
+            "date_published": "2026-06-12T18:45:57.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Repository maintainers get two new, first-party controls to manage contributions at the repo level: disable pull requests entirely or restrict PR creation to collaborators only. This lets teams share code publicly (or mirror it) without taking on the overhead and risk of unsolicited or low-quality PR submissions, and without needing custom bots or manual triage.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Maintainers can reduce PR noise and moderation workload, while still keeping repositories accessible for viewing and forking with clear UX signals about contribution limits. Teams that want controlled contributions can allow PRs from trusted collaborators only, leading to higher-signal contribution flows, fewer unwanted PRs, and smoother maintenance—especially during pauses, release gaps, or in mirrored/readonly repos.</p>",
-            "url": "https://github.com/github/roadmap/issues/1232",
-            "title": "New repository settings to disable or restrict pull requests",
-            "date_modified": "2026-02-27T20:03:28.000Z",
-            "date_published": "2026-02-27T20:03:14.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Security teams and developers can link code scanning alerts directly to GitHub Issues, bringing security remediation into the same collaboration and planning workflows they already use for feature work. Instead of tracking vulnerabilities in spreadsheets or jumping between security tools, teams get native traceability from alert to issue to pull request within GitHub. With GA, this extends to full programmatic access via REST APIs and webhooks, enabling automated triage workflows and integration with existing processes at scale.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Shorter time-to-remediation for security findings by removing friction between detection and developer action. Security teams can create actionable issues from alerts, assign them to the right developers, and track progress through existing project boards. Developers see linked security alerts directly on their issues, so they understand the \"why\" behind the work without switching tools. At GA, API and webhook support lets enterprises build automated pipelines reducing manual triage overhead and ensuring no critical finding falls through the cracks.</p>",
+            "url": "https://github.com/github/roadmap/issues/1266",
+            "title": "Code scanning alerts link to GitHub Issues to facilitate collaboration and work management [GA]",
+            "date_modified": "2026-06-12T18:45:20.000Z",
+            "date_published": "2026-06-12T18:45:05.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Enterprise Cloud with Enterprise Managed Users (EMUs) will be able to enable the ability for GitHub’s native IP allow list configuration to cover user namespaces. EMUs allow the enterprise to own the user accounts within their enterprise. As an extension to that, enterprises often want all repositories to adhere to their enterprise’s network access policies, including those owned by the user namespace associated to their EMUs.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">This feature will provide a more secure posture for GitHub Enterprise Cloud with Enterprise Managed Users (EMUs) by limiting access to enterprise-managed user namespaces to the owning enterprise’s IP allow list.</p>",
-            "url": "https://github.com/github/roadmap/issues/1231",
-            "title": "IP allow list coverage extended to EMU namespaces [Public preview]",
-            "date_modified": "2026-02-27T19:53:08.000Z",
-            "date_published": "2026-02-27T19:52:25.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Dependabot can now generate security alerts for artifacts—such as containers, packages, and executables—as well as dependencies on non-default branches. By uploading a software bill of materials (SBOM) to GitHub's snapshot service and flagging it as alert-worthy, teams gain continuous vulnerability monitoring for every released artifact and long-running branch, not just the default branch. This closes a critical blind spot where production services and shipped products could be silently exposed to newly discovered vulnerabilities in pinned dependency versions.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Non-default branch alerting is the most highly requested Dependabot feature in customer feedback. With this release, customers can detect zero-day vulnerabilities in any released artifact or long-lived branch—ensuring that the software they ship and operate stays protected even after the repository has moved on. We expect this to significantly reduce unpatched exposure windows, strengthen end-to-end supply chain security, and reinforce GitHub as the trusted platform for securing the entire software delivery pipeline.</p>",
+            "url": "https://github.com/github/roadmap/issues/1265",
+            "title": "Dependabot now supports alerting on artifacts and non-default branches [GA]",
+            "date_modified": "2026-06-12T18:45:17.000Z",
+            "date_published": "2026-06-12T18:45:02.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Actions OIDC now supports custom repository properties as claims, enabling platform and security teams to embed rich metadata  directly into every token issued from a repository. This structured identity context allows cloud providers, artifact registries, and secrets brokers to enforce attribute-based access control (ABAC) without any workflow-level configuration changes.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Teams can expect to eliminate hard-coded allow lists and manual policy exceptions. Replacing them with version controlled repository attributes that automatically propagate into cloud IAM trust policies at scale. Organizations will achieve least-privilege access across hundreds or thousands of repositories with a one-time policy investment, reducing operational burden and improving auditability across every workflow run.</p>",
-            "url": "https://github.com/github/roadmap/issues/1230",
-            "title": "OIDC custom properties as claims",
-            "date_modified": "2026-04-10T17:33:35.000Z",
-            "date_published": "2026-02-27T19:49:10.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">With agentic autofix, you can automatically resolve code scanning security alerts in pull requests with fixes that are verified for safety and effectiveness. This means you spend less time investigating and validating fixes, and can confidently commit changes knowing they won’t break your code or introduce new vulnerabilities.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">We want to make it easier and safer for developers to address security issues in their code by providing automated, validated fixes directly within pull requests. This should reduce the time and effort needed to remediate security findings, leading to more secure code and a smoother development workflow.</p>",
+            "url": "https://github.com/github/roadmap/issues/1264",
+            "title": "Agentic Autofix for Security Alerts in PRs [public preview]",
+            "date_modified": "2026-06-12T18:43:53.000Z",
+            "date_published": "2026-06-12T18:43:40.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Managing low-quality issue comments helps teams keep issue conversations focused by nudging users away from short, repetitive replies (like “+1” or “same here”). This makes it easier to scan an issue and quickly find the updates or details that matter most.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Repositories should see less comment noise in long-running issues, improving readability and reducing time spent searching for meaningful context. Teams can triage and collaborate more efficiently with clearer threads.</p>",
-            "url": "https://github.com/github/roadmap/issues/1229",
-            "title": "Managing low quality issue comments",
-            "date_modified": "2026-02-27T19:44:59.000Z",
-            "date_published": "2026-02-27T19:44:24.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">To help you understand ownership and impact of a leaked secret, GitHub secret scanning now surfaces additional metadata for supported secret types. Metadata varies by type and includes <code class=\"notranslate\">owner-email</code>, <code class=\"notranslate\">owner-id</code>, <code class=\"notranslate\">owner-name</code>, <code class=\"notranslate\">secret-id</code>, <code class=\"notranslate\">secret name</code>, <code class=\"notranslate\">secret-issued-date</code>, <code class=\"notranslate\">secret-expiration-date</code>, <code class=\"notranslate\">organization-name</code>, <code class=\"notranslate\">organization-id</code>, and <code class=\"notranslate\">last-used-date</code>.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">When a secret is leaked, knowing <em>what</em> was exposed is only half the battle. Teams also need to know who owns it, when it was created, and what systems it can access. This enriched metadata helps teams dramatically reduce the time it takes security and development teams to triage and remediate leaked secrets.</p>",
+            "url": "https://github.com/github/roadmap/issues/1263",
+            "title": "GitHub secret scanning - extended metadata is generally available [GA]",
+            "date_modified": "2026-06-12T18:43:43.000Z",
+            "date_published": "2026-06-12T18:43:35.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Pinned comments on issues let teams highlight the most important context at the top of an issue, such as workarounds, status updates, decisions, or next steps, so it’s easy to find at a glance. This helps users stay aligned without having to scan long comment threads to locate key information.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Teams can reduce time spent searching for key details and keep issues focused by making key information for an issue immediately visible. This will result in fewer repeated questions on an issue and more focused conversations.</p>",
-            "url": "https://github.com/github/roadmap/issues/1228",
-            "title": "Pinned comments on issues",
-            "date_modified": "2026-02-27T19:42:00.000Z",
-            "date_published": "2026-02-27T19:41:17.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">With agentic autofix for code scanning alerts, users can automatically resolve security issues in their code by assigning alerts to an advanced agent that generates and submits pull requests with fixes. This streamlines the remediation process, saving time and reducing manual effort for development and security teams.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">By making agentic autofix generally available to all paying GitHub Advanced Security and code security users, more organizations can quickly address vulnerabilities and maintain secure codebases. The goal is to increase the speed and efficiency of fixing code scanning alerts, leading to stronger security and less operational overhead.</p>",
+            "url": "https://github.com/github/roadmap/issues/1262",
+            "title": "Agentic autofix generation for code scanning alerts [GA]",
+            "date_modified": "2026-06-12T18:43:30.000Z",
+            "date_published": "2026-06-12T18:43:24.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Enable first-class repository creation in GitHub Mobile, allowing users to create user-owned new repositories directly from the app.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Close the gap by adding native repository creation to GitHub Mobile. This will cover the essential steps to create a user-owned repo, making it easier for users to start a new project on mobile and kick off agentic workflows faster.</p>",
-            "url": "https://github.com/github/roadmap/issues/1227",
-            "title": "GitHub Mobile: Repository Creation",
-            "date_modified": "2026-02-27T19:39:57.000Z",
-            "date_published": "2026-02-27T19:39:46.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Organizations need full visibility into the software dependencies behind every release—not just what's on the default branch today. With attested SBOMs now surfaced in the dependency graph, customers can inspect the exact dependency tree associated with any artifact, giving them a trustworthy, point-in-time view of what shipped. This strengthens supply-chain security posture, supports compliance and audit workflows, and builds confidence that dependency data is accurate and tamper-evident through attestation.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Enable customers to store, view, and act on multiple dependency graph snapshots—not just the tip of the default branch. This is critical for teams maintaining long-term-support (LTS) releases or long-running production deployments, where newly-disclosed vulnerabilities against historical dependency trees represent real risk. By making attested SBOMs visible in the dependency graph, we lay the foundation for historical vulnerability alerting and give security teams the tools to assess and remediate risk across every release they support.</p>",
+            "url": "https://github.com/github/roadmap/issues/1261",
+            "title": "Attested SBOMs associated with artifacts are now visible in a repository's dependency graph [GA]",
+            "date_modified": "2026-06-12T18:43:28.000Z",
+            "date_published": "2026-06-12T18:43:16.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">We are introducing a Live Activities widget on GitHub Mobile iOS and Live Update Notifications on GitHub Mobile Android that allows users to monitor the real-time progress of coding agent sessions initiated on both GitHub.com and Mobile.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Deliver a seamless, real-time mobile experience for tracking the status and progress of coding agent tasks, enabling users to stay informed and engaged even when away from their desktop.</p>",
-            "url": "https://github.com/github/roadmap/issues/1226",
-            "title": "GitHub Mobile: Coding Agent Live Activities/Notifications",
-            "date_modified": "2026-02-27T19:37:00.000Z",
-            "date_published": "2026-02-27T19:35:42.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Enterprise Server now supports the \"one pipeline\" framework for dependency graph generation, bringing years of dependency graph platform improvements to GHES customers. This includes transitive dependency resolution, dev dependency labelling, broader ecosystem support, and private registry credential handling — capabilities previously available only on GitHub.com. With this update, GHES customers get a more accurate, comprehensive view of their software supply chain without needing to change their workflows.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">GHES customers gain parity with GitHub.com's modern dependency graph pipeline, enabling richer dependency insights and stronger supply chain security posture out of the box. By consolidating on the \"one pipeline\" framework and deprecating legacy generation methods, we reduce platform complexity and ensure all customers benefit from ongoing dependency graph improvements as they ship. This drives deeper adoption of GitHub's supply chain security features across the enterprise segment.</p>",
+            "url": "https://github.com/github/roadmap/issues/1260",
+            "title": "GitHub Enterprise Server now supports the \"one pipeline\" framework for dependency graph generation [GA]",
+            "date_modified": "2026-06-12T18:43:19.000Z",
+            "date_published": "2026-06-12T18:43:08.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Dependabot alert assignees bring clear ownership and accountability directly to each Dependabot alert, making it easy for security and engineering teams to route work to the right person and track progress at alert-level granularity. By aligning Dependabot with the existing assignee patterns customers already use for code scanning and secret scanning—and supporting autofix workflows, including Copilot coding agent opening draft PRs—teams can standardize how they triage and remediate vulnerabilities across all GitHub security signals.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With alert assignees in place, customers can expect faster and more consistent vulnerability remediation because every alert has an explicit owner, clearer prioritization, and fewer “orphaned” findings. Large orgs should see reduced alert fatigue, improved coordination between AppSec and development teams, and better ability to drive “get clean / stay clean” programs by measuring and managing remediation at scale across repositories and portfolios.</p>",
-            "url": "https://github.com/github/roadmap/issues/1225",
-            "title": "Dependabot alerts assignees",
-            "date_modified": "2026-04-10T17:33:03.000Z",
-            "date_published": "2026-02-27T19:32:49.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Workflow execution protections give administrators precise control over which GitHub Actions workflows can run, based on who triggers them and what event starts them. This helps teams prevent unauthorized or unexpected workflow runs, making it easier to safeguard sensitive information and maintain build integrity across all projects.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">By introducing these protections, organizations can strengthen their security posture and reduce the risk of supply chain attacks or insider threats. Applying consistent, centralized rules for workflow triggers helps teams scale their governance, ensuring only trusted actors and events can execute workflows across repositories.</p>",
+            "url": "https://github.com/github/roadmap/issues/1259",
+            "title": "Workflow Execution Protections: Actor and Event Configuration [Public Preview]",
+            "date_modified": "2026-06-12T18:42:53.000Z",
+            "date_published": "2026-06-12T18:42:42.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Dependabot malware alerts help you proactively identify when your repositories pull in known malicious package versions (starting with npm and expanding as coverage grows), so you’re not relying on manual threat intel gathering or piecing together signals across multiple tools. By surfacing targeted supply-chain malware risk directly where you manage dependencies, teams can quickly understand exposure and take action before a malicious package spreads further in their environments.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With malware alerts, customers can expect faster detection and response to malicious dependency incidents across large repo portfolios, with clearer notification and prioritization of the highest-risk packages. This reduces time spent on investigation, lowers the likelihood of shipping compromised code, and strengthens overall software supply chain trust without requiring additional tooling or custom monitoring.</p>",
-            "url": "https://github.com/github/roadmap/issues/1224",
-            "title": "Dependabot detection of malware packages for npm",
-            "date_modified": "2026-04-10T17:31:47.000Z",
-            "date_published": "2026-02-27T19:30:32.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\"><strong>Value Prop</strong></h3>\n<p dir=\"auto\">GitHub Code Quality now surfaces org-level trend data so security and engineering leaders can see whether code quality is improving or declining over time — without leaving GitHub. Time-series charts make it easy to spot regressions early, measure the impact of quality initiatives, and communicate progress to stakeholders. Instead of relying on a point-in-time snapshot, teams get a continuous, data-driven view of their codebase health across the organization.</p>\n<h3 dir=\"auto\"><strong>Expected Outcome</strong></h3>\n<p dir=\"auto\">Today, the org-level Code Quality dashboard answers \"Where do we stand right now?\" but not \"Are we getting better?\" By adding time-series trend data, we enable leaders to track quality trajectories, catch regressions before they compound, and demonstrate ROI on quality investments — all from the security overview they already use. This closes one of the most-requested gaps in the Code Quality experience and is a key milestone on the path to Code Quality GA.</p>",
+            "url": "https://github.com/github/roadmap/issues/1258",
+            "title": "GitHub Code Quality: Org-level quality trends and time-series data [Public Preview]",
+            "date_modified": "2026-06-12T18:42:44.000Z",
+            "date_published": "2026-06-12T18:42:35.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Saved views on the repository Issues page let teams create and share custom views directly within a repository. This makes it easier to manage workflows and makes common sets of issues organized and consistently accessible for everyone, such as items that need to be triaged or high priority bugs.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Teams can align on a standard set of custom views to reduce time spent recreating filters, switching contexts, and managing bookmarks, and makes ongoing triage and prioritization more consistent.</p>",
-            "url": "https://github.com/github/roadmap/issues/1223",
-            "title": "Saved views on the repository Issues page",
-            "date_modified": "2026-04-10T17:30:34.000Z",
-            "date_published": "2026-02-27T19:27:24.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Dependabot's automatic <code class=\"notranslate\">.npmrc</code> inference for npm private registries has been a persistent source of broken update runs — failing silently due to incorrect lockfile URLs, format changes, or package manager differences. With this release, customers gain explicit control over registry scopes via a new <code class=\"notranslate\">scope</code> property in <code class=\"notranslate\">dependabot.yml</code>, and Dependabot generates the correct <code class=\"notranslate\">.npmrc</code> automatically. This means fewer mysterious failures, less time debugging registry configuration, and more reliable dependency updates out of the box.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">We want to eliminate the most common class of npm private registry failures by replacing an unreliable inference mechanism with an explicit, user-defined configuration model. Customers should experience predictable and correct <code class=\"notranslate\">.npmrc</code> generation every time, reducing support burden and increasing confidence in Dependabot for enterprise npm workflows. Success looks like a measurable drop in registry-related Dependabot failures and fewer customer-reported issues around private npm registry setups.</p>",
+            "url": "https://github.com/github/roadmap/issues/1257",
+            "title": "Dependabot will stop inferring .npmrc [GA]",
+            "date_modified": "2026-06-12T18:42:39.000Z",
+            "date_published": "2026-06-12T18:42:25.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">The new global Pull Requests experience on github.com/pulls provides a redesigned, high-performance hub for developers to view and manage all of their pull requests across GitHub in one place. With enhanced search and filtering and customizable saved views, developers can quickly find what matters most and stay on top of their code review workflows.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With the new /pulls experience, developers can expect to spend less time searching for relevant pull requests and more time shipping code. Saved views enable developers to tailor the experience to their unique workflows and preferences, while improved performance and a modern UI reduce context-switching and accelerate review cycles.</p>",
-            "url": "https://github.com/github/roadmap/issues/1222",
-            "title": "New global PR /pulls experience (M3)",
-            "date_modified": "2026-02-27T19:22:54.000Z",
-            "date_published": "2026-02-27T19:22:42.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Code Quality now brings the full power of agentic AI to help you tackle your existing code quality backlog — not just new findings. With Agentic Autofix for Backlog, Copilot autonomously generates high-quality, validated fixes for standard code quality findings already present in your codebase. You can select multiple findings at once and remediate them in a single action, dramatically reducing the manual effort required to improve code health at scale. This means your team spends less time triaging and hand-fixing known issues and more time shipping new features.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Today, addressing a backlog of code quality findings is tedious and time-consuming — developers must manually review each finding, write a fix, and validate it, one at a time. We're building Agentic Autofix for Backlog so that teams can systematically and efficiently clean up existing technical debt. By enabling AI-driven, bulk remediation of code quality issues, we expect to significantly reduce the time-to-fix for backlog findings, increase the rate at which codebases reach and maintain a healthy quality bar, and lower the barrier to adopting code quality scanning — since customers no longer need to dread the initial wave of pre-existing findings.</p>",
+            "url": "https://github.com/github/roadmap/issues/1256",
+            "title": "GitHub Code Quality: Agentic Autofix for Backlog Experiences [Public Preview]",
+            "date_modified": "2026-06-12T18:42:21.000Z",
+            "date_published": "2026-06-12T18:42:11.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub secret scanning is now available from MCP-compatible developer workflows (including popular IDEs and CLIs) using <a href=\"https://github.com/github/github-mcp-server?tab=readme-ov-file#remote-github-mcp-server\">Remote GitHub MCP Server</a>. Developers can now check code for exposed secrets while they’re writing it—before committing or opening a pull request. This helps developers and AI agents quickly detect and remove credentials before they reach a repository.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">GitHub secret scanning customers can catch and fix leaked secrets earlier in the development process, reducing security risk and the time spent on last-minute remediation like credential rotation. This brings GitHub Advanced Security protections closer to where code is written, enabling faster iteration with stronger security guardrails—especially in AI-assisted workflows.</p>",
-            "url": "https://github.com/github/roadmap/issues/1221",
-            "title": "Secret scanning: scan code in your IDE via GitHub MCP [Preview]",
-            "date_modified": "2026-04-10T17:29:51.000Z",
-            "date_published": "2026-02-27T19:19:42.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Dependabot alerts are a critical line of defense for identifying vulnerable dependencies across your repositories. As the volume of advisories and monitored repositories continues to grow at unprecedented scale, customers need alerts that load quickly and remain reliable — without delays or timeouts. These database cluster improvements ensure that Dependabot alerts stay fast and responsive, so developers can triage and remediate vulnerabilities without friction, even as their organizations scale.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">We expect customers to experience consistently fast load times and improved reliability when viewing and managing Dependabot alerts. By optimizing data retention and the underlying database infrastructure, we eliminate performance bottlenecks that can surface as alert pages slow to load or fail under heavy usage. The result is a more stable, scalable alerting experience that keeps pace with the growing volume of security advisories — giving security and engineering teams confidence that they can act on vulnerabilities promptly across all of their repositories.</p>",
+            "url": "https://github.com/github/roadmap/issues/1255",
+            "title": "[Release Issue] Improve Dependabot Alert performance, stability, and scalability with db cluster improvements [GA]",
+            "date_modified": "2026-06-12T18:42:19.000Z",
+            "date_published": "2026-06-12T18:42:03.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Advanced Security products will have a guided experience to simplify set up and choose where to enable features. This reduces the prerequisite knowledge required and minimizes friction during setup, making it easier for teams to confidently complete Advanced Security enablement.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">GitHub Advanced Security set up will be clearer and more streamlined, reducing complexity, boosting confidence, and helping teams get protected faster.</p>",
-            "url": "https://github.com/github/roadmap/issues/1219",
-            "title": "Advanced Security guided setup experience",
-            "date_modified": "2026-04-10T17:30:54.000Z",
-            "date_published": "2026-02-02T17:58:21.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">You can now assign code scanning alerts directly to copilot for automatic fixes, saving time and effort on security issues. This makes it easier to keep your code secure and up to date without manual intervention.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">We want to help you resolve code scanning alerts faster and with less work, so you can focus on building features instead of fixing vulnerabilities. By automating the fix process, we aim to improve your workflow efficiency and overall code security.</p>",
+            "url": "https://github.com/github/roadmap/issues/1254",
+            "title": "Agentic autofix generation for code scanning alerts [Public Preview]",
+            "date_modified": "2026-06-12T18:41:58.000Z",
+            "date_published": "2026-06-12T18:41:45.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\"><strong>Note:</strong> <em>The dates in this issue reflect our current planning and are subject to change as we learn more during development. Follow or subscribe to this issue for the latest updates</em></p>\n<h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">We're making it easier to land changes by enabling you to break up the changes into separate pull requests that are stacked on top of each other. Each pull request in the stack is aware of the other pull requests in the stack and what its ultimate target branch is (so the appropriate branch protections and rules are enforced) and individual parts (or the entire stack) can be merged as soon as they are ready.</p>\n<p dir=\"auto\">Because each part of the stack is a just a pull request, there is a low barrier to entry, does not require major changes to your team's workflows, and works with existing apps and tools.</p>\n<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://private-user-images.githubusercontent.com/2503052/542313098-689476ac-1210-43f9-88c8-3da6558e22b8.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODEyODQzMDcsIm5iZiI6MTc4MTI4NDAwNywicGF0aCI6Ii8yNTAzMDUyLzU0MjMxMzA5OC02ODk0NzZhYy0xMjEwLTQzZjktODhjOC0zZGE2NTU4ZTIyYjgucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDYxMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA2MTJUMTcwNjQ3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NTc5Njg4MjE3MWM4M2QwMzJmZmM4NDQxMWUwYWVmNGM0MWYxMTI2YWJlOTk4Mzc5OWIwNDI4OTk1M2M0Njc2NiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.8uWRLS1vVn57T7yHRHMJq-T7JbvKgZdRGGcVy50dAHI\"><img width=\"2000\" height=\"1676\" alt=\"Image\" src=\"https://private-user-images.githubusercontent.com/2503052/542313098-689476ac-1210-43f9-88c8-3da6558e22b8.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODEyODQzMDcsIm5iZiI6MTc4MTI4NDAwNywicGF0aCI6Ii8yNTAzMDUyLzU0MjMxMzA5OC02ODk0NzZhYy0xMjEwLTQzZjktODhjOC0zZGE2NTU4ZTIyYjgucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDYxMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA2MTJUMTcwNjQ3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NTc5Njg4MjE3MWM4M2QwMzJmZmM4NDQxMWUwYWVmNGM0MWYxMTI2YWJlOTk4Mzc5OWIwNDI4OTk1M2M0Njc2NiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.8uWRLS1vVn57T7yHRHMJq-T7JbvKgZdRGGcVy50dAHI\" style=\"max-width: 100%; height: auto; max-height: 1676px;; aspect-ratio: 2000 / 1676; background-color: var(--bgColor-muted); border-radius: 6px\" class=\"js-gh-image-fallback\"></a>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<ol dir=\"auto\">\n<li>Pull requests can be stacked on top of each other, with the appropriate branch protections and rules applied on each pull request in the stack.</li>\n<li>All or part of the stack can be merged once the necessary requirements have been met.</li>\n<li>Works with existing app and tools that understand branches and pull requests.</li>\n</ol>",
-            "url": "https://github.com/github/roadmap/issues/1218",
-            "title": "Pull request stacks [Preview]",
-            "date_modified": "2026-05-21T20:36:39.000Z",
-            "date_published": "2026-01-29T23:59:22.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">You can now lock the exact versions of all actions and their dependencies directly in your workflow files. This gives you clear visibility into what code is running in your CI/CD pipelines, helps you catch changes before they happen, and ensures every workflow run is consistent and secure.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">By making dependencies explicit and verifiable, teams can trust that workflows will run the same way every time, with no surprises from hidden updates or transitive changes. This approach boosts reliability, makes reviews easier, and strengthens supply chain security for your automation at scale.</p>",
+            "url": "https://github.com/github/roadmap/issues/1253",
+            "title": "Locked Dependencies for GitHub Actions Workflows [Public Preview]",
+            "date_modified": "2026-06-12T18:40:48.000Z",
+            "date_published": "2026-06-12T18:40:38.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">The Code Security Risk Assessment will complement the existing Secret Risk Assessment to scan your organization for security vulnerabilities. The Code Security Risk Assessment will deliver a consolidated report highlighting both vulnerabilities so your businesses can quickly prioritize remediation.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">GitHub is committed to helping organizations strengthen their security posture by making it easier to identify and address security risk in code. The Code Security Risk Assessment helps you understand your organization’s security posture and risk exposure, so you can determine where to enable security tooling to better protect your code.</p>",
-            "url": "https://github.com/github/roadmap/issues/1217",
-            "title": "On-demand Code Security Risk Assessment",
-            "date_modified": "2026-04-10T17:25:53.000Z",
-            "date_published": "2026-01-29T23:56:05.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">With open source license compliance, you can easily see and manage license requirements for the open source dependencies in your projects. This helps you avoid unexpected legal or compliance issues, so you can confidently use and ship open source code.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">By making license compliance tools available to more customers, we want to help teams understand and address license obligations early in their workflow. This release aims to reduce risk and simplify compliance, making it easier for organizations to use open source software responsibly.</p>",
+            "url": "https://github.com/github/roadmap/issues/1252",
+            "title": "Open Source License Compliance [Public Preview]",
+            "date_modified": "2026-06-12T18:40:32.000Z",
+            "date_published": "2026-06-12T18:40:23.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Customers appreciate the way composite actions enable them to easily take multiple steps and repeat them easily in jobs. However, they also wish to split out the steps within the job rather than keeping it within the composite action. This increases readability and makes it easy for users to analyze individual steps.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Enable composite actions to split out their steps within a job, rather than being treated as a single composite entity.</p>",
-            "url": "https://github.com/github/roadmap/issues/1216",
-            "title": "Action supports splitting out composite Action steps [GA]",
-            "date_modified": "2026-01-29T23:53:26.000Z",
-            "date_published": "2026-01-29T23:53:13.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">With open source license compliance, you can easily see and manage the licenses for the open source dependencies in your projects. This helps you stay compliant with licensing requirements and avoid surprises, so you can focus on building software with confidence.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">We want to make it simpler for teams to identify and resolve open source license issues early in the development process. By giving you clear visibility and actionable alerts, we aim to reduce compliance risks and help you maintain trust in your software supply chain.</p>",
+            "url": "https://github.com/github/roadmap/issues/1251",
+            "title": "Open Source License Compliance [Public Preview]",
+            "date_modified": "2026-06-12T18:40:24.000Z",
+            "date_published": "2026-06-12T18:40:15.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
             }
         },
         {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Environments auto-deploy when added to Actions workflows. This is useful, but also a pain point if you only want to use the environment's variables, not deploy to it. Using environments to store secrets and bind them to a branch is a huge security win, but for others it's more about usability and avoiding deployment spam on a pull request.[/+]</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With this release, developers can now use environments without them auto-deploying them. This will be accomplished by adding a boolean option in Actions workflows to note if deployment is true or false.</p>",
-            "url": "https://github.com/github/roadmap/issues/1215",
-            "title": "Actions now allows developers to use environments without auto-deployment [GA]",
-            "date_modified": "2026-04-02T20:08:59.000Z",
-            "date_published": "2026-01-29T23:50:31.000Z",
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">The Actions Debugger gives developers an interactive way to troubleshoot GitHub Actions workflows in real time, so you can spend less time guessing and more time building. Securely attach to a running job during execution, inspect environment variables, filesystem state, and step outputs with a debug client of your choice, and re-run individual steps without restarting the entire workflow.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">By making debugging interactive and efficient, we aim to shorten feedback cycles and reduce the guesswork involved in fixing workflow problems. Developers will be able to quickly validate assumptions, understand failures, and resolve issues, leading to smoother CI/CD workflows and a better overall experience with GitHub Actions.</p>",
+            "url": "https://github.com/github/roadmap/issues/1250",
+            "title": "Actions Debugger [GA]",
+            "date_modified": "2026-06-12T18:39:50.000Z",
+            "date_published": "2026-06-12T18:39:39.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
