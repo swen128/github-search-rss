@@ -6,6 +6,17 @@
     "description": "github/roadmap Issues on GitHub",
     "items": [
         {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">You can now set pull request limits across an entire organization from a single place, rather than configuring each repository individually. Org-level bypass lists let you manage trusted contributors centrally, so the right people always have access without repeating that work repo by repo. This makes it practical to enforce consistent contribution policies at scale, even across organizations with hundreds of repositories.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Teams managing large numbers of repositories gain meaningful time back by configuring PR limits once at the org level instead of touching every repo. Central bypass list management reduces the risk of inconsistent trust settings slipping through the cracks. The result is a more reliable and maintainable workflow for maintainers who need to govern open source or enterprise contribution policies at scale.</p>",
+            "url": "https://github.com/github/roadmap/issues/1281",
+            "title": "Add ability to set PR limits at an org level [GA]",
+            "date_modified": "2026-07-29T21:38:10.000Z",
+            "date_published": "2026-07-29T21:38:06.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Improved performance in how scheduled workflows are handled. Customers will experience more reliable execution of their scheduled workflows, with fewer workflows being dropped due to system load.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Improved performance for scheduled workflows and a significant reduction in the number of workflows delayed. Customers can rely on their scheduled workflows running consistently and on time.</p>",
             "url": "https://github.com/github/roadmap/issues/1280",
             "title": "Improving performance for scheduled workflows",
@@ -209,17 +220,6 @@
             "title": "Attested SBOMs associated with artifacts are now visible in a repository's dependency graph [GA]",
             "date_modified": "2026-06-12T18:43:28.000Z",
             "date_published": "2026-06-12T18:43:16.000Z",
-            "author": {
-                "name": "glider-bot",
-                "url": "https://github.com/glider-bot"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Enterprise Server now supports the \"one pipeline\" framework for dependency graph generation, bringing years of dependency graph platform improvements to GHES customers. This includes transitive dependency resolution, dev dependency labelling, broader ecosystem support, and private registry credential handling — capabilities previously available only on GitHub.com. With this update, GHES customers get a more accurate, comprehensive view of their software supply chain without needing to change their workflows.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">GHES customers gain parity with GitHub.com's modern dependency graph pipeline, enabling richer dependency insights and stronger supply chain security posture out of the box. By consolidating on the \"one pipeline\" framework and deprecating legacy generation methods, we reduce platform complexity and ensure all customers benefit from ongoing dependency graph improvements as they ship. This drives deeper adoption of GitHub's supply chain security features across the enterprise segment.</p>",
-            "url": "https://github.com/github/roadmap/issues/1260",
-            "title": "GitHub Enterprise Server now supports the \"one pipeline\" framework for dependency graph generation [GA]",
-            "date_modified": "2026-06-12T18:43:19.000Z",
-            "date_published": "2026-06-12T18:43:08.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
