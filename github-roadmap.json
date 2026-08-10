@@ -6,6 +6,28 @@
     "description": "github/roadmap Issues on GitHub",
     "items": [
         {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">The label picker now surfaces your most relevant labels at the top, so you can apply the right label in seconds instead of scrolling through hundreds of options. A \"Suggested labels\" group shows labels you've recently used alongside the most popular ones in the repo, each with a short reason so you always know why they appear. This makes labeling faster and more accurate, whether you're triaging a single issue or working through a backlog.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Developers and maintainers spend less time hunting for the right label and more time doing meaningful work, resulting in better-labeled issues and pull requests across the board. By reducing choice fatigue in repos with large label sets, teams can triage more consistently and keep their workflows moving. Over time, smarter label suggestions help contributors get onboarded faster and keep project organization healthy with less manual effort.</p>",
+            "url": "https://github.com/github/roadmap/issues/1293",
+            "title": "Suggested Labels [GA]",
+            "date_modified": "2026-08-10T22:17:45.000Z",
+            "date_published": "2026-08-10T22:17:40.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Pinned Items lets you save up to 25 projects, views, and milestones directly in the repository sidebar, so your most-used destinations are always one click away. Whether you're tracking a milestone, jumping back to a saved issue query, or checking in on a project board, you get there without navigating through menus every time. Your sidebar becomes a persistent launchpad tailored to how you actually work.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Saved views are powerful, but only if people come back to them — and data from the preview showed that most users who created a view never returned to it. Pinned Items closes that gap by keeping the things you care about visible and reachable in the sidebar at all times. The goal is to make saved views, projects, and milestones a natural part of the daily workflow, not a feature people set up once and forget.</p>",
+            "url": "https://github.com/github/roadmap/issues/1292",
+            "title": "Pinned Items — pin Projects, Views & Milestones to the sidebar [GA]",
+            "date_modified": "2026-08-10T22:16:18.000Z",
+            "date_published": "2026-08-10T22:16:14.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">You can now archive labels to retire them from active use without deleting them or losing any history. Archived labels disappear from pickers, autocomplete, and suggestions immediately, so your label list stays clean and relevant — while remaining applied to all existing issues, pull requests, and discussions. Un-archiving brings a label back at any time, so there's no risk in tidying up.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Repositories with long histories tend to accumulate hundreds of unused labels that clutter the label picker and slow down triage. Archive labels gives maintainers a safe, reversible way to retire labels they no longer need, so contributors can find the right labels quickly. The result is a cleaner labeling workflow and less friction when organizing and prioritizing work.</p>",
             "url": "https://github.com/github/roadmap/issues/1291",
             "title": "Archive labels [GA]",
@@ -198,28 +220,6 @@
             "title": "SBOM Export user interface and API support retrieval of dependency snapshots [GA]",
             "date_modified": "2026-08-08T00:58:35.000Z",
             "date_published": "2026-06-12T18:49:46.000Z",
-            "author": {
-                "name": "glider-bot",
-                "url": "https://github.com/glider-bot"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Gain full visibility into every open source dependency across your organization — all in one place. With organization-wide dependency search, security teams and developers can quickly locate vulnerable, non-compliant, or otherwise problematic components across their entire codebase without navigating repository by repository. Powered by a rearchitected indexing pipeline, search is fast and reliable even at scale, giving you confidence that results are accurate and complete.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Organizations need a fast, trustworthy way to answer the question \"where are we using this dependency?\" especially when a critical vulnerability or malware advisory drops. The previous Organization Insights experience suffered from performance issues on large repositories and growing inaccuracy as dependency graph shifted to snapshot-based parsing. This release replaces that experience with a purpose-built, high-performance search capability so that customers can identify and remediate supply chain risks across their organization in seconds, not hours.</p>",
-            "url": "https://github.com/github/roadmap/issues/1272",
-            "title": "Users can now search their complete organization-wide dependencies [GA]",
-            "date_modified": "2026-08-08T00:58:31.000Z",
-            "date_published": "2026-06-12T18:49:31.000Z",
-            "author": {
-                "name": "glider-bot",
-                "url": "https://github.com/glider-bot"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/134638657?u=796627b7b5613a75768e410a1ef8cd04cea589d7&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">With keyless GitHub App tokens in Actions, you can securely run workflows that act as a GitHub App without needing to store or manage private keys as secrets. This makes it easier and safer to automate tasks like creating pull requests, managing branches, or accessing private repositories, all while reducing the risk of credential leaks.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">This update aims to eliminate the need for distributing and storing private keys for GitHub Apps in Actions workflows, tightening security and simplifying setup. By allowing only trusted workflows to mint tokens based on admin-defined policies, customers gain more control and peace of mind over their automation and integrations.</p>",
-            "url": "https://github.com/github/roadmap/issues/1271",
-            "title": "Keyless GitHub App Tokens in Actions [Public Preview]",
-            "date_modified": "2026-06-12T18:49:33.000Z",
-            "date_published": "2026-06-12T18:49:23.000Z",
             "author": {
                 "name": "glider-bot",
                 "url": "https://github.com/glider-bot"
