@@ -108,7 +108,7 @@
             "content_html": "<img src=\"https://avatars.githubusercontent.com/u/88630068?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><p dir=\"auto\">Ask your question.<br>\nArchitectural issue (not a spec review): user-agency failure in OS/web workspace sync connectors.</p>\n<p dir=\"auto\">Asks for TAG</p>\n<ol dir=\"auto\">\n<li>Treat automatic remapping of well-known local directories as an architecture/user-agency issue where web and workspace connectors participate.</li>\n<li>Record a principle: local file operations must not depend on remote quota or connectivity; an empty remote account must not be allowed to overwrite or dehydrate a larger local tree without an explicit, reversible, step-by-step consent that states the direction of sync and the billing consequence.</li>\n<li>Recommend a mandatory “hard severance” that restores independent local paths without leftover placeholders.</li>\n</ol>\n\n<hr>\n<p dir=\"auto\">Track conversations at <a href=\"https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1272\" rel=\"nofollow\">https://tag-github-bot.w3.org/gh/w3ctag/design-reviews/1272</a></p>",
             "url": "https://github.com/w3ctag/design-reviews/issues/1272",
             "title": "Question: Architectural issue: local path hijacking and cloud sync lock-in vs user agency",
-            "date_modified": "2026-08-28T17:26:31.000Z",
+            "date_modified": "2026-09-23T21:02:20.000Z",
             "date_published": "2026-08-28T17:26:27.000Z",
             "author": {
                 "name": "pailgrape",
