@@ -8,8 +8,8 @@
         {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">The new pull request experience improves velocity by helping users, regardless of their role, focus on what matters most and take action with confidence. This new experience introduces an improved landing page that puts merge status and comments front and center, and summarizes what's new so users can quickly jump back in. Improved navigation brings information closer and reduces tab switching.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">By providing a tailored overview that surfaces key information and findings, we aim to help reviewers and contributors save time and reduce context switching. This release should lead to quicker, more informed reviews and smoother collaboration across teams.</p>",
             "url": "https://github.com/github/roadmap/issues/1335",
-            "title": "Modern PR experience: Overview and improved navigation [Public Preview]",
-            "date_modified": "2026-09-24T17:14:39.000Z",
+            "title": "Modern PR experience :: Overview and improved navigation [Public Preview]",
+            "date_modified": "2026-09-24T17:17:33.000Z",
             "date_published": "2026-09-24T17:14:35.000Z",
             "author": {
                 "name": "github-product-ops",
