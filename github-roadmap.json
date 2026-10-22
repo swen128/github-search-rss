@@ -4,5 +4,226 @@
     "home_page_url": "https://swen128.github.io/github-search-rss/github-roadmap.json",
     "feed_url": "https://swen128.github.io/github-search-rss/github-roadmap.json",
     "description": "github/roadmap Issues on GitHub",
-    "items": []
+    "items": [
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">The Planning tab gives organizations and users a single, consistent place to find and organize work across all their repositories. Instead of jumping between project URLs and individual repos, you can open issues and access projects from one unified view scoped to your account. This makes it easier for teams to get a clear picture of work in flight and plan across the full breadth of their account.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Teams spend less time hunting for context and more time doing meaningful work. By surfacing a dedicated planning home at the organization and user level, this feature helps teams build consistent planning habits and reduces the friction of coordinating work across repositories. The result is a clearer, faster path from identifying work to organizing and acting on it.</p>",
+            "url": "https://github.com/github/roadmap/issues/1339",
+            "title": "Planning tab for organizations and users [Public Preview]",
+            "date_modified": "2026-09-29T18:52:57.000Z",
+            "date_published": "2026-09-29T18:52:51.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Enterprise Managed Authorization (EMA, also known as ID-JAG or Cross-app access) lets you use your corporate identity in compatible apps to access GitHub without completing a separate sign-in or OAuth consent flow. When you use your corporate credentials to sign in to VS Code, Claude, or another app that supports EMA, you'll have immediate access to GitHub - no JSON or extra logins required.</p>\n<p dir=\"auto\">EMA is a rare overlap of security and usability - identity administrators can better enforce their existing IdP access policies and get more detailed audit logs while developers get a faster, easier way to connect their tools to GitHub.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">This public preview is targeted at Enterprise Managed Users, whose identity is already owned by a corporate IdP. Client apps that support EMA, in conjunction with compatible IdPs such as Entra, Okta, or Ping, will be able to access GitHub on behalf of an EMU user without an additional sign in flow. When the user signs into the app using their corporate IdP credentials, they will be able to immediately start using GitHub.</p>",
+            "url": "https://github.com/github/roadmap/issues/1338",
+            "title": "Enterprise Managed Authorization (ID-JAG, XAA) allows apps to silently SSO into GitHub using corporate credentials [Public Preview]",
+            "date_modified": "2026-09-29T18:18:16.000Z",
+            "date_published": "2026-09-29T18:18:11.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">You can now visualize and prioritize your work on a board without leaving issues behind. The issues board view lets teams organize, triage, and update work using a flexible, query-driven layout while keeping the issue as the single source of truth. There's no need to duplicate effort across separate planning tools — your board and your issues stay in sync automatically.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Teams that plan visually can now do so entirely within GitHub, eliminating the fragmentation that comes from managing work across issues and disconnected project boards. By bringing board-style planning directly into the issues experience, teams spend less time reconciling competing records and more time shipping. This public preview gives teams an early look at a more unified planning workflow and invites feedback to shape the final experience.</p>",
+            "url": "https://github.com/github/roadmap/issues/1337",
+            "title": "Issues Board View [Public Preview]",
+            "date_modified": "2026-09-24T18:29:58.000Z",
+            "date_published": "2026-09-24T18:29:53.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub issues now support granular workflow statuses — like \"Backlog,\" \"Todo,\" or \"In Progress\" — that go beyond the basic open and closed states. Teams can track exactly where work stands across issue lists, boards, APIs, and automation without needing to stitch together labels and project fields. This gives everyone a single, consistent view of work status, from teammates to automated agents.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Teams spend less time maintaining workarounds and more time shipping, with a shared understanding of issue state that works everywhere GitHub does. By surfacing durable, structured status natively in issues, teams can report on progress accurately, automate workflows reliably, and keep projects moving without ambiguity.</p>",
+            "url": "https://github.com/github/roadmap/issues/1336",
+            "title": "Granular issue status [Public Preview]",
+            "date_modified": "2026-09-24T18:29:17.000Z",
+            "date_published": "2026-09-24T18:29:12.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">The new pull request experience improves velocity by helping users, regardless of their role, focus on what matters most and take action with confidence. This new experience introduces an improved landing page that puts merge status and comments front and center, and summarizes what's new so users can quickly jump back in. Improved navigation brings information closer and reduces tab switching.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">By providing a tailored overview that surfaces key information and findings, we aim to help reviewers and contributors save time and reduce context switching. This release should lead to quicker, more informed reviews and smoother collaboration across teams.</p>",
+            "url": "https://github.com/github/roadmap/issues/1335",
+            "title": "Modern PR experience :: Overview and improved navigation [Public Preview]",
+            "date_modified": "2026-09-24T17:17:33.000Z",
+            "date_published": "2026-09-24T17:14:35.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Repository maintainers can now see role labels—such as Owner, Member, Collaborator, Contributor, First-time contributor, and First-time GitHub contributor—directly in the Issues list view, making it instantly clear who is opening issues. This eliminates the need to open individual issues or check author profiles, saving time during triage and helping maintainers provide more targeted feedback to newcomers and established contributors alike.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">We want to help maintainers make faster, better-informed triage and moderation decisions by surfacing contributor context directly where they need it. By bringing repository member role information to Issues lists—matching the experience already available in pull request lists—maintainers have context on who each Issue is coming from so they can triage more effectively.</p>",
+            "url": "https://github.com/github/roadmap/issues/1334",
+            "title": "Show repo member role labels in Issue list view [GA]",
+            "date_modified": "2026-09-24T16:33:39.000Z",
+            "date_published": "2026-09-24T16:33:34.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">You can now save private views on any repository you can read — no triage access required. Private views are visible only to you, so you can keep personal filters separate from the shared views your whole team sees. Shared and private views appear together in the sidebar, making it easy to switch between your own workflow and the team's common view.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Saved views previously required triage access, which left most contributors — readers and collaborators — unable to save filters at all. Private views open this capability to everyone, mirroring the personal filter model already available on the global issues and pull requests pages, and give triage-level users a way to maintain working views without affecting their team's shared set.</p>",
+            "url": "https://github.com/github/roadmap/issues/1333",
+            "title": "Private (personal) saved views [GA]",
+            "date_modified": "2026-09-24T00:05:19.000Z",
+            "date_published": "2026-09-24T00:05:15.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Navigate and filter issue activity more efficiently with the new Activity panel. Instead of scrolling through a cluttered timeline and repeatedly clicking \"Load more,\" you can now focus on the events and comments that matter to you, making it easier to follow conversations and find important context on any issue.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Issues become more navigable and performant by separating comments from the broader activity timeline. Users spend less time loading and parsing irrelevant events, and more time understanding the discussions that drive their work forward.</p>",
+            "url": "https://github.com/github/roadmap/issues/1332",
+            "title": "Focused issue timeline and activity panel [Public Preview]",
+            "date_modified": "2026-09-23T19:06:01.000Z",
+            "date_published": "2026-09-23T19:05:56.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/268937995?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>",
+            "url": "https://github.com/github/roadmap/issues/1331",
+            "title": "(deleted)",
+            "date_modified": "2026-09-22T20:26:18.000Z",
+            "date_published": "2026-09-22T20:14:52.000Z",
+            "author": {
+                "name": "bryanndjeutcha",
+                "url": "https://github.com/bryanndjeutcha"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/268937995?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>",
+            "url": "https://github.com/github/roadmap/issues/1330",
+            "title": "(deleted)",
+            "date_modified": "2026-09-22T20:26:18.000Z",
+            "date_published": "2026-09-22T19:45:14.000Z",
+            "author": {
+                "name": "bryanndjeutcha",
+                "url": "https://github.com/bryanndjeutcha"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/268937995?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>",
+            "url": "https://github.com/github/roadmap/issues/1329",
+            "title": "(deleted)",
+            "date_modified": "2026-09-22T20:26:18.000Z",
+            "date_published": "2026-09-22T19:45:14.000Z",
+            "author": {
+                "name": "bryanndjeutcha",
+                "url": "https://github.com/bryanndjeutcha"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/268937995?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>",
+            "url": "https://github.com/github/roadmap/issues/1328",
+            "title": "(deleted)",
+            "date_modified": "2026-09-22T20:26:18.000Z",
+            "date_published": "2026-09-22T19:39:13.000Z",
+            "author": {
+                "name": "bryanndjeutcha",
+                "url": "https://github.com/bryanndjeutcha"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/78455750?u=f80f15ea7a97db7de22dcaef200d76ed46576f72&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h2 dir=\"auto\">Hi Community! 👋</h2>\n<p dir=\"auto\">We want to take a moment to sincerely thank everyone who has participated in the discussions here in the past month. Your comments have been heard and appreciated, and they’ve played a meaningful role in shaping our conversations with our community and products.</p>\n<p dir=\"auto\">To better serve our community and centralize discussions for our product team, we’ve disabled the ability to post on the GitHub Roadmap discussion board. Join us as we continue the conversation in the <a href=\"https://github.com/orgs/community/discussions\">Community discussions</a>!</p>\n<p dir=\"auto\">The <a href=\"https://github.com/orgs/community/discussions\">Community discussions</a> are the ideal place to raise feature requests, share feedback, and connect with fellow members. With a dedicated team of community managers and active product managers closely monitoring the forums, this platform ensures better engagement and quicker responses compared to the roadmap discussions.</p>\n<h3 dir=\"auto\">What’s next?</h3>\n<p dir=\"auto\">We have reviewed any user created Discussions and guided to the <a href=\"https://github.com/orgs/community/discussions\">Community discussions</a> where applicable. We will disable the ability for non GitHub staff to post on GitHub roadmap discussion boards.</p>\n<p dir=\"auto\">Then we will update some roadmap issues with direct links to dedicated feedback discussions where we would love you to upvote and share your feedback where it fits best. Feel free to create a new discussion if needed!</p>\n<p dir=\"auto\">We look forward to hearing your thoughts and engaging with you in the community discussions - see you there!👋</p>\n<p dir=\"auto\"><em>Originally posted by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ankneis/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/ankneis\">@ankneis</a> in <a href=\"https://github.com/github/roadmap/discussions/1074\">https://github.com/github/roadmap/discussions/1074</a></em></p>",
+            "url": "https://github.com/github/roadmap/issues/1327",
+            "title": "Private ",
+            "date_modified": "2026-09-21T11:04:43.000Z",
+            "date_published": "2026-09-05T18:06:59.000Z",
+            "author": {
+                "name": "mostofa420",
+                "url": "https://github.com/mostofa420"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">You can now enable and manage auto-merge for stacked pull requests directly in GitHub Mobile on iOS and Android. No more switching to a desktop browser just to configure auto-merge on a stack — everything you need is available right from the stack mergebox in the app. This keeps your workflow moving whether you're at your desk or on the go.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Developers working with stacked pull requests gain full auto-merge control on mobile, removing a key gap that previously forced context-switching to desktop. By bringing this capability to the mobile stack mergebox, GitHub Mobile becomes a more complete tool for managing complex review workflows from anywhere.</p>",
+            "url": "https://github.com/github/roadmap/issues/1326",
+            "title": "GitHub Mobile: Auto-merge support for Stacked PRs [GA]",
+            "date_modified": "2026-08-21T17:55:49.000Z",
+            "date_published": "2026-08-20T18:29:26.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">You can now rebase an entire stack of pull requests directly from GitHub Mobile, without needing to switch to a desktop browser. Track rebase progress and status in real time from the stack merge section, so you stay in control of your stacked pull request workflows wherever you are.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Developers working with stacked pull requests often hit blockers when branches fall out of date—and resolving them previously required leaving the mobile experience entirely. This release brings full rebase support to GitHub Mobile, helping teams keep their stacks current and their momentum going, even when they're away from their desks.</p>",
+            "url": "https://github.com/github/roadmap/issues/1325",
+            "title": "GitHub Mobile: Rebase Stacked PRs [GA]",
+            "date_modified": "2026-08-21T17:55:44.000Z",
+            "date_published": "2026-08-20T18:28:23.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">You can now attach local images and videos directly to issues, pull requests, and comments using the GitHub CLI. This works across <code class=\"notranslate\">gh issue create</code>, <code class=\"notranslate\">gh issue comment</code>, <code class=\"notranslate\">gh pr create</code>, <code class=\"notranslate\">gh pr comment</code>, and <code class=\"notranslate\">gh pr edit</code>.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Developers and teams using GitHub CLI in automated or agentic workflows gain a reliable way to include visual evidence like screenshots, recordings, and diagrams alongside their work. This closes a long-standing gap that made it difficult to provide proof of work or communicate changes clearly through the CLI alone. The result is a more complete CLI experience that fits naturally into both human and agentic development flows.</p>",
+            "url": "https://github.com/github/roadmap/issues/1324",
+            "title": "GitHub CLI: Image upload and attach for issues, PRs, and comments [GA]",
+            "date_modified": "2026-08-21T17:56:11.000Z",
+            "date_published": "2026-08-13T21:44:20.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Enterprise administrators and billing managers can now set <strong>hard spending limits on Copilot licenses</strong> at the enterprise and organization level, giving them the same budget enforcement capabilities already available for usage-based products like Actions and Codespaces. Instead of relying on soft limits and email notifications that only alert when thresholds are reached, admins can enforce strict caps that prevent teams from exceeding their allocated Copilot budget. This eliminates surprise overages, simplifies financial governance across large organizations, and gives IT leaders confidence that individual business units will only consume the licenses they've been allocated.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Large enterprises managing Copilot across multiple organizations need predictable, enforceable spending controls. Today, license-based products only support soft limits — admins receive notifications at 75%, 90%, and 100% thresholds but the platform does not prevent overages. This gap forces billing managers to manually monitor and intervene, creating operational overhead and financial risk. By introducing hard budgets for Copilot License SKUs, we enable enterprises to set organization-level license caps that are automatically enforced, ensuring each business unit stays within its purchased allocation. This reduces administrative burden, prevents unintentional overuse by one organization at the expense of others, and removes a key blocker for enterprises scaling Copilot adoption with confidence.</p>",
+            "url": "https://github.com/github/roadmap/issues/1322",
+            "title": "Copilot SKU-level hard budgets [GA]",
+            "date_modified": "2026-09-03T22:05:20.000Z",
+            "date_published": "2026-08-13T18:28:18.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Proof of Presence requires developers to re-authenticate through their organization's identity provider before completing high-impact actions like merging or approving pull requests. This protection now works across all major SSO providers—including Okta, Ping, and any SAML or OIDC-compatible IdP—so every team benefits regardless of which identity provider they use. Organizations get stronger, identity-backed verification at the moments that matter most, powered by their existing MFA setup.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With Proof of Presence generally available across all identity providers, organizations can consistently enforce re-authentication at critical points in the software development lifecycle. Routing verification through each team's own IdP and MFA gives security teams confidence that only authorized contributors can merge or approve code changes. This reduces the risk of unauthorized changes from compromised accounts and helps teams meet security and compliance requirements without adding unnecessary friction to everyday workflows.</p>",
+            "url": "https://github.com/github/roadmap/issues/1321",
+            "title": "Proof of Presence (PoP) – General Availability across all identity providers [GA]",
+            "date_modified": "2026-08-13T01:20:20.000Z",
+            "date_published": "2026-08-13T01:20:16.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">When a repository policy requires it, developers approving or merging a pull request are prompted to complete a fresh, interactive MFA challenge through Microsoft Entra ID before the action goes through. This ensures that the specific person taking those high-impact actions is genuinely present and verified at the exact moment they matter — not just holding an active session. It adds a meaningful layer of identity assurance directly into the pull request workflow, without changing how teams collaborate day to day.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Regulated organizations can now demonstrate, with a real-time identity check, that pull request approvals and merges were performed by an authorized, present individual — strengthening compliance with requirements like FDA 21 CFR Part 11. By anchoring proof of presence to the two most consequential points in the code review process, teams reduce the risk that compromised tokens or sessions could silently influence what ships to production.</p>",
+            "url": "https://github.com/github/roadmap/issues/1320",
+            "title": "Proof of Presence (PoP) for Pull Requests – Re-authentication on PR merge & approval (Entra IdP) [Public Preview]",
+            "date_modified": "2026-09-03T18:25:32.000Z",
+            "date_published": "2026-08-13T01:19:14.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Enterprises using Microsoft Entra ID can now require users to complete a fresh, interactive MFA challenge through their own identity provider before performing sensitive actions on GitHub. Re-authentication is driven by your existing Entra ID configuration—whether SAML or OIDC—so there's no new tooling to set up and no changes to how your teams authenticate day-to-day. This gives security and compliance teams stronger assurance that a real, authorized person is behind every high-impact operation.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Long-lived session tokens are a known vector for supply-chain attacks, and organizations subject to strict compliance requirements need more than a valid session cookie to authorize consequential actions. By tying re-authentication directly to the moment of action—and routing the challenge through the customer's own IdP—GitHub helps enterprises reduce exposure from compromised credentials while satisfying regulatory and internal security mandates. The result is a tighter, verifiable link between identity and action across your GitHub environment.</p>",
+            "url": "https://github.com/github/roadmap/issues/1319",
+            "title": "[Release] Proof of Presence (PoP) – Interactive re-authentication for high-impact actions (Entra IdP) [Public Preview]",
+            "date_modified": "2026-09-23T15:43:13.000Z",
+            "date_published": "2026-08-13T01:17:26.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        }
+    ]
 }
