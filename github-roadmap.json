@@ -6,6 +6,17 @@
     "description": "github/roadmap Issues on GitHub",
     "items": [
         {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Actions automatically blocks the risky <code class=\"notranslate\">pull_request_target</code> trigger in public repositories by default, protecting your secrets and build pipeline from potential exploits. You keep full control—explicitly allow the trigger in your Actions policies whenever your workflows specifically need it.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Public repositories will have safer default settings for GitHub Actions workflows. This change reduces the risk of attackers stealing repository secrets or compromising the build pipeline by executing untrusted code from pull requests, while still allowing teams to enable the trigger when they have a legitimate need.</p>",
+            "url": "https://github.com/github/roadmap/issues/1343",
+            "title": "GitHub Actions will block `pull_request_target` by default in affected public repositories [Closing Down]",
+            "date_modified": "2026-11-04T19:29:02.000Z",
+            "date_published": "2026-11-04T19:28:54.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Copilot can now interact directly with desktop applications on your machine — reading what's on screen, clicking buttons, filling in fields, and navigating workflows — so you can automate tasks that go beyond code and terminals. This is especially powerful for working with legacy or GUI-only software where no API or integration exists. You stay in control throughout, with runtime permission checks that keep automation guarded and transparent.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Developers and enterprises spend significant time on repetitive, manual desktop workflows that are difficult to script or integrate. By giving Copilot the ability to drive any application through natural language prompts, teams can automate a much wider range of tasks without writing custom tooling. The goal is to expand what Copilot can do for you — from a coding assistant to a capable agent that works across your entire desktop environment.</p>",
             "url": "https://github.com/github/roadmap/issues/1342",
             "title": "GitHub Copilot CLI/App - Computer Use [Public Preview]",
@@ -209,17 +220,6 @@
             "title": "Copilot SKU-level hard budgets [GA]",
             "date_modified": "2026-09-03T22:05:20.000Z",
             "date_published": "2026-08-13T18:28:18.000Z",
-            "author": {
-                "name": "github-product-ops",
-                "url": "https://github.com/apps/github-product-ops"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Proof of Presence requires developers to re-authenticate through their organization's identity provider before completing high-impact actions like merging or approving pull requests. This protection now works across all major SSO providers—including Okta, Ping, and any SAML or OIDC-compatible IdP—so every team benefits regardless of which identity provider they use. Organizations get stronger, identity-backed verification at the moments that matter most, powered by their existing MFA setup.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">With Proof of Presence generally available across all identity providers, organizations can consistently enforce re-authentication at critical points in the software development lifecycle. Routing verification through each team's own IdP and MFA gives security teams confidence that only authorized contributors can merge or approve code changes. This reduces the risk of unauthorized changes from compromised accounts and helps teams meet security and compliance requirements without adding unnecessary friction to everyday workflows.</p>",
-            "url": "https://github.com/github/roadmap/issues/1321",
-            "title": "Proof of Presence (PoP) – General Availability across all identity providers [GA]",
-            "date_modified": "2026-08-13T01:20:20.000Z",
-            "date_published": "2026-08-13T01:20:16.000Z",
             "author": {
                 "name": "github-product-ops",
                 "url": "https://github.com/apps/github-product-ops"
