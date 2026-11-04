@@ -6,6 +6,17 @@
     "description": "github/roadmap Issues on GitHub",
     "items": [
         {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Issue types and issue fields are now available in your personal repositories, giving you the same structured planning capabilities that teams in organizations have been using to standardize their workflows. You can customize issue types and fields to match how you work, making it easier to organize and track your projects with consistency.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">By extending issue types and issue fields to user-owned repositories, we're empowering individual developers to bring enterprise-grade planning tools to their personal projects. This makes GitHub a unified platform for planning at any scale—from solo projects to large team efforts—and helps users develop better practices around how they organize and track their work.</p>",
+            "url": "https://github.com/github/roadmap/issues/1344",
+            "title": "User owned issue fields and issue types [GA]",
+            "date_modified": "2026-11-04T20:15:29.000Z",
+            "date_published": "2026-11-04T20:15:21.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Actions automatically blocks the risky <code class=\"notranslate\">pull_request_target</code> trigger in public repositories by default, protecting your secrets and build pipeline from potential exploits. You keep full control—explicitly allow the trigger in your Actions policies whenever your workflows specifically need it.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Public repositories will have safer default settings for GitHub Actions workflows. This change reduces the risk of attackers stealing repository secrets or compromising the build pipeline by executing untrusted code from pull requests, while still allowing teams to enable the trigger when they have a legitimate need.</p>",
             "url": "https://github.com/github/roadmap/issues/1343",
             "title": "GitHub Actions will block `pull_request_target` by default in affected public repositories [Closing Down]",
@@ -209,17 +220,6 @@
             "title": "GitHub CLI: Image upload and attach for issues, PRs, and comments [GA]",
             "date_modified": "2026-08-21T17:56:11.000Z",
             "date_published": "2026-08-13T21:44:20.000Z",
-            "author": {
-                "name": "github-product-ops",
-                "url": "https://github.com/apps/github-product-ops"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Enterprise administrators and billing managers can now set <strong>hard spending limits on Copilot licenses</strong> at the enterprise and organization level, giving them the same budget enforcement capabilities already available for usage-based products like Actions and Codespaces. Instead of relying on soft limits and email notifications that only alert when thresholds are reached, admins can enforce strict caps that prevent teams from exceeding their allocated Copilot budget. This eliminates surprise overages, simplifies financial governance across large organizations, and gives IT leaders confidence that individual business units will only consume the licenses they've been allocated.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Large enterprises managing Copilot across multiple organizations need predictable, enforceable spending controls. Today, license-based products only support soft limits — admins receive notifications at 75%, 90%, and 100% thresholds but the platform does not prevent overages. This gap forces billing managers to manually monitor and intervene, creating operational overhead and financial risk. By introducing hard budgets for Copilot License SKUs, we enable enterprises to set organization-level license caps that are automatically enforced, ensuring each business unit stays within its purchased allocation. This reduces administrative burden, prevents unintentional overuse by one organization at the expense of others, and removes a key blocker for enterprises scaling Copilot adoption with confidence.</p>",
-            "url": "https://github.com/github/roadmap/issues/1322",
-            "title": "Copilot SKU-level hard budgets [GA]",
-            "date_modified": "2026-09-03T22:05:20.000Z",
-            "date_published": "2026-08-13T18:28:18.000Z",
             "author": {
                 "name": "github-product-ops",
                 "url": "https://github.com/apps/github-product-ops"
