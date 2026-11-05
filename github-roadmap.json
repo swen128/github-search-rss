@@ -6,6 +6,50 @@
     "description": "github/roadmap Issues on GitHub",
     "items": [
         {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Stacked pull requests let you break large changes into small, focused, independently reviewable units — so reviews move faster and nothing blocks your team. Each pull request in the stack can be reviewed and validated on its own, and when everything looks good, you can merge the entire stack in one click. Whether you're working solo or collaborating with coding agents, stacked pull requests give you a structured way to ship complex work quickly and incrementally.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">As more code is generated at higher velocity — including by AI agents — code review has become the primary bottleneck to shipping. Stacked pull requests reach general availability to give every developer on GitHub a reliable, scalable way to keep reviews manageable and momentum high. The goal is to make incremental, high-quality shipping the default experience, not the exception.</p>",
+            "url": "https://github.com/github/roadmap/issues/1355",
+            "title": "Stacked Pull Requests [GA]",
+            "date_modified": "2026-11-05T21:16:33.000Z",
+            "date_published": "2026-11-05T21:16:10.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Cloud sandboxes give GitHub Copilot a fast, secure, and stateful compute environment that powers agentic tasks across the tools you already use — including Slack, Microsoft Teams, and Jira. With snapshot and resume capabilities, Copilot can pick up where it left off without rebuilding context, making agent interactions faster and more reliable. This means less waiting and more time focused on the work that matters.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Developers get noticeably more responsive Copilot experiences as agents no longer need to repeatedly recreate their environment from scratch. By providing on-demand compute that starts quickly and preserves state across interactions, cloud sandboxes remove a key source of friction in agentic workflows. The result is a smoother, more interactive Copilot experience that scales across surfaces and use cases.</p>",
+            "url": "https://github.com/github/roadmap/issues/1354",
+            "title": "Cloud sandboxes [GA]",
+            "date_modified": "2026-11-05T21:15:20.000Z",
+            "date_published": "2026-11-05T21:13:15.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Copilot code review now uses secret scanning, including GitHub's purpose-built model for secret detection, in code review scans. This helps you catch sensitive credentials without the overhead of managing multiple detection tools.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">We're improving the security posture of code reviews by embedding secret scanning, catching credential leaks at review time. This integration makes it easier for teams to maintain secure-by-default practices and reduces the risk of accidental secret exposure in pull requests.</p>",
+            "url": "https://github.com/github/roadmap/issues/1353",
+            "title": "Copilot code review includes secret scanning [Public Preview]",
+            "date_modified": "2026-11-05T21:12:12.000Z",
+            "date_published": "2026-11-05T21:12:04.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">When a secret like a Slack or Salesforce token is exposed in your repository, you can now revoke it with a single click directly from the secret scanning alert. This eliminates the need to track down the token owner or navigate complex support processes—GitHub handles revocation with the issuer for you.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">We're making secret remediation faster and more autonomous for development teams. By reducing the friction to revoke exposed credentials, we help teams contain security breaches within minutes rather than hours, strengthening their overall security posture and reducing the risk window for potential misuse.</p>",
+            "url": "https://github.com/github/roadmap/issues/1352",
+            "title": "1-click revocation for secret scanning partner types [Public Preview]",
+            "date_modified": "2026-11-05T21:10:54.000Z",
+            "date_published": "2026-11-05T21:10:48.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Security teams can now jump directly to any public monitoring alert with a shareable URL, making it faster to return to specific findings during triage or incident response. Teammates can bookmark alerts or quickly pull up the exact alert you're discussing without hunting through the full alert list.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Public monitoring alerts become easier to navigate and discuss, reducing friction in security team workflows. By giving alerts individual URLs, teams can establish a shared reference point for each finding, streamlining collaboration and reducing duplicate investigation efforts.</p>",
             "url": "https://github.com/github/roadmap/issues/1351",
             "title": "Public monitoring alerts now have direct links [GA]",
@@ -179,50 +223,6 @@
             "author": {
                 "name": "github-product-ops",
                 "url": "https://github.com/apps/github-product-ops"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Repository maintainers can now see role labels—such as Owner, Member, Collaborator, Contributor, First-time contributor, and First-time GitHub contributor—directly in the Issues list view, making it instantly clear who is opening issues. This eliminates the need to open individual issues or check author profiles, saving time during triage and helping maintainers provide more targeted feedback to newcomers and established contributors alike.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">We want to help maintainers make faster, better-informed triage and moderation decisions by surfacing contributor context directly where they need it. By bringing repository member role information to Issues lists—matching the experience already available in pull request lists—maintainers have context on who each Issue is coming from so they can triage more effectively.</p>",
-            "url": "https://github.com/github/roadmap/issues/1334",
-            "title": "Show repo member role labels in Issue list view [GA]",
-            "date_modified": "2026-09-24T16:33:39.000Z",
-            "date_published": "2026-09-24T16:33:34.000Z",
-            "author": {
-                "name": "github-product-ops",
-                "url": "https://github.com/apps/github-product-ops"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">You can now save private views on any repository you can read — no triage access required. Private views are visible only to you, so you can keep personal filters separate from the shared views your whole team sees. Shared and private views appear together in the sidebar, making it easy to switch between your own workflow and the team's common view.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Saved views previously required triage access, which left most contributors — readers and collaborators — unable to save filters at all. Private views open this capability to everyone, mirroring the personal filter model already available on the global issues and pull requests pages, and give triage-level users a way to maintain working views without affecting their team's shared set.</p>",
-            "url": "https://github.com/github/roadmap/issues/1333",
-            "title": "Private (personal) saved views [GA]",
-            "date_modified": "2026-09-24T00:05:19.000Z",
-            "date_published": "2026-09-24T00:05:15.000Z",
-            "author": {
-                "name": "github-product-ops",
-                "url": "https://github.com/apps/github-product-ops"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Navigate and filter issue activity more efficiently with the new Activity panel. Instead of scrolling through a cluttered timeline and repeatedly clicking \"Load more,\" you can now focus on the events and comments that matter to you, making it easier to follow conversations and find important context on any issue.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Issues become more navigable and performant by separating comments from the broader activity timeline. Users spend less time loading and parsing irrelevant events, and more time understanding the discussions that drive their work forward.</p>",
-            "url": "https://github.com/github/roadmap/issues/1332",
-            "title": "Focused issue timeline and activity panel [Public Preview]",
-            "date_modified": "2026-09-23T19:06:01.000Z",
-            "date_published": "2026-09-23T19:05:56.000Z",
-            "author": {
-                "name": "github-product-ops",
-                "url": "https://github.com/apps/github-product-ops"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/268937995?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>",
-            "url": "https://github.com/github/roadmap/issues/1331",
-            "title": "(deleted)",
-            "date_modified": "2026-09-22T20:26:18.000Z",
-            "date_published": "2026-09-22T20:14:52.000Z",
-            "author": {
-                "name": "bryanndjeutcha",
-                "url": "https://github.com/bryanndjeutcha"
             }
         }
     ]
