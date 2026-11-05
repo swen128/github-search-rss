@@ -6,6 +6,50 @@
     "description": "github/roadmap Issues on GitHub",
     "items": [
         {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Security teams can now jump directly to any public monitoring alert with a shareable URL, making it faster to return to specific findings during triage or incident response. Teammates can bookmark alerts or quickly pull up the exact alert you're discussing without hunting through the full alert list.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Public monitoring alerts become easier to navigate and discuss, reducing friction in security team workflows. By giving alerts individual URLs, teams can establish a shared reference point for each finding, streamlining collaboration and reducing duplicate investigation efforts.</p>",
+            "url": "https://github.com/github/roadmap/issues/1351",
+            "title": "Public monitoring alerts now have direct links [GA]",
+            "date_modified": "2026-11-05T18:17:53.000Z",
+            "date_published": "2026-11-05T18:17:45.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Dependabot continues to stay on top of security vulnerabilities in your repositories, even as our alert volume grows. When your repository hasn't received any commits in a year, we automatically move your alerts to storage that's optimized for historical records—keeping Dependabot responsive for active projects while preserving your security history if you need to review it.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">This change ensures Dependabot can continue issuing alerts at scale without outgrowing our infrastructure. By archiving alerts for inactive repositories, we free up resources to keep security scanning fast and reliable for repositories that are actively maintained, which is where developers need real-time insights most.</p>",
+            "url": "https://github.com/github/roadmap/issues/1350",
+            "title": "Dependabot alerts on inactive repos on github.com move to cold storage [GA]",
+            "date_modified": "2026-11-05T18:16:22.000Z",
+            "date_published": "2026-11-05T18:16:14.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Automatically apply security configurations to repositories when they match a filter you have defined, like custom properties or visibility. Your repositories stay protected as they evolve, without requiring manual updates each time their status changes.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Organizations gain a scalable way to ensure consistent security coverage across their repository portfolio. By automating configuration enforcement, teams reduce the manual overhead of security operations while maintaining the ability to adapt protection as repositories and teams grow.</p>",
+            "url": "https://github.com/github/roadmap/issues/1349",
+            "title": "Automatically apply Security Configurations to repos matching a filter [GA]",
+            "date_modified": "2026-11-05T18:15:29.000Z",
+            "date_published": "2026-11-05T18:15:21.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">You can now create, manage, and publish secret scanning custom patterns entirely through the REST API, without ever touching the UI. This lets you integrate custom pattern management into your existing automation workflows, CI/CD pipelines, and infrastructure-as-code tooling. Teams that manage patterns at scale across multiple organizations can now do so programmatically with full API coverage.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Completing REST API support for custom pattern publishing removes the last manual step that required UI access, giving security and platform teams a fully scriptable path to managing secret scanning. This enables consistent, repeatable deployments of custom patterns and reduces the toil of managing security policies across large organizations.</p>",
+            "url": "https://github.com/github/roadmap/issues/1348",
+            "title": "Ability to publish custom patterns via the REST API [GA]",
+            "date_modified": "2026-11-05T18:14:03.000Z",
+            "date_published": "2026-11-05T18:13:54.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">You can now target specific self-hosted runners for Dependabot jobs at the repository level, giving you finer control over where dependency update workflows run. This complements existing org-level runner configuration, so teams managing large enterprises can tailor runner selection to individual repositories without affecting the broader organization. Whether you need a runner with particular network access, hardware specs, or compliance requirements, Dependabot jobs will now respect the labels you define.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Enterprise teams gain a more flexible, granular way to configure Dependabot across their GitHub environment, reducing friction when rolling out dependency automation at scale. By supporting custom runner labels at the repository level, organizations can enforce consistent infrastructure requirements for Dependabot-generated pull requests without resorting to workarounds. This makes it easier to manage Dependabot in complex, security-conscious environments where runner placement matters.</p>",
             "url": "https://github.com/github/roadmap/issues/1347",
             "title": "Custom runner labels at repo level for Dependabot [GA]",
@@ -179,50 +223,6 @@
             "author": {
                 "name": "bryanndjeutcha",
                 "url": "https://github.com/bryanndjeutcha"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/268937995?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>",
-            "url": "https://github.com/github/roadmap/issues/1330",
-            "title": "(deleted)",
-            "date_modified": "2026-09-22T20:26:18.000Z",
-            "date_published": "2026-09-22T19:45:14.000Z",
-            "author": {
-                "name": "bryanndjeutcha",
-                "url": "https://github.com/bryanndjeutcha"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/268937995?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>",
-            "url": "https://github.com/github/roadmap/issues/1329",
-            "title": "(deleted)",
-            "date_modified": "2026-09-22T20:26:18.000Z",
-            "date_published": "2026-09-22T19:45:14.000Z",
-            "author": {
-                "name": "bryanndjeutcha",
-                "url": "https://github.com/bryanndjeutcha"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/268937995?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/>",
-            "url": "https://github.com/github/roadmap/issues/1328",
-            "title": "(deleted)",
-            "date_modified": "2026-09-22T20:26:18.000Z",
-            "date_published": "2026-09-22T19:39:13.000Z",
-            "author": {
-                "name": "bryanndjeutcha",
-                "url": "https://github.com/bryanndjeutcha"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/u/78455750?u=f80f15ea7a97db7de22dcaef200d76ed46576f72&v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h2 dir=\"auto\">Hi Community! 👋</h2>\n<p dir=\"auto\">We want to take a moment to sincerely thank everyone who has participated in the discussions here in the past month. Your comments have been heard and appreciated, and they’ve played a meaningful role in shaping our conversations with our community and products.</p>\n<p dir=\"auto\">To better serve our community and centralize discussions for our product team, we’ve disabled the ability to post on the GitHub Roadmap discussion board. Join us as we continue the conversation in the <a href=\"https://github.com/orgs/community/discussions\">Community discussions</a>!</p>\n<p dir=\"auto\">The <a href=\"https://github.com/orgs/community/discussions\">Community discussions</a> are the ideal place to raise feature requests, share feedback, and connect with fellow members. With a dedicated team of community managers and active product managers closely monitoring the forums, this platform ensures better engagement and quicker responses compared to the roadmap discussions.</p>\n<h3 dir=\"auto\">What’s next?</h3>\n<p dir=\"auto\">We have reviewed any user created Discussions and guided to the <a href=\"https://github.com/orgs/community/discussions\">Community discussions</a> where applicable. We will disable the ability for non GitHub staff to post on GitHub roadmap discussion boards.</p>\n<p dir=\"auto\">Then we will update some roadmap issues with direct links to dedicated feedback discussions where we would love you to upvote and share your feedback where it fits best. Feel free to create a new discussion if needed!</p>\n<p dir=\"auto\">We look forward to hearing your thoughts and engaging with you in the community discussions - see you there!👋</p>\n<p dir=\"auto\"><em>Originally posted by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ankneis/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/ankneis\">@ankneis</a> in <a href=\"https://github.com/github/roadmap/discussions/1074\">https://github.com/github/roadmap/discussions/1074</a></em></p>",
-            "url": "https://github.com/github/roadmap/issues/1327",
-            "title": "Private ",
-            "date_modified": "2026-09-21T11:04:43.000Z",
-            "date_published": "2026-09-05T18:06:59.000Z",
-            "author": {
-                "name": "mostofa420",
-                "url": "https://github.com/mostofa420"
             }
         }
     ]
