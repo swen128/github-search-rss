@@ -6,6 +6,17 @@
     "description": "github/roadmap Issues on GitHub",
     "items": [
         {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Actions now provides general availability Red Hat Enterprise Linux (RHEL) images, built in partnership with Red Hat. Your organization can use GitHub Actions with the same enterprise-grade Linux environment you use elsewhere, bringing consistency to your CI/CD workflows without requiring workarounds or third-party solutions.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">We're delivering GA-quality RHEL support to enable enterprise customers to run GitHub Actions workflows on their preferred Linux distribution with full platform parity and support. This eliminates friction for teams already standardized on RHEL and strengthens GitHub Actions as a unified solution for enterprise environments.</p>",
+            "url": "https://github.com/github/roadmap/issues/1399",
+            "title": "RHEL Actions Runner Images GA [GA]",
+            "date_modified": "2026-11-09T20:37:21.000Z",
+            "date_published": "2026-11-09T20:37:14.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Copilot SDK 2.0 is a complete rewrite in Rust that delivers significant improvements in performance, extensibility, and portability. With native support for full multi-tenanted applications, developers can now build more scalable Copilot integrations that handle enterprise workloads efficiently.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">We're making Copilot integration simpler and more powerful for enterprise customers who need to scale their AI-assisted development across multiple teams and organizations. This release removes previous limitations around multi-tenant architectures, enabling businesses to deploy Copilot more broadly within their infrastructure while gaining the reliability and speed that a modern Rust foundation provides.</p>",
             "url": "https://github.com/github/roadmap/issues/1398",
             "title": "Copilot SDK 2.0 [GA]",
@@ -209,17 +220,6 @@
             "title": "GitHub Mobile: Pin important Copilot sessions and projects [GA]",
             "date_modified": "2026-11-09T16:46:36.000Z",
             "date_published": "2026-11-09T16:46:12.000Z",
-            "author": {
-                "name": "github-product-ops",
-                "url": "https://github.com/apps/github-product-ops"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Quickly find and focus on the sessions you need in GitHub Copilot Home by organizing them with custom filters and grouping options. Whether you want to see sessions by repository, environment, agent type, or status, you now have the control to reduce clutter and speed up your workflow.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">As teams accumulate more Copilot sessions across different projects and environments, staying organized becomes critical. This feature gives users the ability to tailor their Copilot Home feed to match their workflow, making it easier to locate active work, spot sessions that need attention, and maintain productivity across multiple coding contexts.</p>",
-            "url": "https://github.com/github/roadmap/issues/1379",
-            "title": "GitHub Mobile: Configure the Copilot Home feed [GA]",
-            "date_modified": "2026-11-09T16:44:58.000Z",
-            "date_published": "2026-11-09T16:44:34.000Z",
             "author": {
                 "name": "github-product-ops",
                 "url": "https://github.com/apps/github-product-ops"
