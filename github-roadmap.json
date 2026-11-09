@@ -6,6 +6,17 @@
     "description": "github/roadmap Issues on GitHub",
     "items": [
         {
+            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">GitHub Copilot SDK 2.0 is a complete rewrite in Rust that delivers significant improvements in performance, extensibility, and portability. With native support for full multi-tenanted applications, developers can now build more scalable Copilot integrations that handle enterprise workloads efficiently.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">We're making Copilot integration simpler and more powerful for enterprise customers who need to scale their AI-assisted development across multiple teams and organizations. This release removes previous limitations around multi-tenant architectures, enabling businesses to deploy Copilot more broadly within their infrastructure while gaining the reliability and speed that a modern Rust foundation provides.</p>",
+            "url": "https://github.com/github/roadmap/issues/1398",
+            "title": "Copilot SDK 2.0 [GA]",
+            "date_modified": "2026-11-09T19:33:23.000Z",
+            "date_published": "2026-11-09T19:33:16.000Z",
+            "author": {
+                "name": "github-product-ops",
+                "url": "https://github.com/apps/github-product-ops"
+            }
+        },
+        {
             "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Secret scanning now works the way you need it to. You can update custom patterns without closing existing alerts, revoke encoded GitHub tokens without decoding them manually, and get more detailed webhook payloads and corrected API responses to build more reliable integrations.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">We're making secret scanning more flexible and robust for security teams managing custom detection patterns and handling alert workflows at scale. With these updates—including advance notice of upcoming audit log changes—integrations stay aligned with GitHub's security infrastructure as it evolves.</p>",
             "url": "https://github.com/github/roadmap/issues/1397",
             "title": "Secret scanning updates [GA]",
@@ -209,17 +220,6 @@
             "title": "GitHub Mobile: Configure the Copilot Home feed [GA]",
             "date_modified": "2026-11-09T16:44:58.000Z",
             "date_published": "2026-11-09T16:44:34.000Z",
-            "author": {
-                "name": "github-product-ops",
-                "url": "https://github.com/apps/github-product-ops"
-            }
-        },
-        {
-            "content_html": "<img src=\"https://avatars.githubusercontent.com/in/3679446?v=4\" width=\"64\" height=\"64\" alt=\"\"/><br/><h3 dir=\"auto\">Value Prop</h3>\n<p dir=\"auto\">Stop resetting your whitespace preference every time you review a pull request. Save a personal default to hide whitespace changes across all your future reviews, and override it whenever you need to see the full diff. This keeps formatting changes from cluttering your review and lets you focus on what actually matters in the code.</p>\n<h3 dir=\"auto\">Expected Outcome</h3>\n<p dir=\"auto\">Reviewers spend less time configuring the same preference on repeat and get clearer visibility into substantive code changes. Pull request diffs stay accurate—file, addition, and deletion counts align with the filtered view—and users get a clear warning before hiding whitespace in file types where it could mask meaningful behavior changes.</p>",
-            "url": "https://github.com/github/roadmap/issues/1378",
-            "title": "Remember Whitespace Visibility Preference Across Pull Requests [GA]",
-            "date_modified": "2026-11-09T16:41:26.000Z",
-            "date_published": "2026-11-09T16:40:59.000Z",
             "author": {
                 "name": "github-product-ops",
                 "url": "https://github.com/apps/github-product-ops"
